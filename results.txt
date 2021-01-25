@@ -1,1608 +1,1636 @@
 1: The old car broke down in the car park.
 stanza:
-word: The	upos: DET	head: car	deprel: det
-word: old	upos: ADJ	head: car	deprel: amod
-word: car	upos: NOUN	head: broke	deprel: nsubj
-word: broke	upos: VERB	head: root	deprel: root
-word: down	upos: ADP	head: broke	deprel: compound:prt
-word: in	upos: ADP	head: park	deprel: case
-word: the	upos: DET	head: park	deprel: det
-word: car	upos: NOUN	head: park	deprel: compound
-word: park	upos: NOUN	head: broke	deprel: obl
-word: .	upos: PUNCT	head: broke	deprel: punct
+id: 1	word: The	upos: DET	head id: 3	head: car	deprel: det
+id: 2	word: old	upos: ADJ	head id: 3	head: car	deprel: amod
+id: 3	word: car	upos: NOUN	head id: 4	head: broke	deprel: nsubj
+id: 4	word: broke	upos: VERB	head id: 0	head: root	deprel: root
+id: 5	word: down	upos: ADP	head id: 4	head: broke	deprel: prt
+id: 6	word: in	upos: ADP	head id: 9	head: park	deprel: case
+id: 7	word: the	upos: DET	head id: 9	head: park	deprel: det
+id: 8	word: car	upos: NOUN	head id: 9	head: park	deprel: compound
+id: 9	word: park	upos: NOUN	head id: 4	head: broke	deprel: pobj
+id: 10	word: .	upos: PUNCT	head id: 4	head: broke	deprel: punct
 
 spacy:
-word: The	upos: DET	head: car	deprel: det
-word: old	upos: ADJ	head: car	deprel: amod
-word: car	upos: NOUN	head: broke	deprel: nsubj
-word: broke	upos: VERB	head: broke	deprel: ROOT
-word: down	upos: ADP	head: broke	deprel: prt
-word: in	upos: ADP	head: broke	deprel: prep
-word: the	upos: DET	head: park	deprel: det
-word: car	upos: NOUN	head: park	deprel: compound
-word: park	upos: NOUN	head: in	deprel: pobj
-word: .	upos: PUNCT	head: broke	deprel: punct
+id: 1	word: The	upos: DET	head id: 3	head: car	deprel: det
+id: 2	word: old	upos: ADJ	head id: 3	head: car	deprel: amod
+id: 3	word: car	upos: NOUN	head id: 4	head: broke	deprel: nsubj
+id: 4	word: broke	upos: VERB	head id: 0	head: broke	deprel: root
+id: 5	word: down	upos: ADP	head id: 4	head: broke	deprel: prt
+id: 6	word: in	upos: ADP	head id: 4	head: broke	deprel: prep
+id: 7	word: the	upos: DET	head id: 9	head: park	deprel: det
+id: 8	word: car	upos: NOUN	head id: 9	head: park	deprel: compound
+id: 9	word: park	upos: NOUN	head id: 6	head: in	deprel: pobj
+id: 10	word: .	upos: PUNCT	head id: 4	head: broke	deprel: punct
 
 End of sentence 1 
 
 2: At least two men broke in and stole my TV.
 stanza:
-word: At	upos: ADV	head: least	deprel: case
-word: least	upos: ADV	head: two	deprel: nmod
-word: two	upos: NUM	head: men	deprel: nummod
-word: men	upos: NOUN	head: broke	deprel: nsubj
-word: broke	upos: VERB	head: root	deprel: root
-word: in	upos: ADV	head: broke	deprel: advmod
-word: and	upos: CCONJ	head: stole	deprel: cc
-word: stole	upos: VERB	head: broke	deprel: conj
-word: my	upos: PRON	head: TV	deprel: nmod:poss
-word: TV	upos: NOUN	head: stole	deprel: obj
-word: .	upos: PUNCT	head: broke	deprel: punct
+id: 1	word: At	upos: ADV	head id: 2	head: least	deprel: case
+id: 2	word: least	upos: ADV	head id: 3	head: two	deprel: nmod
+id: 3	word: two	upos: NUM	head id: 4	head: men	deprel: nummod
+id: 4	word: men	upos: NOUN	head id: 5	head: broke	deprel: nsubj
+id: 5	word: broke	upos: VERB	head id: 0	head: root	deprel: root
+id: 6	word: in	upos: ADV	head id: 5	head: broke	deprel: advmod
+id: 7	word: and	upos: CCONJ	head id: 8	head: stole	deprel: cc
+id: 8	word: stole	upos: VERB	head id: 5	head: broke	deprel: conj
+id: 9	word: my	upos: PRON	head id: 10	head: TV	deprel: poss
+id: 10	word: TV	upos: NOUN	head id: 8	head: stole	deprel: obj
+id: 11	word: .	upos: PUNCT	head id: 5	head: broke	deprel: punct
 
 spacy:
-word: At	upos: ADV	head: least	deprel: advmod
-word: least	upos: ADV	head: two	deprel: advmod
-word: two	upos: NUM	head: men	deprel: nummod
-word: men	upos: NOUN	head: broke	deprel: nsubj
-word: broke	upos: VERB	head: broke	deprel: ROOT
-word: in	upos: ADP	head: broke	deprel: prt
-word: and	upos: CCONJ	head: broke	deprel: cc
-word: stole	upos: VERB	head: broke	deprel: conj
-word: my	upos: DET	head: TV	deprel: poss
-word: TV	upos: NOUN	head: stole	deprel: dobj
-word: .	upos: PUNCT	head: broke	deprel: punct
+id: 1	word: At	upos: ADV	head id: 2	head: least	deprel: advmod
+id: 2	word: least	upos: ADV	head id: 3	head: two	deprel: advmod
+id: 3	word: two	upos: NUM	head id: 4	head: men	deprel: nummod
+id: 4	word: men	upos: NOUN	head id: 5	head: broke	deprel: nsubj
+id: 5	word: broke	upos: VERB	head id: 0	head: broke	deprel: root
+id: 6	word: in	upos: ADP	head id: 5	head: broke	deprel: prt
+id: 7	word: and	upos: CCONJ	head id: 5	head: broke	deprel: cc
+id: 8	word: stole	upos: VERB	head id: 5	head: broke	deprel: conj
+id: 9	word: my	upos: DET	head id: 10	head: TV	deprel: poss
+id: 10	word: TV	upos: NOUN	head id: 8	head: stole	deprel: dobj
+id: 11	word: .	upos: PUNCT	head id: 5	head: broke	deprel: punct
 
 End of sentence 2 
 
 3: The horses were broken in and ridden in two weeks.
 stanza:
-word: The	upos: DET	head: horses	deprel: det
-word: horses	upos: NOUN	head: broken	deprel: nsubj:pass
-word: were	upos: AUX	head: broken	deprel: aux:pass
-word: broken	upos: VERB	head: root	deprel: root
-word: in	upos: ADV	head: broken	deprel: advmod
-word: and	upos: CCONJ	head: ridden	deprel: cc
-word: ridden	upos: VERB	head: broken	deprel: conj
-word: in	upos: ADP	head: weeks	deprel: case
-word: two	upos: NUM	head: weeks	deprel: nummod
-word: weeks	upos: NOUN	head: ridden	deprel: obl
-word: .	upos: PUNCT	head: broken	deprel: punct
+id: 1	word: The	upos: DET	head id: 2	head: horses	deprel: det
+id: 2	word: horses	upos: NOUN	head id: 4	head: broken	deprel: nsubjpass
+id: 3	word: were	upos: AUX	head id: 4	head: broken	deprel: auxpass
+id: 4	word: broken	upos: VERB	head id: 0	head: root	deprel: root
+id: 5	word: in	upos: ADV	head id: 4	head: broken	deprel: advmod
+id: 6	word: and	upos: CCONJ	head id: 7	head: ridden	deprel: cc
+id: 7	word: ridden	upos: VERB	head id: 4	head: broken	deprel: conj
+id: 8	word: in	upos: ADP	head id: 10	head: weeks	deprel: case
+id: 9	word: two	upos: NUM	head id: 10	head: weeks	deprel: nummod
+id: 10	word: weeks	upos: NOUN	head id: 7	head: ridden	deprel: pobj
+id: 11	word: .	upos: PUNCT	head id: 4	head: broken	deprel: punct
 
 spacy:
-word: The	upos: DET	head: horses	deprel: det
-word: horses	upos: NOUN	head: broken	deprel: nsubjpass
-word: were	upos: AUX	head: broken	deprel: auxpass
-word: broken	upos: VERB	head: broken	deprel: ROOT
-word: in	upos: ADP	head: broken	deprel: prt
-word: and	upos: CCONJ	head: broken	deprel: cc
-word: ridden	upos: VERB	head: broken	deprel: conj
-word: in	upos: ADP	head: ridden	deprel: prep
-word: two	upos: NUM	head: weeks	deprel: nummod
-word: weeks	upos: NOUN	head: in	deprel: pobj
-word: .	upos: PUNCT	head: broken	deprel: punct
+id: 1	word: The	upos: DET	head id: 2	head: horses	deprel: det
+id: 2	word: horses	upos: NOUN	head id: 4	head: broken	deprel: nsubjpass
+id: 3	word: were	upos: AUX	head id: 4	head: broken	deprel: auxpass
+id: 4	word: broken	upos: VERB	head id: 0	head: broken	deprel: root
+id: 5	word: in	upos: ADP	head id: 4	head: broken	deprel: prt
+id: 6	word: and	upos: CCONJ	head id: 4	head: broken	deprel: cc
+id: 7	word: ridden	upos: VERB	head id: 4	head: broken	deprel: conj
+id: 8	word: in	upos: ADP	head id: 7	head: ridden	deprel: prep
+id: 9	word: two	upos: NUM	head id: 10	head: weeks	deprel: nummod
+id: 10	word: weeks	upos: NOUN	head id: 8	head: in	deprel: pobj
+id: 11	word: .	upos: PUNCT	head id: 4	head: broken	deprel: punct
 
 End of sentence 3 
 
 4: Kim and Sandy both broke up with their partners.
 stanza:
-word: Kim	upos: PROPN	head: broke	deprel: nsubj
-word: and	upos: CCONJ	head: Sandy	deprel: cc
-word: Sandy	upos: PROPN	head: Kim	deprel: conj
-word: both	upos: DET	head: Sandy	deprel: det
-word: broke	upos: VERB	head: root	deprel: root
-word: up	upos: ADP	head: broke	deprel: compound:prt
-word: with	upos: ADP	head: partners	deprel: case
-word: their	upos: PRON	head: partners	deprel: nmod:poss
-word: partners	upos: NOUN	head: broke	deprel: obl
-word: .	upos: PUNCT	head: broke	deprel: punct
+id: 1	word: Kim	upos: PROPN	head id: 5	head: broke	deprel: nsubj
+id: 2	word: and	upos: CCONJ	head id: 3	head: Sandy	deprel: cc
+id: 3	word: Sandy	upos: PROPN	head id: 1	head: Kim	deprel: conj
+id: 4	word: both	upos: DET	head id: 3	head: Sandy	deprel: det
+id: 5	word: broke	upos: VERB	head id: 0	head: root	deprel: root
+id: 6	word: up	upos: ADP	head id: 5	head: broke	deprel: prt
+id: 7	word: with	upos: ADP	head id: 9	head: partners	deprel: case
+id: 8	word: their	upos: PRON	head id: 9	head: partners	deprel: poss
+id: 9	word: partners	upos: NOUN	head id: 5	head: broke	deprel: pobj
+id: 10	word: .	upos: PUNCT	head id: 5	head: broke	deprel: punct
 
 spacy:
-word: Kim	upos: PROPN	head: broke	deprel: nsubj
-word: and	upos: CCONJ	head: Kim	deprel: cc
-word: Sandy	upos: PROPN	head: Kim	deprel: conj
-word: both	upos: DET	head: Kim	deprel: appos
-word: broke	upos: VERB	head: broke	deprel: ROOT
-word: up	upos: ADP	head: broke	deprel: prt
-word: with	upos: ADP	head: broke	deprel: prep
-word: their	upos: DET	head: partners	deprel: poss
-word: partners	upos: NOUN	head: with	deprel: pobj
-word: .	upos: PUNCT	head: broke	deprel: punct
+id: 1	word: Kim	upos: PROPN	head id: 5	head: broke	deprel: nsubj
+id: 2	word: and	upos: CCONJ	head id: 1	head: Kim	deprel: cc
+id: 3	word: Sandy	upos: PROPN	head id: 1	head: Kim	deprel: conj
+id: 4	word: both	upos: DET	head id: 1	head: Kim	deprel: appos
+id: 5	word: broke	upos: VERB	head id: 0	head: broke	deprel: root
+id: 6	word: up	upos: ADP	head id: 5	head: broke	deprel: prt
+id: 7	word: with	upos: ADP	head id: 5	head: broke	deprel: prep
+id: 8	word: their	upos: DET	head id: 9	head: partners	deprel: poss
+id: 9	word: partners	upos: NOUN	head id: 7	head: with	deprel: pobj
+id: 10	word: .	upos: PUNCT	head id: 5	head: broke	deprel: punct
 
 End of sentence 4 
 
 5: The horse which Kim sometimes rides is more bad tempered than mine.
 stanza:
-word: The	upos: DET	head: horse	deprel: det
-word: horse	upos: NOUN	head: tempered	deprel: nsubj
-word: which	upos: PRON	head: rides	deprel: obj
-word: Kim	upos: PROPN	head: rides	deprel: nsubj
-word: sometimes	upos: ADV	head: rides	deprel: advmod
-word: rides	upos: VERB	head: horse	deprel: acl:relcl
-word: is	upos: AUX	head: tempered	deprel: cop
-word: more	upos: ADV	head: tempered	deprel: advmod
-word: bad	upos: ADJ	head: tempered	deprel: amod
-word: tempered	upos: ADJ	head: root	deprel: root
-word: than	upos: ADP	head: mine	deprel: case
-word: mine	upos: PRON	head: tempered	deprel: obl
-word: .	upos: PUNCT	head: tempered	deprel: punct
+id: 1	word: The	upos: DET	head id: 2	head: horse	deprel: det
+id: 2	word: horse	upos: NOUN	head id: 10	head: tempered	deprel: nsubj
+id: 3	word: which	upos: PRON	head id: 6	head: rides	deprel: obj
+id: 4	word: Kim	upos: PROPN	head id: 6	head: rides	deprel: nsubj
+id: 5	word: sometimes	upos: ADV	head id: 6	head: rides	deprel: advmod
+id: 6	word: rides	upos: VERB	head id: 2	head: horse	deprel: relcl
+id: 7	word: is	upos: AUX	head id: 10	head: tempered	deprel: cop
+id: 8	word: more	upos: ADV	head id: 10	head: tempered	deprel: advmod
+id: 9	word: bad	upos: ADJ	head id: 10	head: tempered	deprel: amod
+id: 10	word: tempered	upos: ADJ	head id: 0	head: root	deprel: root
+id: 11	word: than	upos: ADP	head id: 12	head: mine	deprel: case
+id: 12	word: mine	upos: PRON	head id: 10	head: tempered	deprel: pobj
+id: 13	word: .	upos: PUNCT	head id: 10	head: tempered	deprel: punct
 
 spacy:
-word: The	upos: DET	head: horse	deprel: det
-word: horse	upos: NOUN	head: is	deprel: nsubj
-word: which	upos: DET	head: rides	deprel: dobj
-word: Kim	upos: PROPN	head: rides	deprel: nsubj
-word: sometimes	upos: ADV	head: rides	deprel: advmod
-word: rides	upos: VERB	head: horse	deprel: relcl
-word: is	upos: AUX	head: is	deprel: ROOT
-word: more	upos: ADV	head: bad	deprel: advmod
-word: bad	upos: ADJ	head: tempered	deprel: amod
-word: tempered	upos: VERB	head: is	deprel: acomp
-word: than	upos: SCONJ	head: tempered	deprel: prep
-word: mine	upos: PRON	head: than	deprel: pobj
-word: .	upos: PUNCT	head: is	deprel: punct
+id: 1	word: The	upos: DET	head id: 2	head: horse	deprel: det
+id: 2	word: horse	upos: NOUN	head id: 7	head: is	deprel: nsubj
+id: 3	word: which	upos: DET	head id: 6	head: rides	deprel: dobj
+id: 4	word: Kim	upos: PROPN	head id: 6	head: rides	deprel: nsubj
+id: 5	word: sometimes	upos: ADV	head id: 6	head: rides	deprel: advmod
+id: 6	word: rides	upos: VERB	head id: 2	head: horse	deprel: relcl
+id: 7	word: is	upos: AUX	head id: 0	head: is	deprel: root
+id: 8	word: more	upos: ADV	head id: 9	head: bad	deprel: advmod
+id: 9	word: bad	upos: ADJ	head id: 10	head: tempered	deprel: amod
+id: 10	word: tempered	upos: VERB	head id: 7	head: is	deprel: acomp
+id: 11	word: than	upos: SCONJ	head id: 10	head: tempered	deprel: prep
+id: 12	word: mine	upos: PRON	head id: 11	head: than	deprel: pobj
+id: 13	word: .	upos: PUNCT	head id: 7	head: is	deprel: punct
 
 End of sentence 5 
 
 6: The horse as well as the rabbits which we wanted to eat have escaped.
 stanza:
-word: The	upos: DET	head: horse	deprel: det
-word: horse	upos: NOUN	head: escaped	deprel: nsubj
-word: as	upos: ADV	head: rabbits	deprel: cc
-word: well	upos: ADV	head: as	deprel: fixed
-word: as	upos: ADP	head: as	deprel: fixed
-word: the	upos: DET	head: rabbits	deprel: det
-word: rabbits	upos: NOUN	head: horse	deprel: conj
-word: which	upos: PRON	head: wanted	deprel: obj
-word: we	upos: PRON	head: wanted	deprel: nsubj
-word: wanted	upos: VERB	head: rabbits	deprel: acl:relcl
-word: to	upos: PART	head: eat	deprel: mark
-word: eat	upos: VERB	head: wanted	deprel: xcomp
-word: have	upos: AUX	head: escaped	deprel: aux
-word: escaped	upos: VERB	head: root	deprel: root
-word: .	upos: PUNCT	head: escaped	deprel: punct
+id: 1	word: The	upos: DET	head id: 2	head: horse	deprel: det
+id: 2	word: horse	upos: NOUN	head id: 14	head: escaped	deprel: nsubj
+id: 3	word: as	upos: ADV	head id: 7	head: rabbits	deprel: cc
+id: 4	word: well	upos: ADV	head id: 3	head: as	deprel: fixed
+id: 5	word: as	upos: ADP	head id: 3	head: as	deprel: fixed
+id: 6	word: the	upos: DET	head id: 7	head: rabbits	deprel: det
+id: 7	word: rabbits	upos: NOUN	head id: 2	head: horse	deprel: conj
+id: 8	word: which	upos: PRON	head id: 10	head: wanted	deprel: obj
+id: 9	word: we	upos: PRON	head id: 10	head: wanted	deprel: nsubj
+id: 10	word: wanted	upos: VERB	head id: 7	head: rabbits	deprel: relcl
+id: 11	word: to	upos: PART	head id: 12	head: eat	deprel: mark
+id: 12	word: eat	upos: VERB	head id: 10	head: wanted	deprel: xcomp
+id: 13	word: have	upos: AUX	head id: 14	head: escaped	deprel: aux
+id: 14	word: escaped	upos: VERB	head id: 0	head: root	deprel: root
+id: 15	word: .	upos: PUNCT	head id: 14	head: escaped	deprel: punct
 
 spacy:
-word: The	upos: DET	head: horse	deprel: det
-word: horse	upos: NOUN	head: escaped	deprel: nsubj
-word: as	upos: ADV	head: as	deprel: advmod
-word: well	upos: ADV	head: as	deprel: advmod
-word: as	upos: SCONJ	head: horse	deprel: cc
-word: the	upos: DET	head: rabbits	deprel: det
-word: rabbits	upos: NOUN	head: horse	deprel: conj
-word: which	upos: DET	head: eat	deprel: dobj
-word: we	upos: PRON	head: wanted	deprel: nsubj
-word: wanted	upos: VERB	head: rabbits	deprel: relcl
-word: to	upos: PART	head: eat	deprel: aux
-word: eat	upos: VERB	head: wanted	deprel: xcomp
-word: have	upos: AUX	head: escaped	deprel: aux
-word: escaped	upos: VERB	head: escaped	deprel: ROOT
-word: .	upos: PUNCT	head: escaped	deprel: punct
+id: 1	word: The	upos: DET	head id: 2	head: horse	deprel: det
+id: 2	word: horse	upos: NOUN	head id: 14	head: escaped	deprel: nsubj
+id: 3	word: as	upos: ADV	head id: 5	head: as	deprel: advmod
+id: 4	word: well	upos: ADV	head id: 5	head: as	deprel: advmod
+id: 5	word: as	upos: SCONJ	head id: 2	head: horse	deprel: cc
+id: 6	word: the	upos: DET	head id: 7	head: rabbits	deprel: det
+id: 7	word: rabbits	upos: NOUN	head id: 2	head: horse	deprel: conj
+id: 8	word: which	upos: DET	head id: 12	head: eat	deprel: dobj
+id: 9	word: we	upos: PRON	head id: 10	head: wanted	deprel: nsubj
+id: 10	word: wanted	upos: VERB	head id: 7	head: rabbits	deprel: relcl
+id: 11	word: to	upos: PART	head id: 12	head: eat	deprel: aux
+id: 12	word: eat	upos: VERB	head id: 10	head: wanted	deprel: xcomp
+id: 13	word: have	upos: AUX	head id: 14	head: escaped	deprel: aux
+id: 14	word: escaped	upos: VERB	head id: 0	head: escaped	deprel: root
+id: 15	word: .	upos: PUNCT	head id: 14	head: escaped	deprel: punct
 
 End of sentence 6 
 
 7: It was my aunt’s car which we sold at auction last year in February.
 stanza:
-word: It	upos: PRON	head: car	deprel: nsubj
-word: was	upos: AUX	head: car	deprel: cop
-word: my	upos: PRON	head: aunt	deprel: nmod:poss
-word: aunt	upos: NOUN	head: car	deprel: nmod:poss
-word: ’s	upos: PART	head: aunt	deprel: case
-word: car	upos: NOUN	head: root	deprel: root
-word: which	upos: PRON	head: sold	deprel: obj
-word: we	upos: PRON	head: sold	deprel: nsubj
-word: sold	upos: VERB	head: car	deprel: acl:relcl
-word: at	upos: ADP	head: auction	deprel: case
-word: auction	upos: NOUN	head: sold	deprel: obl
-word: last	upos: ADJ	head: year	deprel: amod
-word: year	upos: NOUN	head: sold	deprel: obl:tmod
-word: in	upos: ADP	head: February	deprel: case
-word: February	upos: PROPN	head: sold	deprel: obl
-word: .	upos: PUNCT	head: car	deprel: punct
+id: 1	word: It	upos: PRON	head id: 6	head: car	deprel: nsubj
+id: 2	word: was	upos: AUX	head id: 6	head: car	deprel: cop
+id: 3	word: my	upos: PRON	head id: 4	head: aunt	deprel: poss
+id: 4	word: aunt	upos: NOUN	head id: 6	head: car	deprel: poss
+id: 5	word: ’s	upos: PART	head id: 4	head: aunt	deprel: case
+id: 6	word: car	upos: NOUN	head id: 0	head: root	deprel: root
+id: 7	word: which	upos: PRON	head id: 9	head: sold	deprel: obj
+id: 8	word: we	upos: PRON	head id: 9	head: sold	deprel: nsubj
+id: 9	word: sold	upos: VERB	head id: 6	head: car	deprel: relcl
+id: 10	word: at	upos: ADP	head id: 11	head: auction	deprel: case
+id: 11	word: auction	upos: NOUN	head id: 9	head: sold	deprel: pobj
+id: 12	word: last	upos: ADJ	head id: 13	head: year	deprel: amod
+id: 13	word: year	upos: NOUN	head id: 9	head: sold	deprel: tmod
+id: 14	word: in	upos: ADP	head id: 15	head: February	deprel: case
+id: 15	word: February	upos: PROPN	head id: 9	head: sold	deprel: pobj
+id: 16	word: .	upos: PUNCT	head id: 6	head: car	deprel: punct
 
 spacy:
-word: It	upos: PRON	head: was	deprel: nsubj
-word: was	upos: AUX	head: was	deprel: ROOT
-word: my	upos: DET	head: aunt	deprel: poss
-word: aunt	upos: NOUN	head: car	deprel: nmod
-word: ’s	upos: PART	head: aunt	deprel: punct
-word: car	upos: NOUN	head: was	deprel: attr
-word: which	upos: DET	head: sold	deprel: dobj
-word: we	upos: PRON	head: sold	deprel: nsubj
-word: sold	upos: VERB	head: car	deprel: relcl
-word: at	upos: ADP	head: sold	deprel: prep
-word: auction	upos: NOUN	head: at	deprel: pobj
-word: last	upos: ADJ	head: year	deprel: amod
-word: year	upos: NOUN	head: sold	deprel: npadvmod
-word: in	upos: ADP	head: sold	deprel: prep
-word: February	upos: PROPN	head: in	deprel: pobj
-word: .	upos: PUNCT	head: was	deprel: punct
+id: 1	word: It	upos: PRON	head id: 2	head: was	deprel: nsubj
+id: 2	word: was	upos: AUX	head id: 0	head: was	deprel: root
+id: 3	word: my	upos: DET	head id: 4	head: aunt	deprel: poss
+id: 4	word: aunt	upos: NOUN	head id: 6	head: car	deprel: nmod
+id: 5	word: ’s	upos: PART	head id: 4	head: aunt	deprel: punct
+id: 6	word: car	upos: NOUN	head id: 2	head: was	deprel: attr
+id: 7	word: which	upos: DET	head id: 9	head: sold	deprel: dobj
+id: 8	word: we	upos: PRON	head id: 9	head: sold	deprel: nsubj
+id: 9	word: sold	upos: VERB	head id: 6	head: car	deprel: relcl
+id: 10	word: at	upos: ADP	head id: 9	head: sold	deprel: prep
+id: 11	word: auction	upos: NOUN	head id: 10	head: at	deprel: pobj
+id: 12	word: last	upos: ADJ	head id: 13	head: year	deprel: amod
+id: 13	word: year	upos: NOUN	head id: 9	head: sold	deprel: npadvmod
+id: 14	word: in	upos: ADP	head id: 9	head: sold	deprel: prep
+id: 15	word: February	upos: PROPN	head id: 14	head: in	deprel: pobj
+id: 16	word: .	upos: PUNCT	head id: 2	head: was	deprel: punct
 
 End of sentence 7 
 
 8: The only rabbit that I ever liked was eaten by my parents one summer.
 stanza:
-word: The	upos: DET	head: rabbit	deprel: det
-word: only	upos: ADJ	head: rabbit	deprel: amod
-word: rabbit	upos: NOUN	head: eaten	deprel: nsubj:pass
-word: that	upos: PRON	head: liked	deprel: obj
-word: I	upos: PRON	head: liked	deprel: nsubj
-word: ever	upos: ADV	head: liked	deprel: advmod
-word: liked	upos: VERB	head: rabbit	deprel: acl:relcl
-word: was	upos: AUX	head: eaten	deprel: aux:pass
-word: eaten	upos: VERB	head: root	deprel: root
-word: by	upos: ADP	head: parents	deprel: case
-word: my	upos: PRON	head: parents	deprel: nmod:poss
-word: parents	upos: NOUN	head: eaten	deprel: obl
-word: one	upos: NUM	head: summer	deprel: nummod
-word: summer	upos: NOUN	head: eaten	deprel: obl:tmod
-word: .	upos: PUNCT	head: eaten	deprel: punct
+id: 1	word: The	upos: DET	head id: 3	head: rabbit	deprel: det
+id: 2	word: only	upos: ADJ	head id: 3	head: rabbit	deprel: amod
+id: 3	word: rabbit	upos: NOUN	head id: 9	head: eaten	deprel: nsubjpass
+id: 4	word: that	upos: PRON	head id: 7	head: liked	deprel: obj
+id: 5	word: I	upos: PRON	head id: 7	head: liked	deprel: nsubj
+id: 6	word: ever	upos: ADV	head id: 7	head: liked	deprel: advmod
+id: 7	word: liked	upos: VERB	head id: 3	head: rabbit	deprel: relcl
+id: 8	word: was	upos: AUX	head id: 9	head: eaten	deprel: auxpass
+id: 9	word: eaten	upos: VERB	head id: 0	head: root	deprel: root
+id: 10	word: by	upos: ADP	head id: 12	head: parents	deprel: case
+id: 11	word: my	upos: PRON	head id: 12	head: parents	deprel: poss
+id: 12	word: parents	upos: NOUN	head id: 9	head: eaten	deprel: pobj
+id: 13	word: one	upos: NUM	head id: 14	head: summer	deprel: nummod
+id: 14	word: summer	upos: NOUN	head id: 9	head: eaten	deprel: tmod
+id: 15	word: .	upos: PUNCT	head id: 9	head: eaten	deprel: punct
 
 spacy:
-word: The	upos: DET	head: rabbit	deprel: det
-word: only	upos: ADJ	head: rabbit	deprel: amod
-word: rabbit	upos: NOUN	head: eaten	deprel: nsubjpass
-word: that	upos: DET	head: liked	deprel: dobj
-word: I	upos: PRON	head: liked	deprel: nsubj
-word: ever	upos: ADV	head: liked	deprel: advmod
-word: liked	upos: VERB	head: rabbit	deprel: relcl
-word: was	upos: AUX	head: eaten	deprel: auxpass
-word: eaten	upos: VERB	head: eaten	deprel: ROOT
-word: by	upos: ADP	head: eaten	deprel: agent
-word: my	upos: DET	head: parents	deprel: poss
-word: parents	upos: NOUN	head: by	deprel: pobj
-word: one	upos: NUM	head: summer	deprel: nummod
-word: summer	upos: NOUN	head: eaten	deprel: npadvmod
-word: .	upos: PUNCT	head: eaten	deprel: punct
+id: 1	word: The	upos: DET	head id: 3	head: rabbit	deprel: det
+id: 2	word: only	upos: ADJ	head id: 3	head: rabbit	deprel: amod
+id: 3	word: rabbit	upos: NOUN	head id: 9	head: eaten	deprel: nsubjpass
+id: 4	word: that	upos: DET	head id: 7	head: liked	deprel: dobj
+id: 5	word: I	upos: PRON	head id: 7	head: liked	deprel: nsubj
+id: 6	word: ever	upos: ADV	head id: 7	head: liked	deprel: advmod
+id: 7	word: liked	upos: VERB	head id: 3	head: rabbit	deprel: relcl
+id: 8	word: was	upos: AUX	head id: 9	head: eaten	deprel: auxpass
+id: 9	word: eaten	upos: VERB	head id: 0	head: eaten	deprel: root
+id: 10	word: by	upos: ADP	head id: 9	head: eaten	deprel: agent
+id: 11	word: my	upos: DET	head id: 12	head: parents	deprel: poss
+id: 12	word: parents	upos: NOUN	head id: 10	head: by	deprel: pobj
+id: 13	word: one	upos: NUM	head id: 14	head: summer	deprel: nummod
+id: 14	word: summer	upos: NOUN	head id: 9	head: eaten	deprel: npadvmod
+id: 15	word: .	upos: PUNCT	head id: 9	head: eaten	deprel: punct
 
 End of sentence 8 
 
 9: The veterans who I thought that we would meet at the reunion were dead.
 stanza:
-word: The	upos: DET	head: veterans	deprel: det
-word: veterans	upos: PROPN	head: dead	deprel: nsubj
-word: who	upos: PRON	head: thought	deprel: obj
-word: I	upos: PRON	head: thought	deprel: nsubj
-word: thought	upos: VERB	head: veterans	deprel: acl:relcl
-word: that	upos: SCONJ	head: meet	deprel: mark
-word: we	upos: PRON	head: meet	deprel: nsubj
-word: would	upos: AUX	head: meet	deprel: aux
-word: meet	upos: VERB	head: thought	deprel: ccomp
-word: at	upos: ADP	head: reunion	deprel: case
-word: the	upos: DET	head: reunion	deprel: det
-word: reunion	upos: NOUN	head: meet	deprel: obl
-word: were	upos: AUX	head: dead	deprel: cop
-word: dead	upos: ADJ	head: root	deprel: root
-word: .	upos: PUNCT	head: dead	deprel: punct
+id: 1	word: The	upos: DET	head id: 2	head: veterans	deprel: det
+id: 2	word: veterans	upos: PROPN	head id: 14	head: dead	deprel: nsubj
+id: 3	word: who	upos: PRON	head id: 5	head: thought	deprel: obj
+id: 4	word: I	upos: PRON	head id: 5	head: thought	deprel: nsubj
+id: 5	word: thought	upos: VERB	head id: 2	head: veterans	deprel: relcl
+id: 6	word: that	upos: SCONJ	head id: 9	head: meet	deprel: mark
+id: 7	word: we	upos: PRON	head id: 9	head: meet	deprel: nsubj
+id: 8	word: would	upos: AUX	head id: 9	head: meet	deprel: aux
+id: 9	word: meet	upos: VERB	head id: 5	head: thought	deprel: ccomp
+id: 10	word: at	upos: ADP	head id: 12	head: reunion	deprel: case
+id: 11	word: the	upos: DET	head id: 12	head: reunion	deprel: det
+id: 12	word: reunion	upos: NOUN	head id: 9	head: meet	deprel: pobj
+id: 13	word: were	upos: AUX	head id: 14	head: dead	deprel: cop
+id: 14	word: dead	upos: ADJ	head id: 0	head: root	deprel: root
+id: 15	word: .	upos: PUNCT	head id: 14	head: dead	deprel: punct
 
 spacy:
-word: The	upos: DET	head: veterans	deprel: det
-word: veterans	upos: NOUN	head: were	deprel: nsubj
-word: who	upos: PRON	head: thought	deprel: dobj
-word: I	upos: PRON	head: thought	deprel: nsubj
-word: thought	upos: VERB	head: veterans	deprel: relcl
-word: that	upos: SCONJ	head: meet	deprel: mark
-word: we	upos: PRON	head: meet	deprel: nsubj
-word: would	upos: VERB	head: meet	deprel: aux
-word: meet	upos: VERB	head: thought	deprel: ccomp
-word: at	upos: ADP	head: meet	deprel: prep
-word: the	upos: DET	head: reunion	deprel: det
-word: reunion	upos: NOUN	head: at	deprel: pobj
-word: were	upos: AUX	head: were	deprel: ROOT
-word: dead	upos: ADJ	head: were	deprel: acomp
-word: .	upos: PUNCT	head: were	deprel: punct
+id: 1	word: The	upos: DET	head id: 2	head: veterans	deprel: det
+id: 2	word: veterans	upos: NOUN	head id: 13	head: were	deprel: nsubj
+id: 3	word: who	upos: PRON	head id: 5	head: thought	deprel: dobj
+id: 4	word: I	upos: PRON	head id: 5	head: thought	deprel: nsubj
+id: 5	word: thought	upos: VERB	head id: 2	head: veterans	deprel: relcl
+id: 6	word: that	upos: SCONJ	head id: 9	head: meet	deprel: mark
+id: 7	word: we	upos: PRON	head id: 9	head: meet	deprel: nsubj
+id: 8	word: would	upos: VERB	head id: 9	head: meet	deprel: aux
+id: 9	word: meet	upos: VERB	head id: 5	head: thought	deprel: ccomp
+id: 10	word: at	upos: ADP	head id: 9	head: meet	deprel: prep
+id: 11	word: the	upos: DET	head id: 12	head: reunion	deprel: det
+id: 12	word: reunion	upos: NOUN	head id: 10	head: at	deprel: pobj
+id: 13	word: were	upos: AUX	head id: 0	head: were	deprel: root
+id: 14	word: dead	upos: ADJ	head id: 13	head: were	deprel: acomp
+id: 15	word: .	upos: PUNCT	head id: 13	head: were	deprel: punct
 
 End of sentence 9 
 
 10: Natural disasters – storms, flooding, hurricanes – occur infrequently but cause devastation that strains resources to breaking point.
 stanza:
-word: Natural	upos: ADJ	head: disasters	deprel: amod
-word: disasters	upos: NOUN	head: occur	deprel: nsubj
-word: –	upos: PUNCT	head: disasters	deprel: punct
-word: storms	upos: NOUN	head: disasters	deprel: appos
-word: ,	upos: PUNCT	head: flooding	deprel: punct
-word: flooding	upos: NOUN	head: storms	deprel: conj
-word: ,	upos: PUNCT	head: hurricanes	deprel: punct
-word: hurricanes	upos: NOUN	head: storms	deprel: conj
-word: –	upos: PUNCT	head: disasters	deprel: punct
-word: occur	upos: VERB	head: root	deprel: root
-word: infrequently	upos: ADV	head: occur	deprel: advmod
-word: but	upos: CCONJ	head: cause	deprel: cc
-word: cause	upos: VERB	head: occur	deprel: conj
-word: devastation	upos: NOUN	head: cause	deprel: obj
-word: that	upos: PRON	head: strains	deprel: nsubj
-word: strains	upos: VERB	head: devastation	deprel: acl:relcl
-word: resources	upos: NOUN	head: strains	deprel: obj
-word: to	upos: ADP	head: point	deprel: case
-word: breaking	upos: NOUN	head: point	deprel: compound
-word: point	upos: NOUN	head: resources	deprel: nmod
-word: .	upos: PUNCT	head: occur	deprel: punct
+id: 1	word: Natural	upos: ADJ	head id: 2	head: disasters	deprel: amod
+id: 2	word: disasters	upos: NOUN	head id: 10	head: occur	deprel: nsubj
+id: 3	word: –	upos: PUNCT	head id: 2	head: disasters	deprel: punct
+id: 4	word: storms	upos: NOUN	head id: 2	head: disasters	deprel: appos
+id: 5	word: ,	upos: PUNCT	head id: 6	head: flooding	deprel: punct
+id: 6	word: flooding	upos: NOUN	head id: 4	head: storms	deprel: conj
+id: 7	word: ,	upos: PUNCT	head id: 8	head: hurricanes	deprel: punct
+id: 8	word: hurricanes	upos: NOUN	head id: 4	head: storms	deprel: conj
+id: 9	word: –	upos: PUNCT	head id: 2	head: disasters	deprel: punct
+id: 10	word: occur	upos: VERB	head id: 0	head: root	deprel: root
+id: 11	word: infrequently	upos: ADV	head id: 10	head: occur	deprel: advmod
+id: 12	word: but	upos: CCONJ	head id: 13	head: cause	deprel: cc
+id: 13	word: cause	upos: VERB	head id: 10	head: occur	deprel: conj
+id: 14	word: devastation	upos: NOUN	head id: 13	head: cause	deprel: obj
+id: 15	word: that	upos: PRON	head id: 16	head: strains	deprel: nsubj
+id: 16	word: strains	upos: VERB	head id: 14	head: devastation	deprel: relcl
+id: 17	word: resources	upos: NOUN	head id: 16	head: strains	deprel: obj
+id: 18	word: to	upos: ADP	head id: 20	head: point	deprel: case
+id: 19	word: breaking	upos: NOUN	head id: 20	head: point	deprel: compound
+id: 20	word: point	upos: NOUN	head id: 17	head: resources	deprel: nmod
+id: 21	word: .	upos: PUNCT	head id: 10	head: occur	deprel: punct
 
 spacy:
-word: Natural	upos: ADJ	head: disasters	deprel: amod
-word: disasters	upos: NOUN	head: occur	deprel: nsubj
-word: –	upos: PUNCT	head: disasters	deprel: punct
-word: storms	upos: NOUN	head: disasters	deprel: appos
-word: ,	upos: PUNCT	head: storms	deprel: punct
-word: flooding	upos: NOUN	head: storms	deprel: conj
-word: ,	upos: PUNCT	head: flooding	deprel: punct
-word: hurricanes	upos: NOUN	head: flooding	deprel: conj
-word: –	upos: PUNCT	head: disasters	deprel: punct
-word: occur	upos: VERB	head: occur	deprel: ROOT
-word: infrequently	upos: ADV	head: occur	deprel: advmod
-word: but	upos: CCONJ	head: occur	deprel: cc
-word: cause	upos: VERB	head: occur	deprel: conj
-word: devastation	upos: NOUN	head: cause	deprel: dobj
-word: that	upos: DET	head: strains	deprel: nsubj
-word: strains	upos: VERB	head: devastation	deprel: relcl
-word: resources	upos: NOUN	head: strains	deprel: dobj
-word: to	upos: ADP	head: strains	deprel: prep
-word: breaking	upos: NOUN	head: point	deprel: amod
-word: point	upos: NOUN	head: to	deprel: pobj
-word: .	upos: PUNCT	head: occur	deprel: punct
+id: 1	word: Natural	upos: ADJ	head id: 2	head: disasters	deprel: amod
+id: 2	word: disasters	upos: NOUN	head id: 10	head: occur	deprel: nsubj
+id: 3	word: –	upos: PUNCT	head id: 2	head: disasters	deprel: punct
+id: 4	word: storms	upos: NOUN	head id: 2	head: disasters	deprel: appos
+id: 5	word: ,	upos: PUNCT	head id: 4	head: storms	deprel: punct
+id: 6	word: flooding	upos: NOUN	head id: 4	head: storms	deprel: conj
+id: 7	word: ,	upos: PUNCT	head id: 6	head: flooding	deprel: punct
+id: 8	word: hurricanes	upos: NOUN	head id: 6	head: flooding	deprel: conj
+id: 9	word: –	upos: PUNCT	head id: 2	head: disasters	deprel: punct
+id: 10	word: occur	upos: VERB	head id: 0	head: occur	deprel: root
+id: 11	word: infrequently	upos: ADV	head id: 10	head: occur	deprel: advmod
+id: 12	word: but	upos: CCONJ	head id: 10	head: occur	deprel: cc
+id: 13	word: cause	upos: VERB	head id: 10	head: occur	deprel: conj
+id: 14	word: devastation	upos: NOUN	head id: 13	head: cause	deprel: dobj
+id: 15	word: that	upos: DET	head id: 16	head: strains	deprel: nsubj
+id: 16	word: strains	upos: VERB	head id: 14	head: devastation	deprel: relcl
+id: 17	word: resources	upos: NOUN	head id: 16	head: strains	deprel: dobj
+id: 18	word: to	upos: ADP	head id: 16	head: strains	deprel: prep
+id: 19	word: breaking	upos: NOUN	head id: 20	head: point	deprel: amod
+id: 20	word: point	upos: NOUN	head id: 18	head: to	deprel: pobj
+id: 21	word: .	upos: PUNCT	head id: 10	head: occur	deprel: punct
 
 End of sentence 10 
 
 11: Letters delivered on time by old-fashioned means are increasingly rare, so it is as well that that is not the only option available.
 stanza:
-word: Letters	upos: NOUN	head: rare	deprel: nsubj
-word: delivered	upos: VERB	head: Letters	deprel: acl
-word: on	upos: ADP	head: time	deprel: case
-word: time	upos: NOUN	head: delivered	deprel: obl
-word: by	upos: ADP	head: means	deprel: case
-word: old	upos: ADJ	head: fashioned	deprel: amod
-word: -	upos: PUNCT	head: fashioned	deprel: punct
-word: fashioned	upos: ADJ	head: means	deprel: amod
-word: means	upos: NOUN	head: delivered	deprel: obl
-word: are	upos: AUX	head: rare	deprel: cop
-word: increasingly	upos: ADV	head: rare	deprel: advmod
-word: rare	upos: ADJ	head: root	deprel: root
-word: ,	upos: PUNCT	head: rare	deprel: punct
-word: so	upos: ADV	head: option	deprel: advmod
-word: it	upos: PRON	head: option	deprel: nsubj
-word: is	upos: AUX	head: option	deprel: cop
-word: as	upos: ADV	head: option	deprel: cc
-word: well	upos: ADV	head: as	deprel: fixed
-word: that	upos: SCONJ	head: option	deprel: mark
-word: that	upos: PRON	head: option	deprel: nsubj
-word: is	upos: AUX	head: option	deprel: cop
-word: not	upos: PART	head: option	deprel: advmod
-word: the	upos: DET	head: option	deprel: det
-word: only	upos: ADJ	head: option	deprel: amod
-word: option	upos: NOUN	head: rare	deprel: conj
-word: available	upos: ADJ	head: option	deprel: amod
-word: .	upos: PUNCT	head: rare	deprel: punct
+id: 1	word: Letters	upos: NOUN	head id: 12	head: rare	deprel: nsubj
+id: 2	word: delivered	upos: VERB	head id: 1	head: Letters	deprel: acl
+id: 3	word: on	upos: ADP	head id: 4	head: time	deprel: case
+id: 4	word: time	upos: NOUN	head id: 2	head: delivered	deprel: pobj
+id: 5	word: by	upos: ADP	head id: 9	head: means	deprel: case
+id: 6	word: old	upos: ADJ	head id: 8	head: fashioned	deprel: amod
+id: 7	word: -	upos: PUNCT	head id: 8	head: fashioned	deprel: punct
+id: 8	word: fashioned	upos: ADJ	head id: 9	head: means	deprel: amod
+id: 9	word: means	upos: NOUN	head id: 2	head: delivered	deprel: pobj
+id: 10	word: are	upos: AUX	head id: 12	head: rare	deprel: cop
+id: 11	word: increasingly	upos: ADV	head id: 12	head: rare	deprel: advmod
+id: 12	word: rare	upos: ADJ	head id: 0	head: root	deprel: root
+id: 13	word: ,	upos: PUNCT	head id: 12	head: rare	deprel: punct
+id: 14	word: so	upos: ADV	head id: 25	head: option	deprel: advmod
+id: 15	word: it	upos: PRON	head id: 25	head: option	deprel: nsubj
+id: 16	word: is	upos: AUX	head id: 25	head: option	deprel: cop
+id: 17	word: as	upos: ADV	head id: 25	head: option	deprel: cc
+id: 18	word: well	upos: ADV	head id: 17	head: as	deprel: fixed
+id: 19	word: that	upos: SCONJ	head id: 25	head: option	deprel: mark
+id: 20	word: that	upos: PRON	head id: 25	head: option	deprel: nsubj
+id: 21	word: is	upos: AUX	head id: 25	head: option	deprel: cop
+id: 22	word: not	upos: PART	head id: 25	head: option	deprel: advmod
+id: 23	word: the	upos: DET	head id: 25	head: option	deprel: det
+id: 24	word: only	upos: ADJ	head id: 25	head: option	deprel: amod
+id: 25	word: option	upos: NOUN	head id: 12	head: rare	deprel: conj
+id: 26	word: available	upos: ADJ	head id: 25	head: option	deprel: amod
+id: 27	word: .	upos: PUNCT	head id: 12	head: rare	deprel: punct
 
 spacy:
-word: Letters	upos: NOUN	head: delivered	deprel: nsubj
-word: delivered	upos: VERB	head: delivered	deprel: ROOT
-word: on	upos: ADP	head: delivered	deprel: prep
-word: time	upos: NOUN	head: on	deprel: pobj
-word: by	upos: ADP	head: delivered	deprel: agent
-word: old	upos: ADJ	head: fashioned	deprel: amod
-word: -	upos: PUNCT	head: fashioned	deprel: punct
-word: fashioned	upos: ADJ	head: means	deprel: amod
-word: means	upos: NOUN	head: by	deprel: pobj
-word: are	upos: AUX	head: delivered	deprel: conj
-word: increasingly	upos: ADV	head: rare	deprel: advmod
-word: rare	upos: ADJ	head: are	deprel: acomp
-word: ,	upos: PUNCT	head: delivered	deprel: punct
-word: so	upos: CCONJ	head: delivered	deprel: cc
-word: it	upos: PRON	head: is	deprel: nsubj
-word: is	upos: AUX	head: delivered	deprel: conj
-word: as	upos: ADV	head: well	deprel: advmod
-word: well	upos: ADV	head: is	deprel: advmod
-word: that	upos: SCONJ	head: is	deprel: mark
-word: that	upos: DET	head: is	deprel: nsubj
-word: is	upos: AUX	head: is	deprel: ccomp
-word: not	upos: PART	head: is	deprel: neg
-word: the	upos: DET	head: option	deprel: det
-word: only	upos: ADJ	head: option	deprel: amod
-word: option	upos: NOUN	head: is	deprel: attr
-word: available	upos: ADJ	head: option	deprel: amod
-word: .	upos: PUNCT	head: is	deprel: punct
+id: 1	word: Letters	upos: NOUN	head id: 2	head: delivered	deprel: nsubj
+id: 2	word: delivered	upos: VERB	head id: 0	head: delivered	deprel: root
+id: 3	word: on	upos: ADP	head id: 2	head: delivered	deprel: prep
+id: 4	word: time	upos: NOUN	head id: 3	head: on	deprel: pobj
+id: 5	word: by	upos: ADP	head id: 2	head: delivered	deprel: agent
+id: 6	word: old	upos: ADJ	head id: 8	head: fashioned	deprel: amod
+id: 7	word: -	upos: PUNCT	head id: 8	head: fashioned	deprel: punct
+id: 8	word: fashioned	upos: ADJ	head id: 9	head: means	deprel: amod
+id: 9	word: means	upos: NOUN	head id: 5	head: by	deprel: pobj
+id: 10	word: are	upos: AUX	head id: 2	head: delivered	deprel: conj
+id: 11	word: increasingly	upos: ADV	head id: 12	head: rare	deprel: advmod
+id: 12	word: rare	upos: ADJ	head id: 10	head: are	deprel: acomp
+id: 13	word: ,	upos: PUNCT	head id: 2	head: delivered	deprel: punct
+id: 14	word: so	upos: CCONJ	head id: 2	head: delivered	deprel: cc
+id: 15	word: it	upos: PRON	head id: 16	head: is	deprel: nsubj
+id: 16	word: is	upos: AUX	head id: 2	head: delivered	deprel: conj
+id: 17	word: as	upos: ADV	head id: 18	head: well	deprel: advmod
+id: 18	word: well	upos: ADV	head id: 16	head: is	deprel: advmod
+id: 19	word: that	upos: SCONJ	head id: 21	head: is	deprel: mark
+id: 20	word: that	upos: DET	head id: 21	head: is	deprel: nsubj
+id: 21	word: is	upos: AUX	head id: 16	head: is	deprel: ccomp
+id: 22	word: not	upos: PART	head id: 21	head: is	deprel: neg
+id: 23	word: the	upos: DET	head id: 25	head: option	deprel: det
+id: 24	word: only	upos: ADJ	head id: 25	head: option	deprel: amod
+id: 25	word: option	upos: NOUN	head id: 21	head: is	deprel: attr
+id: 26	word: available	upos: ADJ	head id: 25	head: option	deprel: amod
+id: 27	word: .	upos: PUNCT	head id: 16	head: is	deprel: punct
 
 End of sentence 11 
 
 12: It won’t rain but there might be snow on high ground if the temperature stays about the same over the next 24 hours.
 stanza:
-word: It	upos: PRON	head: rain	deprel: nsubj
-word: wo	upos: AUX	head: rain	deprel: aux
-word: n’t	upos: PART	head: rain	deprel: advmod
-word: rain	upos: VERB	head: root	deprel: root
-word: but	upos: CCONJ	head: be	deprel: cc
-word: there	upos: PRON	head: be	deprel: expl
-word: might	upos: AUX	head: be	deprel: aux
-word: be	upos: VERB	head: rain	deprel: conj
-word: snow	upos: NOUN	head: be	deprel: nsubj
-word: on	upos: ADP	head: ground	deprel: case
-word: high	upos: ADJ	head: ground	deprel: amod
-word: ground	upos: NOUN	head: snow	deprel: nmod
-word: if	upos: SCONJ	head: stays	deprel: mark
-word: the	upos: DET	head: temperature	deprel: det
-word: temperature	upos: NOUN	head: stays	deprel: nsubj
-word: stays	upos: VERB	head: be	deprel: advcl
-word: about	upos: ADP	head: same	deprel: case
-word: the	upos: DET	head: same	deprel: det
-word: same	upos: ADJ	head: stays	deprel: obl
-word: over	upos: ADP	head: hours	deprel: case
-word: the	upos: DET	head: hours	deprel: det
-word: next	upos: ADJ	head: hours	deprel: amod
-word: 24	upos: NUM	head: hours	deprel: nummod
-word: hours	upos: NOUN	head: stays	deprel: obl
-word: .	upos: PUNCT	head: rain	deprel: punct
+id: 1	word: It	upos: PRON	head id: 4	head: rain	deprel: nsubj
+id: 2	word: wo	upos: AUX	head id: 4	head: rain	deprel: aux
+id: 3	word: n’t	upos: PART	head id: 4	head: rain	deprel: advmod
+id: 4	word: rain	upos: VERB	head id: 0	head: root	deprel: root
+id: 5	word: but	upos: CCONJ	head id: 8	head: be	deprel: cc
+id: 6	word: there	upos: PRON	head id: 8	head: be	deprel: expl
+id: 7	word: might	upos: AUX	head id: 8	head: be	deprel: aux
+id: 8	word: be	upos: VERB	head id: 4	head: rain	deprel: conj
+id: 9	word: snow	upos: NOUN	head id: 8	head: be	deprel: nsubj
+id: 10	word: on	upos: ADP	head id: 12	head: ground	deprel: case
+id: 11	word: high	upos: ADJ	head id: 12	head: ground	deprel: amod
+id: 12	word: ground	upos: NOUN	head id: 9	head: snow	deprel: nmod
+id: 13	word: if	upos: SCONJ	head id: 16	head: stays	deprel: mark
+id: 14	word: the	upos: DET	head id: 15	head: temperature	deprel: det
+id: 15	word: temperature	upos: NOUN	head id: 16	head: stays	deprel: nsubj
+id: 16	word: stays	upos: VERB	head id: 8	head: be	deprel: advcl
+id: 17	word: about	upos: ADP	head id: 19	head: same	deprel: case
+id: 18	word: the	upos: DET	head id: 19	head: same	deprel: det
+id: 19	word: same	upos: ADJ	head id: 16	head: stays	deprel: pobj
+id: 20	word: over	upos: ADP	head id: 24	head: hours	deprel: case
+id: 21	word: the	upos: DET	head id: 24	head: hours	deprel: det
+id: 22	word: next	upos: ADJ	head id: 24	head: hours	deprel: amod
+id: 23	word: 24	upos: NUM	head id: 24	head: hours	deprel: nummod
+id: 24	word: hours	upos: NOUN	head id: 16	head: stays	deprel: pobj
+id: 25	word: .	upos: PUNCT	head id: 4	head: rain	deprel: punct
 
 spacy:
-word: It	upos: PRON	head: rain	deprel: nsubj
-word: wo	upos: VERB	head: rain	deprel: aux
-word: n’t	upos: PART	head: rain	deprel: neg
-word: rain	upos: VERB	head: rain	deprel: ROOT
-word: but	upos: CCONJ	head: be	deprel: cc
-word: there	upos: PRON	head: be	deprel: expl
-word: might	upos: VERB	head: be	deprel: aux
-word: be	upos: AUX	head: be	deprel: ROOT
-word: snow	upos: NOUN	head: be	deprel: attr
-word: on	upos: ADP	head: snow	deprel: prep
-word: high	upos: ADJ	head: ground	deprel: amod
-word: ground	upos: NOUN	head: on	deprel: pobj
-word: if	upos: SCONJ	head: stays	deprel: mark
-word: the	upos: DET	head: temperature	deprel: det
-word: temperature	upos: NOUN	head: stays	deprel: nsubj
-word: stays	upos: VERB	head: be	deprel: advcl
-word: about	upos: ADP	head: stays	deprel: prep
-word: the	upos: DET	head: same	deprel: det
-word: same	upos: ADJ	head: about	deprel: pobj
-word: over	upos: ADP	head: stays	deprel: prep
-word: the	upos: DET	head: hours	deprel: det
-word: next	upos: ADJ	head: hours	deprel: amod
-word: 24	upos: NUM	head: hours	deprel: nummod
-word: hours	upos: NOUN	head: over	deprel: pobj
-word: .	upos: PUNCT	head: be	deprel: punct
+id: 1	word: It	upos: PRON	head id: 4	head: rain	deprel: nsubj
+id: 2	word: wo	upos: VERB	head id: 4	head: rain	deprel: aux
+id: 3	word: n’t	upos: PART	head id: 4	head: rain	deprel: neg
+id: 4	word: rain	upos: VERB	head id: 0	head: rain	deprel: root
+id: 5	word: but	upos: CCONJ	head id: 8	head: be	deprel: cc
+id: 6	word: there	upos: PRON	head id: 8	head: be	deprel: expl
+id: 7	word: might	upos: VERB	head id: 8	head: be	deprel: aux
+id: 8	word: be	upos: AUX	head id: 0	head: be	deprel: root
+id: 9	word: snow	upos: NOUN	head id: 8	head: be	deprel: attr
+id: 10	word: on	upos: ADP	head id: 9	head: snow	deprel: prep
+id: 11	word: high	upos: ADJ	head id: 12	head: ground	deprel: amod
+id: 12	word: ground	upos: NOUN	head id: 10	head: on	deprel: pobj
+id: 13	word: if	upos: SCONJ	head id: 16	head: stays	deprel: mark
+id: 14	word: the	upos: DET	head id: 15	head: temperature	deprel: det
+id: 15	word: temperature	upos: NOUN	head id: 16	head: stays	deprel: nsubj
+id: 16	word: stays	upos: VERB	head id: 8	head: be	deprel: advcl
+id: 17	word: about	upos: ADP	head id: 16	head: stays	deprel: prep
+id: 18	word: the	upos: DET	head id: 19	head: same	deprel: det
+id: 19	word: same	upos: ADJ	head id: 17	head: about	deprel: pobj
+id: 20	word: over	upos: ADP	head id: 16	head: stays	deprel: prep
+id: 21	word: the	upos: DET	head id: 24	head: hours	deprel: det
+id: 22	word: next	upos: ADJ	head id: 24	head: hours	deprel: amod
+id: 23	word: 24	upos: NUM	head id: 24	head: hours	deprel: nummod
+id: 24	word: hours	upos: NOUN	head id: 20	head: over	deprel: pobj
+id: 25	word: .	upos: PUNCT	head id: 8	head: be	deprel: punct
 
 End of sentence 12 
 
 13: The long and lonely road to redemption begins with self-reflection: theneed to delve inwards to deconstruct layers of psychological obfuscation.
 stanza:
-word: The	upos: DET	head: road	deprel: det
-word: long	upos: ADJ	head: road	deprel: amod
-word: and	upos: CCONJ	head: lonely	deprel: cc
-word: lonely	upos: ADJ	head: long	deprel: conj
-word: road	upos: NOUN	head: begins	deprel: nsubj
-word: to	upos: ADP	head: redemption	deprel: case
-word: redemption	upos: NOUN	head: road	deprel: nmod
-word: begins	upos: VERB	head: root	deprel: root
-word: with	upos: ADP	head: reflection	deprel: case
-word: self	upos: NOUN	head: reflection	deprel: compound
-word: -	upos: PUNCT	head: reflection	deprel: punct
-word: reflection	upos: NOUN	head: begins	deprel: obl
-word: :	upos: PUNCT	head: reflection	deprel: punct
-word: theneed	upos: VERB	head: reflection	deprel: acl
-word: to	upos: PART	head: delve	deprel: mark
-word: delve	upos: VERB	head: theneed	deprel: xcomp
-word: inwards	upos: ADV	head: delve	deprel: advmod
-word: to	upos: PART	head: deconstruct	deprel: mark
-word: deconstruct	upos: VERB	head: delve	deprel: advcl
-word: layers	upos: NOUN	head: deconstruct	deprel: obj
-word: of	upos: ADP	head: obfuscation	deprel: case
-word: psychological	upos: ADJ	head: obfuscation	deprel: amod
-word: obfuscation	upos: NOUN	head: layers	deprel: nmod
-word: .	upos: PUNCT	head: begins	deprel: punct
+id: 1	word: The	upos: DET	head id: 5	head: road	deprel: det
+id: 2	word: long	upos: ADJ	head id: 5	head: road	deprel: amod
+id: 3	word: and	upos: CCONJ	head id: 4	head: lonely	deprel: cc
+id: 4	word: lonely	upos: ADJ	head id: 2	head: long	deprel: conj
+id: 5	word: road	upos: NOUN	head id: 8	head: begins	deprel: nsubj
+id: 6	word: to	upos: ADP	head id: 7	head: redemption	deprel: case
+id: 7	word: redemption	upos: NOUN	head id: 5	head: road	deprel: nmod
+id: 8	word: begins	upos: VERB	head id: 0	head: root	deprel: root
+id: 9	word: with	upos: ADP	head id: 12	head: reflection	deprel: case
+id: 10	word: self	upos: NOUN	head id: 12	head: reflection	deprel: compound
+id: 11	word: -	upos: PUNCT	head id: 12	head: reflection	deprel: punct
+id: 12	word: reflection	upos: NOUN	head id: 8	head: begins	deprel: pobj
+id: 13	word: :	upos: PUNCT	head id: 12	head: reflection	deprel: punct
+id: 14	word: theneed	upos: VERB	head id: 12	head: reflection	deprel: acl
+id: 15	word: to	upos: PART	head id: 16	head: delve	deprel: mark
+id: 16	word: delve	upos: VERB	head id: 14	head: theneed	deprel: xcomp
+id: 17	word: inwards	upos: ADV	head id: 16	head: delve	deprel: advmod
+id: 18	word: to	upos: PART	head id: 19	head: deconstruct	deprel: mark
+id: 19	word: deconstruct	upos: VERB	head id: 16	head: delve	deprel: advcl
+id: 20	word: layers	upos: NOUN	head id: 19	head: deconstruct	deprel: obj
+id: 21	word: of	upos: ADP	head id: 23	head: obfuscation	deprel: case
+id: 22	word: psychological	upos: ADJ	head id: 23	head: obfuscation	deprel: amod
+id: 23	word: obfuscation	upos: NOUN	head id: 20	head: layers	deprel: nmod
+id: 24	word: .	upos: PUNCT	head id: 8	head: begins	deprel: punct
 
 spacy:
-word: The	upos: DET	head: road	deprel: det
-word: long	upos: ADJ	head: road	deprel: amod
-word: and	upos: CCONJ	head: long	deprel: cc
-word: lonely	upos: ADJ	head: long	deprel: conj
-word: road	upos: NOUN	head: begins	deprel: nsubj
-word: to	upos: ADP	head: road	deprel: prep
-word: redemption	upos: NOUN	head: to	deprel: pobj
-word: begins	upos: VERB	head: theneed	deprel: ccomp
-word: with	upos: ADP	head: begins	deprel: prep
-word: self	upos: NOUN	head: reflection	deprel: compound
-word: -	upos: PUNCT	head: reflection	deprel: punct
-word: reflection	upos: NOUN	head: with	deprel: pobj
-word: :	upos: PUNCT	head: theneed	deprel: punct
-word: theneed	upos: NOUN	head: theneed	deprel: ROOT
-word: to	upos: PART	head: delve	deprel: aux
-word: delve	upos: VERB	head: theneed	deprel: xcomp
-word: inwards	upos: NOUN	head: delve	deprel: dobj
-word: to	upos: PART	head: deconstruct	deprel: aux
-word: deconstruct	upos: VERB	head: delve	deprel: advcl
-word: layers	upos: NOUN	head: deconstruct	deprel: dobj
-word: of	upos: ADP	head: layers	deprel: prep
-word: psychological	upos: ADJ	head: obfuscation	deprel: amod
-word: obfuscation	upos: NOUN	head: of	deprel: pobj
-word: .	upos: PUNCT	head: theneed	deprel: punct
+id: 1	word: The	upos: DET	head id: 5	head: road	deprel: det
+id: 2	word: long	upos: ADJ	head id: 5	head: road	deprel: amod
+id: 3	word: and	upos: CCONJ	head id: 2	head: long	deprel: cc
+id: 4	word: lonely	upos: ADJ	head id: 2	head: long	deprel: conj
+id: 5	word: road	upos: NOUN	head id: 8	head: begins	deprel: nsubj
+id: 6	word: to	upos: ADP	head id: 5	head: road	deprel: prep
+id: 7	word: redemption	upos: NOUN	head id: 6	head: to	deprel: pobj
+id: 8	word: begins	upos: VERB	head id: 14	head: theneed	deprel: ccomp
+id: 9	word: with	upos: ADP	head id: 8	head: begins	deprel: prep
+id: 10	word: self	upos: NOUN	head id: 12	head: reflection	deprel: compound
+id: 11	word: -	upos: PUNCT	head id: 12	head: reflection	deprel: punct
+id: 12	word: reflection	upos: NOUN	head id: 9	head: with	deprel: pobj
+id: 13	word: :	upos: PUNCT	head id: 14	head: theneed	deprel: punct
+id: 14	word: theneed	upos: NOUN	head id: 0	head: theneed	deprel: root
+id: 15	word: to	upos: PART	head id: 16	head: delve	deprel: aux
+id: 16	word: delve	upos: VERB	head id: 14	head: theneed	deprel: xcomp
+id: 17	word: inwards	upos: NOUN	head id: 16	head: delve	deprel: dobj
+id: 18	word: to	upos: PART	head id: 19	head: deconstruct	deprel: aux
+id: 19	word: deconstruct	upos: VERB	head id: 16	head: delve	deprel: advcl
+id: 20	word: layers	upos: NOUN	head id: 19	head: deconstruct	deprel: dobj
+id: 21	word: of	upos: ADP	head id: 20	head: layers	deprel: prep
+id: 22	word: psychological	upos: ADJ	head id: 23	head: obfuscation	deprel: amod
+id: 23	word: obfuscation	upos: NOUN	head id: 21	head: of	deprel: pobj
+id: 24	word: .	upos: PUNCT	head id: 14	head: theneed	deprel: punct
 
 End of sentence 13 
 
 14: My wildest dream is to build a POS tagger which processes 10K words persecond and uses only 1MB of RAM, but it may prove too hard.
 stanza:
-word: My	upos: PRON	head: dream	deprel: nmod:poss
-word: wildest	upos: ADJ	head: dream	deprel: amod
-word: dream	upos: NOUN	head: is	deprel: nsubj
-word: is	upos: VERB	head: root	deprel: root
-word: to	upos: PART	head: build	deprel: mark
-word: build	upos: VERB	head: is	deprel: ccomp
-word: a	upos: DET	head: tagger	deprel: det
-word: POS	upos: NOUN	head: tagger	deprel: compound
-word: tagger	upos: NOUN	head: build	deprel: obj
-word: which	upos: PRON	head: processes	deprel: nsubj
-word: processes	upos: VERB	head: tagger	deprel: acl:relcl
-word: 10	upos: NUM	head: K	deprel: compound
-word: K	upos: NUM	head: words	deprel: nummod
-word: words	upos: NOUN	head: processes	deprel: obj
-word: persecond	upos: ADJ	head: processes	deprel: xcomp
-word: and	upos: CCONJ	head: uses	deprel: cc
-word: uses	upos: VERB	head: processes	deprel: conj
-word: only	upos: ADV	head: MB	deprel: advmod
-word: 1	upos: NUM	head: MB	deprel: nummod
-word: MB	upos: NOUN	head: uses	deprel: obj
-word: of	upos: ADP	head: RAM	deprel: case
-word: RAM	upos: NOUN	head: MB	deprel: nmod
-word: ,	upos: PUNCT	head: prove	deprel: punct
-word: but	upos: CCONJ	head: prove	deprel: cc
-word: it	upos: PRON	head: prove	deprel: nsubj
-word: may	upos: AUX	head: prove	deprel: aux
-word: prove	upos: VERB	head: is	deprel: conj
-word: too	upos: ADV	head: hard	deprel: advmod
-word: hard	upos: ADV	head: prove	deprel: advmod
-word: .	upos: PUNCT	head: is	deprel: punct
+id: 1	word: My	upos: PRON	head id: 3	head: dream	deprel: poss
+id: 2	word: wildest	upos: ADJ	head id: 3	head: dream	deprel: amod
+id: 3	word: dream	upos: NOUN	head id: 4	head: is	deprel: nsubj
+id: 4	word: is	upos: VERB	head id: 0	head: root	deprel: root
+id: 5	word: to	upos: PART	head id: 6	head: build	deprel: mark
+id: 6	word: build	upos: VERB	head id: 4	head: is	deprel: ccomp
+id: 7	word: a	upos: DET	head id: 9	head: tagger	deprel: det
+id: 8	word: POS	upos: NOUN	head id: 9	head: tagger	deprel: compound
+id: 9	word: tagger	upos: NOUN	head id: 6	head: build	deprel: obj
+id: 10	word: which	upos: PRON	head id: 11	head: processes	deprel: nsubj
+id: 11	word: processes	upos: VERB	head id: 9	head: tagger	deprel: relcl
+id: 12	word: 10	upos: NUM	head id: 13	head: K	deprel: compound
+id: 13	word: K	upos: NUM	head id: 14	head: words	deprel: nummod
+id: 14	word: words	upos: NOUN	head id: 11	head: processes	deprel: obj
+id: 15	word: persecond	upos: ADJ	head id: 11	head: processes	deprel: xcomp
+id: 16	word: and	upos: CCONJ	head id: 17	head: uses	deprel: cc
+id: 17	word: uses	upos: VERB	head id: 11	head: processes	deprel: conj
+id: 18	word: only	upos: ADV	head id: 20	head: MB	deprel: advmod
+id: 19	word: 1	upos: NUM	head id: 20	head: MB	deprel: nummod
+id: 20	word: MB	upos: NOUN	head id: 17	head: uses	deprel: obj
+id: 21	word: of	upos: ADP	head id: 22	head: RAM	deprel: case
+id: 22	word: RAM	upos: NOUN	head id: 20	head: MB	deprel: nmod
+id: 23	word: ,	upos: PUNCT	head id: 27	head: prove	deprel: punct
+id: 24	word: but	upos: CCONJ	head id: 27	head: prove	deprel: cc
+id: 25	word: it	upos: PRON	head id: 27	head: prove	deprel: nsubj
+id: 26	word: may	upos: AUX	head id: 27	head: prove	deprel: aux
+id: 27	word: prove	upos: VERB	head id: 4	head: is	deprel: conj
+id: 28	word: too	upos: ADV	head id: 29	head: hard	deprel: advmod
+id: 29	word: hard	upos: ADV	head id: 27	head: prove	deprel: advmod
+id: 30	word: .	upos: PUNCT	head id: 4	head: is	deprel: punct
 
 spacy:
-word: My	upos: DET	head: dream	deprel: poss
-word: wildest	upos: ADJ	head: dream	deprel: amod
-word: dream	upos: NOUN	head: is	deprel: nsubj
-word: is	upos: AUX	head: is	deprel: ROOT
-word: to	upos: PART	head: build	deprel: aux
-word: build	upos: VERB	head: is	deprel: xcomp
-word: a	upos: DET	head: tagger	deprel: det
-word: POS	upos: NOUN	head: tagger	deprel: compound
-word: tagger	upos: NOUN	head: build	deprel: dobj
-word: which	upos: DET	head: processes	deprel: nsubj
-word: processes	upos: VERB	head: tagger	deprel: relcl
-word: 10	upos: NUM	head: persecond	deprel: nummod
-word: K	upos: NOUN	head: words	deprel: compound
-word: words	upos: NOUN	head: persecond	deprel: compound
-word: persecond	upos: NOUN	head: processes	deprel: dobj
-word: and	upos: CCONJ	head: processes	deprel: cc
-word: uses	upos: VERB	head: processes	deprel: conj
-word: only	upos: ADV	head: 1	deprel: advmod
-word: 1	upos: NUM	head: MB	deprel: nummod
-word: MB	upos: NOUN	head: uses	deprel: dobj
-word: of	upos: ADP	head: MB	deprel: prep
-word: RAM	upos: NOUN	head: of	deprel: pobj
-word: ,	upos: PUNCT	head: is	deprel: punct
-word: but	upos: CCONJ	head: is	deprel: cc
-word: it	upos: PRON	head: prove	deprel: nsubj
-word: may	upos: VERB	head: prove	deprel: aux
-word: prove	upos: VERB	head: is	deprel: conj
-word: too	upos: ADV	head: hard	deprel: advmod
-word: hard	upos: ADV	head: prove	deprel: advmod
-word: .	upos: PUNCT	head: prove	deprel: punct
+id: 1	word: My	upos: DET	head id: 3	head: dream	deprel: poss
+id: 2	word: wildest	upos: ADJ	head id: 3	head: dream	deprel: amod
+id: 3	word: dream	upos: NOUN	head id: 4	head: is	deprel: nsubj
+id: 4	word: is	upos: AUX	head id: 0	head: is	deprel: root
+id: 5	word: to	upos: PART	head id: 6	head: build	deprel: aux
+id: 6	word: build	upos: VERB	head id: 4	head: is	deprel: xcomp
+id: 7	word: a	upos: DET	head id: 9	head: tagger	deprel: det
+id: 8	word: POS	upos: NOUN	head id: 9	head: tagger	deprel: compound
+id: 9	word: tagger	upos: NOUN	head id: 6	head: build	deprel: dobj
+id: 10	word: which	upos: DET	head id: 11	head: processes	deprel: nsubj
+id: 11	word: processes	upos: VERB	head id: 9	head: tagger	deprel: relcl
+id: 12	word: 10	upos: NUM	head id: 15	head: persecond	deprel: nummod
+id: 13	word: K	upos: NOUN	head id: 14	head: words	deprel: compound
+id: 14	word: words	upos: NOUN	head id: 15	head: persecond	deprel: compound
+id: 15	word: persecond	upos: NOUN	head id: 11	head: processes	deprel: dobj
+id: 16	word: and	upos: CCONJ	head id: 11	head: processes	deprel: cc
+id: 17	word: uses	upos: VERB	head id: 11	head: processes	deprel: conj
+id: 18	word: only	upos: ADV	head id: 19	head: 1	deprel: advmod
+id: 19	word: 1	upos: NUM	head id: 20	head: MB	deprel: nummod
+id: 20	word: MB	upos: NOUN	head id: 17	head: uses	deprel: dobj
+id: 21	word: of	upos: ADP	head id: 20	head: MB	deprel: prep
+id: 22	word: RAM	upos: NOUN	head id: 21	head: of	deprel: pobj
+id: 23	word: ,	upos: PUNCT	head id: 4	head: is	deprel: punct
+id: 24	word: but	upos: CCONJ	head id: 4	head: is	deprel: cc
+id: 25	word: it	upos: PRON	head id: 27	head: prove	deprel: nsubj
+id: 26	word: may	upos: VERB	head id: 27	head: prove	deprel: aux
+id: 27	word: prove	upos: VERB	head id: 4	head: is	deprel: conj
+id: 28	word: too	upos: ADV	head id: 29	head: hard	deprel: advmod
+id: 29	word: hard	upos: ADV	head id: 27	head: prove	deprel: advmod
+id: 30	word: .	upos: PUNCT	head id: 27	head: prove	deprel: punct
 
 End of sentence 14 
 
 15: English also has many words of more or less unique function, including interjections (oh, ah), negatives (no, not), politeness markers (please, thankyou), and the existential ‘there’ (there are horses but not unicorns) amongothers.
 stanza:
-word: English	upos: PROPN	head: has	deprel: nsubj
-word: also	upos: ADV	head: has	deprel: advmod
-word: has	upos: VERB	head: root	deprel: root
-word: many	upos: ADJ	head: words	deprel: amod
-word: words	upos: NOUN	head: has	deprel: obj
-word: of	upos: ADP	head: function	deprel: case
-word: more	upos: ADJ	head: function	deprel: amod
-word: or	upos: CCONJ	head: unique	deprel: cc
-word: less	upos: ADV	head: unique	deprel: advmod
-word: unique	upos: ADJ	head: more	deprel: conj
-word: function	upos: NOUN	head: words	deprel: nmod
-word: ,	upos: PUNCT	head: function	deprel: punct
-word: including	upos: VERB	head: interjections	deprel: case
-word: interjections	upos: NOUN	head: function	deprel: nmod
-word: (	upos: PUNCT	head: ah	deprel: punct
-word: oh	upos: INTJ	head: ah	deprel: discourse
-word: ,	upos: PUNCT	head: ah	deprel: punct
-word: ah	upos: INTJ	head: negatives	deprel: discourse
-word: )	upos: PUNCT	head: ah	deprel: punct
-word: ,	upos: PUNCT	head: negatives	deprel: punct
-word: negatives	upos: NOUN	head: words	deprel: conj
-word: (	upos: PUNCT	head: not	deprel: punct
-word: no	upos: INTJ	head: not	deprel: discourse
-word: ,	upos: PUNCT	head: not	deprel: punct
-word: not	upos: PART	head: negatives	deprel: parataxis
-word: )	upos: PUNCT	head: not	deprel: punct
-word: ,	upos: PUNCT	head: markers	deprel: punct
-word: politeness	upos: NOUN	head: markers	deprel: compound
-word: markers	upos: NOUN	head: negatives	deprel: conj
-word: (	upos: PUNCT	head: thankyou	deprel: punct
-word: please	upos: INTJ	head: thankyou	deprel: discourse
-word: ,	upos: PUNCT	head: thankyou	deprel: punct
-word: thankyou	upos: NOUN	head: markers	deprel: appos
-word: )	upos: PUNCT	head: thankyou	deprel: punct
-word: ,	upos: PUNCT	head: there	deprel: punct
-word: and	upos: CCONJ	head: there	deprel: cc
-word: the	upos: DET	head: there	deprel: det
-word: existential	upos: ADJ	head: there	deprel: amod
-word: ‘	upos: PUNCT	head: there	deprel: punct
-word: there	upos: ADV	head: markers	deprel: conj
-word: ’	upos: PUNCT	head: there	deprel: punct
-word: (	upos: PUNCT	head: are	deprel: punct
-word: there	upos: PRON	head: are	deprel: expl
-word: are	upos: VERB	head: there	deprel: parataxis
-word: horses	upos: NOUN	head: are	deprel: nsubj
-word: but	upos: CCONJ	head: unicorns	deprel: cc
-word: not	upos: PART	head: unicorns	deprel: advmod
-word: unicorns	upos: NOUN	head: horses	deprel: conj
-word: )	upos: PUNCT	head: are	deprel: punct
-word: amongothers	upos: NOUN	head: are	deprel: nsubj
-word: .	upos: PUNCT	head: has	deprel: punct
+id: 1	word: English	upos: PROPN	head id: 3	head: has	deprel: nsubj
+id: 2	word: also	upos: ADV	head id: 3	head: has	deprel: advmod
+id: 3	word: has	upos: VERB	head id: 0	head: root	deprel: root
+id: 4	word: many	upos: ADJ	head id: 5	head: words	deprel: amod
+id: 5	word: words	upos: NOUN	head id: 3	head: has	deprel: obj
+id: 6	word: of	upos: ADP	head id: 11	head: function	deprel: case
+id: 7	word: more	upos: ADJ	head id: 11	head: function	deprel: amod
+id: 8	word: or	upos: CCONJ	head id: 10	head: unique	deprel: cc
+id: 9	word: less	upos: ADV	head id: 10	head: unique	deprel: advmod
+id: 10	word: unique	upos: ADJ	head id: 7	head: more	deprel: conj
+id: 11	word: function	upos: NOUN	head id: 5	head: words	deprel: nmod
+id: 12	word: ,	upos: PUNCT	head id: 11	head: function	deprel: punct
+id: 13	word: including	upos: VERB	head id: 14	head: interjections	deprel: case
+id: 14	word: interjections	upos: NOUN	head id: 11	head: function	deprel: nmod
+id: 15	word: (	upos: PUNCT	head id: 18	head: ah	deprel: punct
+id: 16	word: oh	upos: INTJ	head id: 18	head: ah	deprel: discourse
+id: 17	word: ,	upos: PUNCT	head id: 18	head: ah	deprel: punct
+id: 18	word: ah	upos: INTJ	head id: 21	head: negatives	deprel: discourse
+id: 19	word: )	upos: PUNCT	head id: 18	head: ah	deprel: punct
+id: 20	word: ,	upos: PUNCT	head id: 21	head: negatives	deprel: punct
+id: 21	word: negatives	upos: NOUN	head id: 5	head: words	deprel: conj
+id: 22	word: (	upos: PUNCT	head id: 25	head: not	deprel: punct
+id: 23	word: no	upos: INTJ	head id: 25	head: not	deprel: discourse
+id: 24	word: ,	upos: PUNCT	head id: 25	head: not	deprel: punct
+id: 25	word: not	upos: PART	head id: 21	head: negatives	deprel: parataxis
+id: 26	word: )	upos: PUNCT	head id: 25	head: not	deprel: punct
+id: 27	word: ,	upos: PUNCT	head id: 29	head: markers	deprel: punct
+id: 28	word: politeness	upos: NOUN	head id: 29	head: markers	deprel: compound
+id: 29	word: markers	upos: NOUN	head id: 21	head: negatives	deprel: conj
+id: 30	word: (	upos: PUNCT	head id: 33	head: thankyou	deprel: punct
+id: 31	word: please	upos: INTJ	head id: 33	head: thankyou	deprel: discourse
+id: 32	word: ,	upos: PUNCT	head id: 33	head: thankyou	deprel: punct
+id: 33	word: thankyou	upos: NOUN	head id: 29	head: markers	deprel: appos
+id: 34	word: )	upos: PUNCT	head id: 33	head: thankyou	deprel: punct
+id: 35	word: ,	upos: PUNCT	head id: 40	head: there	deprel: punct
+id: 36	word: and	upos: CCONJ	head id: 40	head: there	deprel: cc
+id: 37	word: the	upos: DET	head id: 40	head: there	deprel: det
+id: 38	word: existential	upos: ADJ	head id: 40	head: there	deprel: amod
+id: 39	word: ‘	upos: PUNCT	head id: 40	head: there	deprel: punct
+id: 40	word: there	upos: ADV	head id: 29	head: markers	deprel: conj
+id: 41	word: ’	upos: PUNCT	head id: 40	head: there	deprel: punct
+id: 42	word: (	upos: PUNCT	head id: 44	head: are	deprel: punct
+id: 43	word: there	upos: PRON	head id: 44	head: are	deprel: expl
+id: 44	word: are	upos: VERB	head id: 40	head: there	deprel: parataxis
+id: 45	word: horses	upos: NOUN	head id: 44	head: are	deprel: nsubj
+id: 46	word: but	upos: CCONJ	head id: 48	head: unicorns	deprel: cc
+id: 47	word: not	upos: PART	head id: 48	head: unicorns	deprel: advmod
+id: 48	word: unicorns	upos: NOUN	head id: 45	head: horses	deprel: conj
+id: 49	word: )	upos: PUNCT	head id: 44	head: are	deprel: punct
+id: 50	word: amongothers	upos: NOUN	head id: 44	head: are	deprel: nsubj
+id: 51	word: .	upos: PUNCT	head id: 3	head: has	deprel: punct
 
 spacy:
-word: English	upos: PROPN	head: has	deprel: nsubj
-word: also	upos: ADV	head: has	deprel: advmod
-word: has	upos: AUX	head: are	deprel: ccomp
-word: many	upos: ADJ	head: words	deprel: amod
-word: words	upos: NOUN	head: has	deprel: dobj
-word: of	upos: ADP	head: words	deprel: prep
-word: more	upos: ADJ	head: unique	deprel: advmod
-word: or	upos: CCONJ	head: more	deprel: cc
-word: less	upos: ADV	head: more	deprel: conj
-word: unique	upos: ADJ	head: function	deprel: amod
-word: function	upos: NOUN	head: of	deprel: pobj
-word: ,	upos: PUNCT	head: function	deprel: punct
-word: including	upos: VERB	head: function	deprel: prep
-word: interjections	upos: NOUN	head: including	deprel: pobj
-word: (	upos: PUNCT	head: interjections	deprel: punct
-word: oh	upos: INTJ	head: interjections	deprel: intj
-word: ,	upos: PUNCT	head: oh	deprel: punct
-word: ah	upos: INTJ	head: oh	deprel: intj
-word: )	upos: PUNCT	head: interjections	deprel: punct
-word: ,	upos: PUNCT	head: interjections	deprel: punct
-word: negatives	upos: PROPN	head: interjections	deprel: conj
-word: (	upos: PUNCT	head: negatives	deprel: punct
-word: no	upos: INTJ	head: negatives	deprel: intj
-word: ,	upos: PUNCT	head: negatives	deprel: punct
-word: not	upos: PART	head: negatives	deprel: neg
-word: )	upos: PUNCT	head: negatives	deprel: punct
-word: ,	upos: PUNCT	head: interjections	deprel: punct
-word: politeness	upos: NOUN	head: markers	deprel: compound
-word: markers	upos: NOUN	head: interjections	deprel: conj
-word: (	upos: PUNCT	head: markers	deprel: punct
-word: please	upos: INTJ	head: markers	deprel: intj
-word: ,	upos: PUNCT	head: markers	deprel: punct
-word: thankyou	upos: X	head: markers	deprel: npadvmod
-word: )	upos: PUNCT	head: interjections	deprel: punct
-word: ,	upos: PUNCT	head: interjections	deprel: punct
-word: and	upos: CCONJ	head: interjections	deprel: cc
-word: the	upos: DET	head: existential	deprel: det
-word: existential	upos: ADJ	head: interjections	deprel: conj
-word: ‘	upos: PUNCT	head: existential	deprel: punct
-word: there	upos: PRON	head: existential	deprel: advmod
-word: ’	upos: PUNCT	head: existential	deprel: punct
-word: (	upos: PUNCT	head: are	deprel: punct
-word: there	upos: PRON	head: are	deprel: expl
-word: are	upos: AUX	head: are	deprel: ROOT
-word: horses	upos: NOUN	head: amongothers	deprel: nmod
-word: but	upos: CCONJ	head: horses	deprel: cc
-word: not	upos: PART	head: unicorns	deprel: neg
-word: unicorns	upos: NOUN	head: horses	deprel: conj
-word: )	upos: PUNCT	head: amongothers	deprel: punct
-word: amongothers	upos: NOUN	head: are	deprel: attr
-word: .	upos: PUNCT	head: are	deprel: punct
+id: 1	word: English	upos: PROPN	head id: 3	head: has	deprel: nsubj
+id: 2	word: also	upos: ADV	head id: 3	head: has	deprel: advmod
+id: 3	word: has	upos: AUX	head id: 44	head: are	deprel: ccomp
+id: 4	word: many	upos: ADJ	head id: 5	head: words	deprel: amod
+id: 5	word: words	upos: NOUN	head id: 3	head: has	deprel: dobj
+id: 6	word: of	upos: ADP	head id: 5	head: words	deprel: prep
+id: 7	word: more	upos: ADJ	head id: 10	head: unique	deprel: advmod
+id: 8	word: or	upos: CCONJ	head id: 7	head: more	deprel: cc
+id: 9	word: less	upos: ADV	head id: 7	head: more	deprel: conj
+id: 10	word: unique	upos: ADJ	head id: 11	head: function	deprel: amod
+id: 11	word: function	upos: NOUN	head id: 6	head: of	deprel: pobj
+id: 12	word: ,	upos: PUNCT	head id: 11	head: function	deprel: punct
+id: 13	word: including	upos: VERB	head id: 11	head: function	deprel: prep
+id: 14	word: interjections	upos: NOUN	head id: 13	head: including	deprel: pobj
+id: 15	word: (	upos: PUNCT	head id: 14	head: interjections	deprel: punct
+id: 16	word: oh	upos: INTJ	head id: 14	head: interjections	deprel: intj
+id: 17	word: ,	upos: PUNCT	head id: 16	head: oh	deprel: punct
+id: 18	word: ah	upos: INTJ	head id: 16	head: oh	deprel: intj
+id: 19	word: )	upos: PUNCT	head id: 14	head: interjections	deprel: punct
+id: 20	word: ,	upos: PUNCT	head id: 14	head: interjections	deprel: punct
+id: 21	word: negatives	upos: PROPN	head id: 14	head: interjections	deprel: conj
+id: 22	word: (	upos: PUNCT	head id: 21	head: negatives	deprel: punct
+id: 23	word: no	upos: INTJ	head id: 21	head: negatives	deprel: intj
+id: 24	word: ,	upos: PUNCT	head id: 21	head: negatives	deprel: punct
+id: 25	word: not	upos: PART	head id: 21	head: negatives	deprel: neg
+id: 26	word: )	upos: PUNCT	head id: 21	head: negatives	deprel: punct
+id: 27	word: ,	upos: PUNCT	head id: 14	head: interjections	deprel: punct
+id: 28	word: politeness	upos: NOUN	head id: 29	head: markers	deprel: compound
+id: 29	word: markers	upos: NOUN	head id: 14	head: interjections	deprel: conj
+id: 30	word: (	upos: PUNCT	head id: 29	head: markers	deprel: punct
+id: 31	word: please	upos: INTJ	head id: 29	head: markers	deprel: intj
+id: 32	word: ,	upos: PUNCT	head id: 29	head: markers	deprel: punct
+id: 33	word: thankyou	upos: X	head id: 29	head: markers	deprel: npadvmod
+id: 34	word: )	upos: PUNCT	head id: 14	head: interjections	deprel: punct
+id: 35	word: ,	upos: PUNCT	head id: 14	head: interjections	deprel: punct
+id: 36	word: and	upos: CCONJ	head id: 14	head: interjections	deprel: cc
+id: 37	word: the	upos: DET	head id: 38	head: existential	deprel: det
+id: 38	word: existential	upos: ADJ	head id: 14	head: interjections	deprel: conj
+id: 39	word: ‘	upos: PUNCT	head id: 38	head: existential	deprel: punct
+id: 40	word: there	upos: PRON	head id: 38	head: existential	deprel: advmod
+id: 41	word: ’	upos: PUNCT	head id: 38	head: existential	deprel: punct
+id: 42	word: (	upos: PUNCT	head id: 44	head: are	deprel: punct
+id: 43	word: there	upos: PRON	head id: 44	head: are	deprel: expl
+id: 44	word: are	upos: AUX	head id: 0	head: are	deprel: root
+id: 45	word: horses	upos: NOUN	head id: 50	head: amongothers	deprel: nmod
+id: 46	word: but	upos: CCONJ	head id: 45	head: horses	deprel: cc
+id: 47	word: not	upos: PART	head id: 48	head: unicorns	deprel: neg
+id: 48	word: unicorns	upos: NOUN	head id: 45	head: horses	deprel: conj
+id: 49	word: )	upos: PUNCT	head id: 50	head: amongothers	deprel: punct
+id: 50	word: amongothers	upos: NOUN	head id: 44	head: are	deprel: attr
+id: 51	word: .	upos: PUNCT	head id: 44	head: are	deprel: punct
 
 End of sentence 15 
 
-16: Making these decisions requires sophisticated knowledge of syntax; tag-ging manuals (Santorini, 1990) give various heuristics that can help humancoders make these decisions and that can also provide useful features forautomatic taggers.
+16: Making these decisions requires sophisticated knowledge of syntax;
 stanza:
-word: Making	upos: VERB	head: requires	deprel: csubj
-word: these	upos: DET	head: decisions	deprel: det
-word: decisions	upos: NOUN	head: Making	deprel: obj
-word: requires	upos: VERB	head: root	deprel: root
-word: sophisticated	upos: ADJ	head: knowledge	deprel: amod
-word: knowledge	upos: NOUN	head: requires	deprel: obj
-word: of	upos: ADP	head: syntax	deprel: case
-word: syntax	upos: NOUN	head: knowledge	deprel: nmod
-word: ;	upos: PUNCT	head: requires	deprel: punct
-word: tag	upos: NOUN	head: ging	deprel: compound
-word: -	upos: PUNCT	head: ging	deprel: punct
-word: ging	upos: NOUN	head: manuals	deprel: compound
-word: manuals	upos: NOUN	head: give	deprel: nsubj
-word: (	upos: PUNCT	head: Santorini	deprel: punct
-word: Santorini	upos: PROPN	head: manuals	deprel: appos
-word: ,	upos: PUNCT	head: Santorini	deprel: punct
-word: 1990	upos: NUM	head: Santorini	deprel: nummod
-word: )	upos: PUNCT	head: Santorini	deprel: punct
-word: give	upos: VERB	head: requires	deprel: conj
-word: various	upos: ADJ	head: heuristics	deprel: amod
-word: heuristics	upos: NOUN	head: give	deprel: obj
-word: that	upos: PRON	head: help	deprel: nsubj
-word: can	upos: AUX	head: help	deprel: aux
-word: help	upos: VERB	head: heuristics	deprel: acl:relcl
-word: humancoders	upos: NOUN	head: make	deprel: nsubj
-word: make	upos: VERB	head: help	deprel: xcomp
-word: these	upos: DET	head: decisions	deprel: det
-word: decisions	upos: NOUN	head: make	deprel: obj
-word: and	upos: CCONJ	head: provide	deprel: cc
-word: that	upos: PRON	head: provide	deprel: nsubj
-word: can	upos: AUX	head: provide	deprel: aux
-word: also	upos: ADV	head: provide	deprel: advmod
-word: provide	upos: VERB	head: help	deprel: conj
-word: useful	upos: ADJ	head: features	deprel: amod
-word: features	upos: NOUN	head: provide	deprel: obj
-word: forautomatic	upos: ADJ	head: taggers	deprel: amod
-word: taggers	upos: NOUN	head: provide	deprel: obj
-word: .	upos: PUNCT	head: requires	deprel: punct
+id: 1	word: Making	upos: VERB	head id: 4	head: requires	deprel: csubj
+id: 2	word: these	upos: DET	head id: 3	head: decisions	deprel: det
+id: 3	word: decisions	upos: NOUN	head id: 1	head: Making	deprel: obj
+id: 4	word: requires	upos: VERB	head id: 0	head: root	deprel: root
+id: 5	word: sophisticated	upos: ADJ	head id: 6	head: knowledge	deprel: amod
+id: 6	word: knowledge	upos: NOUN	head id: 4	head: requires	deprel: obj
+id: 7	word: of	upos: ADP	head id: 8	head: syntax	deprel: case
+id: 8	word: syntax	upos: NOUN	head id: 6	head: knowledge	deprel: nmod
+id: 9	word: ;	upos: PUNCT	head id: 4	head: requires	deprel: punct
 
 spacy:
-word: Making	upos: VERB	head: give	deprel: advcl
-word: these	upos: DET	head: decisions	deprel: det
-word: decisions	upos: NOUN	head: requires	deprel: nsubj
-word: requires	upos: VERB	head: Making	deprel: ccomp
-word: sophisticated	upos: ADJ	head: knowledge	deprel: amod
-word: knowledge	upos: NOUN	head: requires	deprel: dobj
-word: of	upos: ADP	head: knowledge	deprel: prep
-word: syntax	upos: NOUN	head: of	deprel: pobj
-word: ;	upos: PUNCT	head: give	deprel: punct
-word: tag	upos: NOUN	head: ging	deprel: npadvmod
-word: -	upos: PUNCT	head: ging	deprel: punct
-word: ging	upos: VERB	head: manuals	deprel: amod
-word: manuals	upos: NOUN	head: give	deprel: nsubj
-word: (	upos: PUNCT	head: manuals	deprel: punct
-word: Santorini	upos: PROPN	head: manuals	deprel: appos
-word: ,	upos: PUNCT	head: Santorini	deprel: punct
-word: 1990	upos: NUM	head: Santorini	deprel: npadvmod
-word: )	upos: PUNCT	head: manuals	deprel: punct
-word: give	upos: VERB	head: give	deprel: ROOT
-word: various	upos: ADJ	head: heuristics	deprel: amod
-word: heuristics	upos: NOUN	head: give	deprel: dobj
-word: that	upos: DET	head: help	deprel: nsubj
-word: can	upos: VERB	head: help	deprel: aux
-word: help	upos: VERB	head: heuristics	deprel: relcl
-word: humancoders	upos: NOUN	head: make	deprel: nsubj
-word: make	upos: VERB	head: help	deprel: ccomp
-word: these	upos: DET	head: decisions	deprel: det
-word: decisions	upos: NOUN	head: make	deprel: dobj
-word: and	upos: CCONJ	head: help	deprel: cc
-word: that	upos: DET	head: provide	deprel: nsubj
-word: can	upos: VERB	head: provide	deprel: aux
-word: also	upos: ADV	head: provide	deprel: advmod
-word: provide	upos: VERB	head: help	deprel: conj
-word: useful	upos: ADJ	head: features	deprel: amod
-word: features	upos: NOUN	head: provide	deprel: dobj
-word: forautomatic	upos: ADJ	head: taggers	deprel: amod
-word: taggers	upos: NOUN	head: provide	deprel: dobj
-word: .	upos: PUNCT	head: give	deprel: punct
+id: 1	word: Making	upos: VERB	head id: 0	head: Making	deprel: root
+id: 2	word: these	upos: DET	head id: 3	head: decisions	deprel: det
+id: 3	word: decisions	upos: NOUN	head id: 4	head: requires	deprel: nsubj
+id: 4	word: requires	upos: VERB	head id: 1	head: Making	deprel: ccomp
+id: 5	word: sophisticated	upos: ADJ	head id: 6	head: knowledge	deprel: amod
+id: 6	word: knowledge	upos: NOUN	head id: 4	head: requires	deprel: dobj
+id: 7	word: of	upos: ADP	head id: 6	head: knowledge	deprel: prep
+id: 8	word: syntax	upos: NOUN	head id: 7	head: of	deprel: pobj
+id: 9	word: ;	upos: PUNCT	head id: 1	head: Making	deprel: punct
 
 End of sentence 16 
 
-17: The Penn Treebank tagset was culled from the original 87-tag tagset forthe Brown Corpus. For example the original Brown and C5 tagsets include a separate tag for each of the different forms of the verbs do (e.g. C5 tagVDD fordidand VDG tag fordoing), be and have.
+17: tag-ging manuals (Santorini, 1990) give various heuristics that can help humancoders make these decisions and that can also provide useful features forautomatic taggers.
 stanza:
-word: The	upos: DET	head: tagset	deprel: det
-word: Penn	upos: PROPN	head: tagset	deprel: compound
-word: Treebank	upos: PROPN	head: tagset	deprel: compound
-word: tagset	upos: NOUN	head: culled	deprel: nsubj:pass
-word: was	upos: AUX	head: culled	deprel: aux:pass
-word: culled	upos: VERB	head: root	deprel: root
-word: from	upos: ADP	head: tagset	deprel: case
-word: the	upos: DET	head: tagset	deprel: det
-word: original	upos: ADJ	head: tagset	deprel: amod
-word: 87	upos: NUM	head: tag	deprel: nummod
-word: -	upos: PUNCT	head: tag	deprel: punct
-word: tag	upos: NOUN	head: tagset	deprel: compound
-word: tagset	upos: NOUN	head: culled	deprel: obl
-word: forthe	upos: ADP	head: Corpus	deprel: case
-word: Brown	upos: PROPN	head: Corpus	deprel: compound
-word: Corpus	upos: PROPN	head: tagset	deprel: nmod
-word: .	upos: PUNCT	head: culled	deprel: punct
-word: For	upos: ADP	head: example	deprel: case
-word: example	upos: NOUN	head: include	deprel: obl
-word: the	upos: DET	head: Brown	deprel: det
-word: original	upos: ADJ	head: Brown	deprel: amod
-word: Brown	upos: PROPN	head: include	deprel: nsubj
-word: and	upos: CCONJ	head: tagsets	deprel: cc
-word: C5	upos: PROPN	head: tagsets	deprel: compound
-word: tagsets	upos: NOUN	head: Brown	deprel: conj
-word: include	upos: VERB	head: root	deprel: root
-word: a	upos: DET	head: tag	deprel: det
-word: separate	upos: ADJ	head: tag	deprel: amod
-word: tag	upos: NOUN	head: include	deprel: obj
-word: for	upos: ADP	head: each	deprel: case
-word: each	upos: DET	head: tag	deprel: nmod
-word: of	upos: ADP	head: forms	deprel: case
-word: the	upos: DET	head: forms	deprel: det
-word: different	upos: ADJ	head: forms	deprel: amod
-word: forms	upos: NOUN	head: each	deprel: nmod
-word: of	upos: ADP	head: verbs	deprel: case
-word: the	upos: DET	head: verbs	deprel: det
-word: verbs	upos: NOUN	head: forms	deprel: nmod
-word: do	upos: VERB	head: tag	deprel: acl:relcl
-word: (	upos: PUNCT	head: fordoing	deprel: punct
-word: e.g.	upos: X	head: fordoing	deprel: advmod
-word: C5	upos: NOUN	head: fordoing	deprel: compound
-word: tagVDD	upos: NOUN	head: fordoing	deprel: compound
-word: fordidand	upos: NOUN	head: fordoing	deprel: compound
-word: VDG	upos: NOUN	head: fordoing	deprel: compound
-word: tag	upos: NOUN	head: fordoing	deprel: compound
-word: fordoing	upos: NOUN	head: do	deprel: obj
-word: )	upos: PUNCT	head: fordoing	deprel: punct
-word: ,	upos: PUNCT	head: be	deprel: punct
-word: be	upos: VERB	head: do	deprel: conj
-word: and	upos: CCONJ	head: have	deprel: cc
-word: have	upos: VERB	head: be	deprel: conj
-word: .	upos: PUNCT	head: include	deprel: punct
+id: 1	word: tag	upos: NOUN	head id: 3	head: ging	deprel: compound
+id: 2	word: -	upos: PUNCT	head id: 3	head: ging	deprel: punct
+id: 3	word: ging	upos: NOUN	head id: 4	head: manuals	deprel: compound
+id: 4	word: manuals	upos: NOUN	head id: 10	head: give	deprel: nsubj
+id: 5	word: (	upos: PUNCT	head id: 6	head: Santorini	deprel: punct
+id: 6	word: Santorini	upos: PROPN	head id: 4	head: manuals	deprel: appos
+id: 7	word: ,	upos: PUNCT	head id: 6	head: Santorini	deprel: punct
+id: 8	word: 1990	upos: NUM	head id: 6	head: Santorini	deprel: nummod
+id: 9	word: )	upos: PUNCT	head id: 6	head: Santorini	deprel: punct
+id: 10	word: give	upos: VERB	head id: 0	head: root	deprel: root
+id: 11	word: various	upos: ADJ	head id: 12	head: heuristics	deprel: amod
+id: 12	word: heuristics	upos: NOUN	head id: 10	head: give	deprel: obj
+id: 13	word: that	upos: PRON	head id: 15	head: help	deprel: nsubj
+id: 14	word: can	upos: AUX	head id: 15	head: help	deprel: aux
+id: 15	word: help	upos: VERB	head id: 12	head: heuristics	deprel: relcl
+id: 16	word: humancoders	upos: NOUN	head id: 15	head: help	deprel: obj
+id: 17	word: make	upos: VERB	head id: 15	head: help	deprel: xcomp
+id: 18	word: these	upos: DET	head id: 19	head: decisions	deprel: det
+id: 19	word: decisions	upos: NOUN	head id: 17	head: make	deprel: obj
+id: 20	word: and	upos: CCONJ	head id: 24	head: provide	deprel: cc
+id: 21	word: that	upos: PRON	head id: 24	head: provide	deprel: nsubj
+id: 22	word: can	upos: AUX	head id: 24	head: provide	deprel: aux
+id: 23	word: also	upos: ADV	head id: 24	head: provide	deprel: advmod
+id: 24	word: provide	upos: VERB	head id: 10	head: give	deprel: conj
+id: 25	word: useful	upos: ADJ	head id: 26	head: features	deprel: amod
+id: 26	word: features	upos: NOUN	head id: 24	head: provide	deprel: obj
+id: 27	word: forautomatic	upos: ADJ	head id: 28	head: taggers	deprel: amod
+id: 28	word: taggers	upos: NOUN	head id: 24	head: provide	deprel: obj
+id: 29	word: .	upos: PUNCT	head id: 10	head: give	deprel: punct
 
 spacy:
-word: The	upos: DET	head: tagset	deprel: det
-word: Penn	upos: PROPN	head: Treebank	deprel: compound
-word: Treebank	upos: PROPN	head: tagset	deprel: compound
-word: tagset	upos: NOUN	head: culled	deprel: nsubjpass
-word: was	upos: AUX	head: culled	deprel: auxpass
-word: culled	upos: VERB	head: culled	deprel: ROOT
-word: from	upos: ADP	head: culled	deprel: prep
-word: the	upos: DET	head: Corpus	deprel: det
-word: original	upos: ADJ	head: Corpus	deprel: amod
-word: 87-tag	upos: NUM	head: tagset	deprel: nummod
-word: tagset	upos: NOUN	head: Corpus	deprel: compound
-word: forthe	upos: DET	head: Corpus	deprel: compound
-word: Brown	upos: PROPN	head: Corpus	deprel: compound
-word: Corpus	upos: PROPN	head: from	deprel: pobj
-word: .	upos: PUNCT	head: culled	deprel: punct
-word: For	upos: ADP	head: include	deprel: prep
-word: example	upos: NOUN	head: For	deprel: pobj
-word: the	upos: DET	head: tagsets	deprel: det
-word: original	upos: ADJ	head: tagsets	deprel: amod
-word: Brown	upos: PROPN	head: tagsets	deprel: nmod
-word: and	upos: CCONJ	head: Brown	deprel: cc
-word: C5	upos: PROPN	head: Brown	deprel: conj
-word: tagsets	upos: NOUN	head: include	deprel: nsubj
-word: include	upos: VERB	head: include	deprel: ROOT
-word: a	upos: DET	head: tag	deprel: det
-word: separate	upos: ADJ	head: tag	deprel: amod
-word: tag	upos: NOUN	head: include	deprel: dobj
-word: for	upos: ADP	head: tag	deprel: prep
-word: each	upos: DET	head: for	deprel: pobj
-word: of	upos: ADP	head: each	deprel: prep
-word: the	upos: DET	head: forms	deprel: det
-word: different	upos: ADJ	head: forms	deprel: amod
-word: forms	upos: NOUN	head: of	deprel: pobj
-word: of	upos: ADP	head: forms	deprel: prep
-word: the	upos: DET	head: verbs	deprel: det
-word: verbs	upos: NOUN	head: of	deprel: pobj
-word: do	upos: AUX	head: include	deprel: dobj
-word: (	upos: PUNCT	head: VDG	deprel: punct
-word: e.g.	upos: ADV	head: fordidand	deprel: compound
-word: C5	upos: PROPN	head: fordidand	deprel: compound
-word: tagVDD	upos: PROPN	head: fordidand	deprel: compound
-word: fordidand	upos: NOUN	head: VDG	deprel: nsubj
-word: VDG	upos: PROPN	head: do	deprel: parataxis
-word: tag	upos: NOUN	head: fordoing	deprel: compound
-word: fordoing	upos: NOUN	head: VDG	deprel: dobj
-word: )	upos: PUNCT	head: VDG	deprel: punct
-word: ,	upos: PUNCT	head: do	deprel: punct
-word: be	upos: AUX	head: be	deprel: ROOT
-word: and	upos: CCONJ	head: be	deprel: cc
-word: have	upos: AUX	head: be	deprel: conj
-word: .	upos: PUNCT	head: be	deprel: punct
+id: 1	word: tag	upos: NOUN	head id: 3	head: ging	deprel: npadvmod
+id: 2	word: -	upos: PUNCT	head id: 3	head: ging	deprel: punct
+id: 3	word: ging	upos: VERB	head id: 4	head: manuals	deprel: amod
+id: 4	word: manuals	upos: NOUN	head id: 10	head: give	deprel: nsubj
+id: 5	word: (	upos: PUNCT	head id: 4	head: manuals	deprel: punct
+id: 6	word: Santorini	upos: PROPN	head id: 4	head: manuals	deprel: appos
+id: 7	word: ,	upos: PUNCT	head id: 6	head: Santorini	deprel: punct
+id: 8	word: 1990	upos: NUM	head id: 6	head: Santorini	deprel: appos
+id: 9	word: )	upos: PUNCT	head id: 6	head: Santorini	deprel: punct
+id: 10	word: give	upos: VERB	head id: 0	head: give	deprel: root
+id: 11	word: various	upos: ADJ	head id: 12	head: heuristics	deprel: amod
+id: 12	word: heuristics	upos: NOUN	head id: 10	head: give	deprel: dobj
+id: 13	word: that	upos: DET	head id: 15	head: help	deprel: nsubj
+id: 14	word: can	upos: VERB	head id: 15	head: help	deprel: aux
+id: 15	word: help	upos: VERB	head id: 12	head: heuristics	deprel: relcl
+id: 16	word: humancoders	upos: NOUN	head id: 17	head: make	deprel: nsubj
+id: 17	word: make	upos: VERB	head id: 15	head: help	deprel: ccomp
+id: 18	word: these	upos: DET	head id: 19	head: decisions	deprel: det
+id: 19	word: decisions	upos: NOUN	head id: 17	head: make	deprel: dobj
+id: 20	word: and	upos: CCONJ	head id: 15	head: help	deprel: cc
+id: 21	word: that	upos: DET	head id: 24	head: provide	deprel: nsubj
+id: 22	word: can	upos: VERB	head id: 24	head: provide	deprel: aux
+id: 23	word: also	upos: ADV	head id: 24	head: provide	deprel: advmod
+id: 24	word: provide	upos: VERB	head id: 15	head: help	deprel: conj
+id: 25	word: useful	upos: ADJ	head id: 26	head: features	deprel: amod
+id: 26	word: features	upos: NOUN	head id: 24	head: provide	deprel: dobj
+id: 27	word: forautomatic	upos: ADJ	head id: 28	head: taggers	deprel: amod
+id: 28	word: taggers	upos: NOUN	head id: 24	head: provide	deprel: dobj
+id: 29	word: .	upos: PUNCT	head id: 10	head: give	deprel: punct
 
 End of sentence 17 
 
-18: The slightly simplified version of the Viterbi algorithm that we present takesas input a single HMM and a sequence of observed words O = (o1, o2, ... oT) and returns the most probable state/tag sequence Q= (q1, q2, qT) together with its probability.
+18: The Penn Treebank tagset was culled from the original 87-tag tagset forthe Brown Corpus.
 stanza:
-word: The	upos: DET	head: version	deprel: det
-word: slightly	upos: ADV	head: simplified	deprel: advmod
-word: simplified	upos: VERB	head: version	deprel: amod
-word: version	upos: NOUN	head: HMM	deprel: nsubj
-word: of	upos: ADP	head: algorithm	deprel: case
-word: the	upos: DET	head: algorithm	deprel: det
-word: Viterbi	upos: NOUN	head: algorithm	deprel: compound
-word: algorithm	upos: NOUN	head: version	deprel: nmod
-word: that	upos: PRON	head: present	deprel: obj
-word: we	upos: PRON	head: present	deprel: nsubj
-word: present	upos: VERB	head: algorithm	deprel: acl:relcl
-word: takesas	upos: NOUN	head: input	deprel: compound
-word: input	upos: NOUN	head: present	deprel: obj
-word: a	upos: DET	head: HMM	deprel: det
-word: single	upos: ADJ	head: HMM	deprel: amod
-word: HMM	upos: NOUN	head: root	deprel: root
-word: and	upos: CCONJ	head: sequence	deprel: cc
-word: a	upos: DET	head: sequence	deprel: det
-word: sequence	upos: NOUN	head: HMM	deprel: conj
-word: of	upos: ADP	head: words	deprel: case
-word: observed	upos: VERB	head: words	deprel: amod
-word: words	upos: NOUN	head: sequence	deprel: nmod
-word: O	upos: ADP	head: o1	deprel: case
-word: =	upos: PUNCT	head: o1	deprel: punct
-word: (	upos: PUNCT	head: o1	deprel: punct
-word: o1	upos: NOUN	head: words	deprel: appos
-word: ,	upos: PUNCT	head: o1	deprel: punct
-word: o	upos: ADP	head: 2	deprel: case
-word: 2	upos: NUM	head: o1	deprel: nmod
-word: ,	upos: PUNCT	head: o1	deprel: punct
-word: ...	upos: PUNCT	head: o1	deprel: punct
-word: o	upos: ADP	head: T	deprel: case
-word: T	upos: NOUN	head: o1	deprel: nmod
-word: )	upos: PUNCT	head: o1	deprel: punct
-word: and	upos: CCONJ	head: returns	deprel: cc
-word: returns	upos: VERB	head: HMM	deprel: conj
-word: the	upos: DET	head: Q	deprel: det
-word: most	upos: ADV	head: probable	deprel: advmod
-word: probable	upos: ADJ	head: Q	deprel: amod
-word: state	upos: NOUN	head: Q	deprel: compound
-word: /	upos: PUNCT	head: sequence	deprel: cc
-word: tag	upos: NOUN	head: sequence	deprel: compound
-word: sequence	upos: NOUN	head: Q	deprel: compound
-word: Q	upos: NOUN	head: returns	deprel: obj
-word: =	upos: SYM	head: Q	deprel: punct
-word: (	upos: PUNCT	head: q	deprel: punct
-word: q	upos: NOUN	head: Q	deprel: appos
-word: 1	upos: NUM	head: q	deprel: nummod
-word: ,	upos: PUNCT	head: q	deprel: punct
-word: q	upos: NOUN	head: q	deprel: appos
-word: 2	upos: NUM	head: q	deprel: nummod
-word: ,	upos: PUNCT	head: q	deprel: punct
-word: q	upos: NOUN	head: T	deprel: compound
-word: T	upos: NOUN	head: q	deprel: appos
-word: )	upos: PUNCT	head: q	deprel: punct
-word: together	upos: ADV	head: q	deprel: advmod
-word: with	upos: ADP	head: probability	deprel: case
-word: its	upos: PRON	head: probability	deprel: nmod:poss
-word: probability	upos: NOUN	head: together	deprel: obl
-word: .	upos: PUNCT	head: HMM	deprel: punct
+id: 1	word: The	upos: DET	head id: 4	head: tagset	deprel: det
+id: 2	word: Penn	upos: PROPN	head id: 4	head: tagset	deprel: compound
+id: 3	word: Treebank	upos: PROPN	head id: 4	head: tagset	deprel: compound
+id: 4	word: tagset	upos: NOUN	head id: 6	head: culled	deprel: nsubjpass
+id: 5	word: was	upos: AUX	head id: 6	head: culled	deprel: auxpass
+id: 6	word: culled	upos: VERB	head id: 0	head: root	deprel: root
+id: 7	word: from	upos: ADP	head id: 13	head: tagset	deprel: case
+id: 8	word: the	upos: DET	head id: 13	head: tagset	deprel: det
+id: 9	word: original	upos: ADJ	head id: 13	head: tagset	deprel: amod
+id: 10	word: 87	upos: NUM	head id: 12	head: tag	deprel: nummod
+id: 11	word: -	upos: PUNCT	head id: 12	head: tag	deprel: punct
+id: 12	word: tag	upos: NOUN	head id: 13	head: tagset	deprel: compound
+id: 13	word: tagset	upos: NOUN	head id: 6	head: culled	deprel: pobj
+id: 14	word: forthe	upos: ADP	head id: 16	head: Corpus	deprel: case
+id: 15	word: Brown	upos: PROPN	head id: 16	head: Corpus	deprel: compound
+id: 16	word: Corpus	upos: PROPN	head id: 13	head: tagset	deprel: nmod
+id: 17	word: .	upos: PUNCT	head id: 6	head: culled	deprel: punct
 
 spacy:
-word: The	upos: DET	head: version	deprel: det
-word: slightly	upos: ADV	head: simplified	deprel: advmod
-word: simplified	upos: VERB	head: version	deprel: amod
-word: version	upos: NOUN	head: input	deprel: nsubj
-word: of	upos: ADP	head: version	deprel: prep
-word: the	upos: DET	head: algorithm	deprel: det
-word: Viterbi	upos: PROPN	head: algorithm	deprel: compound
-word: algorithm	upos: NOUN	head: of	deprel: pobj
-word: that	upos: SCONJ	head: present	deprel: mark
-word: we	upos: PRON	head: present	deprel: nsubj
-word: present	upos: VERB	head: version	deprel: acl
-word: takesas	upos: NOUN	head: input	deprel: compound
-word: input	upos: NOUN	head: input	deprel: ROOT
-word: a	upos: DET	head: HMM	deprel: det
-word: single	upos: ADJ	head: HMM	deprel: amod
-word: HMM	upos: PROPN	head: input	deprel: dobj
-word: and	upos: CCONJ	head: HMM	deprel: cc
-word: a	upos: DET	head: sequence	deprel: det
-word: sequence	upos: NOUN	head: HMM	deprel: conj
-word: of	upos: ADP	head: sequence	deprel: prep
-word: observed	upos: ADJ	head: words	deprel: amod
-word: words	upos: NOUN	head: of	deprel: pobj
-word: O	upos: INTJ	head: O	deprel: ROOT
-word: =	upos: PUNCT	head: O	deprel: punct
-word: (	upos: PUNCT	head: o1	deprel: punct
-word: o1	upos: NOUN	head: o1	deprel: ROOT
-word: ,	upos: PUNCT	head: o1	deprel: punct
-word: o2	upos: PROPN	head: o1	deprel: appos
-word: ,	upos: PUNCT	head: o2	deprel: punct
-word: ...	upos: PUNCT	head: o1	deprel: punct
-word: oT	upos: X	head: o1	deprel: appos
-word: )	upos: PUNCT	head: o1	deprel: punct
-word: and	upos: CCONJ	head: o1	deprel: cc
-word: returns	upos: VERB	head: o1	deprel: conj
-word: the	upos: DET	head: Q=	deprel: det
-word: most	upos: ADV	head: probable	deprel: advmod
-word: probable	upos: ADJ	head: Q=	deprel: amod
-word: state	upos: NOUN	head: tag	deprel: nmod
-word: /	upos: SYM	head: tag	deprel: punct
-word: tag	upos: NOUN	head: sequence	deprel: compound
-word: sequence	upos: NOUN	head: Q=	deprel: compound
-word: Q=	upos: PROPN	head: returns	deprel: dobj
-word: (	upos: PUNCT	head: Q=	deprel: punct
-word: q1	upos: PROPN	head: Q=	deprel: appos
-word: ,	upos: PUNCT	head: q1	deprel: punct
-word: q2	upos: PROPN	head: q1	deprel: npadvmod
-word: ,	upos: PUNCT	head: q2	deprel: punct
-word: qT	upos: PROPN	head: q2	deprel: appos
-word: )	upos: PUNCT	head: returns	deprel: punct
-word: together	upos: ADV	head: with	deprel: advmod
-word: with	upos: ADP	head: returns	deprel: prep
-word: its	upos: DET	head: probability	deprel: poss
-word: probability	upos: NOUN	head: with	deprel: pobj
-word: .	upos: PUNCT	head: o1	deprel: punct
+id: 1	word: The	upos: DET	head id: 4	head: tagset	deprel: det
+id: 2	word: Penn	upos: PROPN	head id: 3	head: Treebank	deprel: compound
+id: 3	word: Treebank	upos: PROPN	head id: 4	head: tagset	deprel: compound
+id: 4	word: tagset	upos: NOUN	head id: 6	head: culled	deprel: nsubjpass
+id: 5	word: was	upos: AUX	head id: 6	head: culled	deprel: auxpass
+id: 6	word: culled	upos: VERB	head id: 0	head: culled	deprel: root
+id: 7	word: from	upos: ADP	head id: 6	head: culled	deprel: prep
+id: 8	word: the	upos: DET	head id: 14	head: Corpus	deprel: det
+id: 9	word: original	upos: ADJ	head id: 14	head: Corpus	deprel: amod
+id: 10	word: 87-tag	upos: NUM	head id: 11	head: tagset	deprel: nummod
+id: 11	word: tagset	upos: NOUN	head id: 14	head: Corpus	deprel: compound
+id: 12	word: forthe	upos: DET	head id: 14	head: Corpus	deprel: compound
+id: 13	word: Brown	upos: PROPN	head id: 14	head: Corpus	deprel: compound
+id: 14	word: Corpus	upos: PROPN	head id: 7	head: from	deprel: pobj
+id: 15	word: .	upos: PUNCT	head id: 6	head: culled	deprel: punct
 
 End of sentence 18 
 
-19: Thus the EM-trained “pure HMM” tagger is probably best suited to cases where no training data is available, for example, when tagging languages for which no data was previously hand-tagged.
+19: For example the original Brown and C5 tagsets include a separate tag for each of the different forms of the verbs do (e.g. C5 tagVDD fordidand VDG tag fordoing), be and have.
 stanza:
-word: Thus	upos: ADV	head: suited	deprel: advmod
-word: the	upos: DET	head: tagger	deprel: det
-word: EM	upos: PROPN	head: trained	deprel: obl:npmod
-word: -	upos: PUNCT	head: trained	deprel: punct
-word: trained	upos: VERB	head: tagger	deprel: amod
-word: “	upos: PUNCT	head: HMM	deprel: punct
-word: pure	upos: ADJ	head: tagger	deprel: amod
-word: HMM	upos: INTJ	head: tagger	deprel: appos
-word: ”	upos: PUNCT	head: HMM	deprel: punct
-word: tagger	upos: NOUN	head: suited	deprel: nsubj:pass
-word: is	upos: AUX	head: suited	deprel: aux:pass
-word: probably	upos: ADV	head: suited	deprel: advmod
-word: best	upos: ADV	head: suited	deprel: advmod
-word: suited	upos: VERB	head: root	deprel: root
-word: to	upos: ADP	head: cases	deprel: case
-word: cases	upos: NOUN	head: suited	deprel: obl
-word: where	upos: ADV	head: available	deprel: advmod
-word: no	upos: DET	head: data	deprel: det
-word: training	upos: NOUN	head: data	deprel: compound
-word: data	upos: NOUN	head: available	deprel: nsubj
-word: is	upos: AUX	head: available	deprel: cop
-word: available	upos: ADJ	head: cases	deprel: acl:relcl
-word: ,	upos: PUNCT	head: available	deprel: punct
-word: for	upos: ADP	head: example	deprel: case
-word: example	upos: NOUN	head: available	deprel: obl
-word: ,	upos: PUNCT	head: available	deprel: punct
-word: when	upos: ADV	head: tagging	deprel: mark
-word: tagging	upos: VERB	head: available	deprel: advcl
-word: languages	upos: NOUN	head: tagging	deprel: obj
-word: for	upos: ADP	head: which	deprel: case
-word: which	upos: PRON	head: tagged	deprel: obl
-word: no	upos: DET	head: data	deprel: det
-word: data	upos: NOUN	head: tagged	deprel: nsubj:pass
-word: was	upos: AUX	head: tagged	deprel: aux:pass
-word: previously	upos: ADV	head: tagged	deprel: advmod
-word: hand	upos: NOUN	head: tagged	deprel: obl:npmod
-word: -	upos: PUNCT	head: tagged	deprel: punct
-word: tagged	upos: VERB	head: languages	deprel: acl:relcl
-word: .	upos: PUNCT	head: suited	deprel: punct
+id: 1	word: For	upos: ADP	head id: 2	head: example	deprel: case
+id: 2	word: example	upos: NOUN	head id: 9	head: include	deprel: pobj
+id: 3	word: the	upos: DET	head id: 5	head: Brown	deprel: det
+id: 4	word: original	upos: ADJ	head id: 5	head: Brown	deprel: amod
+id: 5	word: Brown	upos: PROPN	head id: 9	head: include	deprel: nsubj
+id: 6	word: and	upos: CCONJ	head id: 8	head: tagsets	deprel: cc
+id: 7	word: C5	upos: PROPN	head id: 8	head: tagsets	deprel: compound
+id: 8	word: tagsets	upos: NOUN	head id: 5	head: Brown	deprel: conj
+id: 9	word: include	upos: VERB	head id: 0	head: root	deprel: root
+id: 10	word: a	upos: DET	head id: 12	head: tag	deprel: det
+id: 11	word: separate	upos: ADJ	head id: 12	head: tag	deprel: amod
+id: 12	word: tag	upos: NOUN	head id: 9	head: include	deprel: obj
+id: 13	word: for	upos: ADP	head id: 14	head: each	deprel: case
+id: 14	word: each	upos: DET	head id: 12	head: tag	deprel: nmod
+id: 15	word: of	upos: ADP	head id: 18	head: forms	deprel: case
+id: 16	word: the	upos: DET	head id: 18	head: forms	deprel: det
+id: 17	word: different	upos: ADJ	head id: 18	head: forms	deprel: amod
+id: 18	word: forms	upos: NOUN	head id: 14	head: each	deprel: nmod
+id: 19	word: of	upos: ADP	head id: 21	head: verbs	deprel: case
+id: 20	word: the	upos: DET	head id: 21	head: verbs	deprel: det
+id: 21	word: verbs	upos: NOUN	head id: 18	head: forms	deprel: nmod
+id: 22	word: do	upos: VERB	head id: 12	head: tag	deprel: relcl
+id: 23	word: (	upos: PUNCT	head id: 30	head: fordoing	deprel: punct
+id: 24	word: e.g.	upos: X	head id: 30	head: fordoing	deprel: advmod
+id: 25	word: C5	upos: NOUN	head id: 30	head: fordoing	deprel: compound
+id: 26	word: tagVDD	upos: NOUN	head id: 30	head: fordoing	deprel: compound
+id: 27	word: fordidand	upos: NOUN	head id: 30	head: fordoing	deprel: compound
+id: 28	word: VDG	upos: NOUN	head id: 30	head: fordoing	deprel: compound
+id: 29	word: tag	upos: NOUN	head id: 30	head: fordoing	deprel: compound
+id: 30	word: fordoing	upos: NOUN	head id: 22	head: do	deprel: obj
+id: 31	word: )	upos: PUNCT	head id: 30	head: fordoing	deprel: punct
+id: 32	word: ,	upos: PUNCT	head id: 33	head: be	deprel: punct
+id: 33	word: be	upos: VERB	head id: 22	head: do	deprel: conj
+id: 34	word: and	upos: CCONJ	head id: 35	head: have	deprel: cc
+id: 35	word: have	upos: VERB	head id: 33	head: be	deprel: conj
+id: 36	word: .	upos: PUNCT	head id: 9	head: include	deprel: punct
 
 spacy:
-word: Thus	upos: ADV	head: suited	deprel: advmod
-word: the	upos: DET	head: tagger	deprel: det
-word: EM	upos: NOUN	head: trained	deprel: npadvmod
-word: -	upos: PUNCT	head: trained	deprel: punct
-word: trained	upos: VERB	head: tagger	deprel: amod
-word: “	upos: PUNCT	head: tagger	deprel: punct
-word: pure	upos: ADJ	head: HMM	deprel: amod
-word: HMM	upos: PROPN	head: tagger	deprel: nmod
-word: ”	upos: PUNCT	head: tagger	deprel: punct
-word: tagger	upos: NOUN	head: suited	deprel: nsubjpass
-word: is	upos: AUX	head: suited	deprel: auxpass
-word: probably	upos: ADV	head: suited	deprel: advmod
-word: best	upos: ADV	head: suited	deprel: advmod
-word: suited	upos: ADJ	head: suited	deprel: ROOT
-word: to	upos: ADP	head: suited	deprel: prep
-word: cases	upos: NOUN	head: to	deprel: pobj
-word: where	upos: ADV	head: is	deprel: advmod
-word: no	upos: DET	head: data	deprel: det
-word: training	upos: NOUN	head: data	deprel: compound
-word: data	upos: NOUN	head: is	deprel: nsubj
-word: is	upos: AUX	head: cases	deprel: relcl
-word: available	upos: ADJ	head: is	deprel: acomp
-word: ,	upos: PUNCT	head: suited	deprel: punct
-word: for	upos: ADP	head: suited	deprel: prep
-word: example	upos: NOUN	head: for	deprel: pobj
-word: ,	upos: PUNCT	head: suited	deprel: punct
-word: when	upos: ADV	head: tagging	deprel: advmod
-word: tagging	upos: VERB	head: suited	deprel: advcl
-word: languages	upos: NOUN	head: tagging	deprel: dobj
-word: for	upos: ADP	head: was	deprel: prep
-word: which	upos: DET	head: for	deprel: pobj
-word: no	upos: DET	head: data	deprel: det
-word: data	upos: NOUN	head: was	deprel: nsubj
-word: was	upos: AUX	head: tagged	deprel: auxpass
-word: previously	upos: ADV	head: tagged	deprel: advmod
-word: hand	upos: NOUN	head: tagged	deprel: npadvmod
-word: -	upos: PUNCT	head: tagged	deprel: punct
-word: tagged	upos: VERB	head: languages	deprel: amod
-word: .	upos: PUNCT	head: suited	deprel: punct
+id: 1	word: For	upos: ADP	head id: 9	head: include	deprel: prep
+id: 2	word: example	upos: NOUN	head id: 1	head: For	deprel: pobj
+id: 3	word: the	upos: DET	head id: 8	head: tagsets	deprel: det
+id: 4	word: original	upos: ADJ	head id: 8	head: tagsets	deprel: amod
+id: 5	word: Brown	upos: PROPN	head id: 8	head: tagsets	deprel: nmod
+id: 6	word: and	upos: CCONJ	head id: 5	head: Brown	deprel: cc
+id: 7	word: C5	upos: PROPN	head id: 5	head: Brown	deprel: conj
+id: 8	word: tagsets	upos: NOUN	head id: 9	head: include	deprel: nsubj
+id: 9	word: include	upos: VERB	head id: 0	head: include	deprel: root
+id: 10	word: a	upos: DET	head id: 12	head: tag	deprel: det
+id: 11	word: separate	upos: ADJ	head id: 12	head: tag	deprel: amod
+id: 12	word: tag	upos: NOUN	head id: 9	head: include	deprel: dobj
+id: 13	word: for	upos: ADP	head id: 12	head: tag	deprel: prep
+id: 14	word: each	upos: DET	head id: 13	head: for	deprel: pobj
+id: 15	word: of	upos: ADP	head id: 14	head: each	deprel: prep
+id: 16	word: the	upos: DET	head id: 18	head: forms	deprel: det
+id: 17	word: different	upos: ADJ	head id: 18	head: forms	deprel: amod
+id: 18	word: forms	upos: NOUN	head id: 15	head: of	deprel: pobj
+id: 19	word: of	upos: ADP	head id: 18	head: forms	deprel: prep
+id: 20	word: the	upos: DET	head id: 21	head: verbs	deprel: det
+id: 21	word: verbs	upos: NOUN	head id: 19	head: of	deprel: pobj
+id: 22	word: do	upos: AUX	head id: 9	head: include	deprel: dobj
+id: 23	word: (	upos: PUNCT	head id: 28	head: VDG	deprel: punct
+id: 24	word: e.g.	upos: ADV	head id: 27	head: fordidand	deprel: compound
+id: 25	word: C5	upos: PROPN	head id: 27	head: fordidand	deprel: compound
+id: 26	word: tagVDD	upos: PROPN	head id: 27	head: fordidand	deprel: compound
+id: 27	word: fordidand	upos: NOUN	head id: 28	head: VDG	deprel: nsubj
+id: 28	word: VDG	upos: PROPN	head id: 22	head: do	deprel: parataxis
+id: 29	word: tag	upos: NOUN	head id: 30	head: fordoing	deprel: compound
+id: 30	word: fordoing	upos: NOUN	head id: 28	head: VDG	deprel: dobj
+id: 31	word: )	upos: PUNCT	head id: 28	head: VDG	deprel: punct
+id: 32	word: ,	upos: PUNCT	head id: 22	head: do	deprel: punct
+id: 33	word: be	upos: AUX	head id: 9	head: include	deprel: advcl
+id: 34	word: and	upos: CCONJ	head id: 33	head: be	deprel: cc
+id: 35	word: have	upos: AUX	head id: 33	head: be	deprel: conj
+id: 36	word: .	upos: PUNCT	head id: 9	head: include	deprel: punct
 
 End of sentence 19 
 
-20: Coming home from very lonely places, all of us go a little mad: whether fromgreat personal success, or just an all-night drive, we are the sole survivors of a world no one else has ever seen.
+20: The slightly simplified version of the Viterbi algorithm that we present takesas input a single HMM and a sequence of observed words O = (o1, o2, ... oT) and returns the most probable state/tag sequence Q= (q1, q2, qT) together with its probability.
 stanza:
-word: Coming	upos: VERB	head: go	deprel: advcl
-word: home	upos: ADV	head: Coming	deprel: advmod
-word: from	upos: ADP	head: places	deprel: case
-word: very	upos: ADV	head: lonely	deprel: advmod
-word: lonely	upos: ADJ	head: places	deprel: amod
-word: places	upos: NOUN	head: Coming	deprel: obl
-word: ,	upos: PUNCT	head: go	deprel: punct
-word: all	upos: DET	head: go	deprel: nsubj
-word: of	upos: ADP	head: us	deprel: case
-word: us	upos: PRON	head: all	deprel: nmod
-word: go	upos: VERB	head: root	deprel: root
-word: a	upos: DET	head: little	deprel: det
-word: little	upos: ADJ	head: mad	deprel: obl:npmod
-word: mad	upos: ADJ	head: go	deprel: xcomp
-word: :	upos: PUNCT	head: mad	deprel: punct
-word: whether	upos: SCONJ	head: success	deprel: mark
-word: fromgreat	upos: ADJ	head: success	deprel: amod
-word: personal	upos: ADJ	head: success	deprel: amod
-word: success	upos: NOUN	head: mad	deprel: nsubj
-word: ,	upos: PUNCT	head: drive	deprel: punct
-word: or	upos: CCONJ	head: drive	deprel: cc
-word: just	upos: ADV	head: drive	deprel: advmod
-word: an	upos: DET	head: drive	deprel: det
-word: all	upos: DET	head: night	deprel: det
-word: -	upos: PUNCT	head: night	deprel: punct
-word: night	upos: NOUN	head: drive	deprel: compound
-word: drive	upos: NOUN	head: success	deprel: conj
-word: ,	upos: PUNCT	head: survivors	deprel: punct
-word: we	upos: PRON	head: survivors	deprel: nsubj
-word: are	upos: AUX	head: survivors	deprel: cop
-word: the	upos: DET	head: survivors	deprel: det
-word: sole	upos: ADJ	head: survivors	deprel: amod
-word: survivors	upos: NOUN	head: go	deprel: conj
-word: of	upos: ADP	head: world	deprel: case
-word: a	upos: DET	head: world	deprel: det
-word: world	upos: NOUN	head: survivors	deprel: nmod
-word: no	upos: DET	head: one	deprel: det
-word: one	upos: NOUN	head: seen	deprel: nsubj
-word: else	upos: ADJ	head: one	deprel: amod
-word: has	upos: AUX	head: seen	deprel: aux
-word: ever	upos: ADV	head: seen	deprel: advmod
-word: seen	upos: VERB	head: world	deprel: acl:relcl
-word: .	upos: PUNCT	head: go	deprel: punct
+id: 1	word: The	upos: DET	head id: 4	head: version	deprel: det
+id: 2	word: slightly	upos: ADV	head id: 3	head: simplified	deprel: advmod
+id: 3	word: simplified	upos: VERB	head id: 4	head: version	deprel: amod
+id: 4	word: version	upos: NOUN	head id: 16	head: HMM	deprel: nsubj
+id: 5	word: of	upos: ADP	head id: 8	head: algorithm	deprel: case
+id: 6	word: the	upos: DET	head id: 8	head: algorithm	deprel: det
+id: 7	word: Viterbi	upos: NOUN	head id: 8	head: algorithm	deprel: compound
+id: 8	word: algorithm	upos: NOUN	head id: 4	head: version	deprel: nmod
+id: 9	word: that	upos: PRON	head id: 11	head: present	deprel: obj
+id: 10	word: we	upos: PRON	head id: 11	head: present	deprel: nsubj
+id: 11	word: present	upos: VERB	head id: 8	head: algorithm	deprel: relcl
+id: 12	word: takesas	upos: NOUN	head id: 13	head: input	deprel: compound
+id: 13	word: input	upos: NOUN	head id: 11	head: present	deprel: obj
+id: 14	word: a	upos: DET	head id: 16	head: HMM	deprel: det
+id: 15	word: single	upos: ADJ	head id: 16	head: HMM	deprel: amod
+id: 16	word: HMM	upos: NOUN	head id: 0	head: root	deprel: root
+id: 17	word: and	upos: CCONJ	head id: 19	head: sequence	deprel: cc
+id: 18	word: a	upos: DET	head id: 19	head: sequence	deprel: det
+id: 19	word: sequence	upos: NOUN	head id: 16	head: HMM	deprel: conj
+id: 20	word: of	upos: ADP	head id: 22	head: words	deprel: case
+id: 21	word: observed	upos: VERB	head id: 22	head: words	deprel: amod
+id: 22	word: words	upos: NOUN	head id: 19	head: sequence	deprel: nmod
+id: 23	word: O	upos: ADP	head id: 26	head: o1	deprel: case
+id: 24	word: =	upos: PUNCT	head id: 26	head: o1	deprel: punct
+id: 25	word: (	upos: PUNCT	head id: 26	head: o1	deprel: punct
+id: 26	word: o1	upos: NOUN	head id: 22	head: words	deprel: appos
+id: 27	word: ,	upos: PUNCT	head id: 26	head: o1	deprel: punct
+id: 28	word: o	upos: ADP	head id: 29	head: 2	deprel: case
+id: 29	word: 2	upos: NUM	head id: 26	head: o1	deprel: nmod
+id: 30	word: ,	upos: PUNCT	head id: 26	head: o1	deprel: punct
+id: 31	word: ...	upos: PUNCT	head id: 26	head: o1	deprel: punct
+id: 32	word: o	upos: ADP	head id: 33	head: T	deprel: case
+id: 33	word: T	upos: NOUN	head id: 26	head: o1	deprel: nmod
+id: 34	word: )	upos: PUNCT	head id: 26	head: o1	deprel: punct
+id: 35	word: and	upos: CCONJ	head id: 36	head: returns	deprel: cc
+id: 36	word: returns	upos: VERB	head id: 16	head: HMM	deprel: conj
+id: 37	word: the	upos: DET	head id: 44	head: Q	deprel: det
+id: 38	word: most	upos: ADV	head id: 39	head: probable	deprel: advmod
+id: 39	word: probable	upos: ADJ	head id: 44	head: Q	deprel: amod
+id: 40	word: state	upos: NOUN	head id: 44	head: Q	deprel: compound
+id: 41	word: /	upos: PUNCT	head id: 43	head: sequence	deprel: cc
+id: 42	word: tag	upos: NOUN	head id: 43	head: sequence	deprel: compound
+id: 43	word: sequence	upos: NOUN	head id: 44	head: Q	deprel: compound
+id: 44	word: Q	upos: NOUN	head id: 36	head: returns	deprel: obj
+id: 45	word: =	upos: SYM	head id: 44	head: Q	deprel: punct
+id: 46	word: (	upos: PUNCT	head id: 47	head: q	deprel: punct
+id: 47	word: q	upos: NOUN	head id: 44	head: Q	deprel: appos
+id: 48	word: 1	upos: NUM	head id: 47	head: q	deprel: nummod
+id: 49	word: ,	upos: PUNCT	head id: 47	head: q	deprel: punct
+id: 50	word: q	upos: NOUN	head id: 47	head: q	deprel: appos
+id: 51	word: 2	upos: NUM	head id: 50	head: q	deprel: nummod
+id: 52	word: ,	upos: PUNCT	head id: 47	head: q	deprel: punct
+id: 53	word: q	upos: NOUN	head id: 54	head: T	deprel: compound
+id: 54	word: T	upos: NOUN	head id: 47	head: q	deprel: appos
+id: 55	word: )	upos: PUNCT	head id: 47	head: q	deprel: punct
+id: 56	word: together	upos: ADV	head id: 47	head: q	deprel: advmod
+id: 57	word: with	upos: ADP	head id: 59	head: probability	deprel: case
+id: 58	word: its	upos: PRON	head id: 59	head: probability	deprel: poss
+id: 59	word: probability	upos: NOUN	head id: 56	head: together	deprel: pobj
+id: 60	word: .	upos: PUNCT	head id: 16	head: HMM	deprel: punct
 
 spacy:
-word: Coming	upos: VERB	head: go	deprel: advcl
-word: home	upos: ADV	head: Coming	deprel: advmod
-word: from	upos: ADP	head: Coming	deprel: prep
-word: very	upos: ADV	head: lonely	deprel: advmod
-word: lonely	upos: ADJ	head: places	deprel: amod
-word: places	upos: NOUN	head: from	deprel: pobj
-word: ,	upos: PUNCT	head: go	deprel: punct
-word: all	upos: DET	head: go	deprel: nsubj
-word: of	upos: ADP	head: all	deprel: prep
-word: us	upos: PRON	head: of	deprel: pobj
-word: go	upos: VERB	head: go	deprel: ROOT
-word: a	upos: DET	head: little	deprel: det
-word: little	upos: ADJ	head: mad	deprel: npadvmod
-word: mad	upos: ADJ	head: go	deprel: acomp
-word: :	upos: PUNCT	head: go	deprel: punct
-word: whether	upos: SCONJ	head: fromgreat	deprel: mark
-word: fromgreat	upos: VERB	head: are	deprel: advcl
-word: personal	upos: ADJ	head: success	deprel: amod
-word: success	upos: NOUN	head: fromgreat	deprel: dobj
-word: ,	upos: PUNCT	head: success	deprel: punct
-word: or	upos: CCONJ	head: success	deprel: cc
-word: just	upos: ADV	head: drive	deprel: advmod
-word: an	upos: DET	head: drive	deprel: det
-word: all	upos: DET	head: night	deprel: det
-word: -	upos: PUNCT	head: night	deprel: punct
-word: night	upos: NOUN	head: drive	deprel: compound
-word: drive	upos: NOUN	head: success	deprel: conj
-word: ,	upos: PUNCT	head: are	deprel: punct
-word: we	upos: PRON	head: are	deprel: nsubj
-word: are	upos: AUX	head: are	deprel: ROOT
-word: the	upos: DET	head: survivors	deprel: det
-word: sole	upos: ADJ	head: survivors	deprel: amod
-word: survivors	upos: NOUN	head: are	deprel: attr
-word: of	upos: ADP	head: survivors	deprel: prep
-word: a	upos: DET	head: world	deprel: det
-word: world	upos: NOUN	head: of	deprel: pobj
-word: no	upos: DET	head: one	deprel: det
-word: one	upos: NOUN	head: seen	deprel: nsubj
-word: else	upos: ADV	head: one	deprel: advmod
-word: has	upos: AUX	head: seen	deprel: aux
-word: ever	upos: ADV	head: seen	deprel: advmod
-word: seen	upos: VERB	head: seen	deprel: ROOT
-word: .	upos: PUNCT	head: seen	deprel: punct
+id: 1	word: The	upos: DET	head id: 4	head: version	deprel: det
+id: 2	word: slightly	upos: ADV	head id: 3	head: simplified	deprel: advmod
+id: 3	word: simplified	upos: VERB	head id: 4	head: version	deprel: amod
+id: 4	word: version	upos: NOUN	head id: 13	head: input	deprel: nsubj
+id: 5	word: of	upos: ADP	head id: 4	head: version	deprel: prep
+id: 6	word: the	upos: DET	head id: 8	head: algorithm	deprel: det
+id: 7	word: Viterbi	upos: PROPN	head id: 8	head: algorithm	deprel: compound
+id: 8	word: algorithm	upos: NOUN	head id: 5	head: of	deprel: pobj
+id: 9	word: that	upos: SCONJ	head id: 11	head: present	deprel: mark
+id: 10	word: we	upos: PRON	head id: 11	head: present	deprel: nsubj
+id: 11	word: present	upos: VERB	head id: 4	head: version	deprel: acl
+id: 12	word: takesas	upos: NOUN	head id: 13	head: input	deprel: compound
+id: 13	word: input	upos: NOUN	head id: 0	head: input	deprel: root
+id: 14	word: a	upos: DET	head id: 16	head: HMM	deprel: det
+id: 15	word: single	upos: ADJ	head id: 16	head: HMM	deprel: amod
+id: 16	word: HMM	upos: PROPN	head id: 13	head: input	deprel: dobj
+id: 17	word: and	upos: CCONJ	head id: 16	head: HMM	deprel: cc
+id: 18	word: a	upos: DET	head id: 19	head: sequence	deprel: det
+id: 19	word: sequence	upos: NOUN	head id: 16	head: HMM	deprel: conj
+id: 20	word: of	upos: ADP	head id: 19	head: sequence	deprel: prep
+id: 21	word: observed	upos: ADJ	head id: 22	head: words	deprel: amod
+id: 22	word: words	upos: NOUN	head id: 20	head: of	deprel: pobj
+id: 23	word: O	upos: INTJ	head id: 0	head: O	deprel: root
+id: 24	word: =	upos: PUNCT	head id: 23	head: O	deprel: punct
+id: 25	word: (	upos: PUNCT	head id: 26	head: o1	deprel: punct
+id: 26	word: o1	upos: NOUN	head id: 0	head: o1	deprel: root
+id: 27	word: ,	upos: PUNCT	head id: 26	head: o1	deprel: punct
+id: 28	word: o2	upos: PROPN	head id: 26	head: o1	deprel: appos
+id: 29	word: ,	upos: PUNCT	head id: 28	head: o2	deprel: punct
+id: 30	word: ...	upos: PUNCT	head id: 26	head: o1	deprel: punct
+id: 31	word: oT	upos: X	head id: 26	head: o1	deprel: appos
+id: 32	word: )	upos: PUNCT	head id: 26	head: o1	deprel: punct
+id: 33	word: and	upos: CCONJ	head id: 26	head: o1	deprel: cc
+id: 34	word: returns	upos: VERB	head id: 26	head: o1	deprel: conj
+id: 35	word: the	upos: DET	head id: 42	head: Q=	deprel: det
+id: 36	word: most	upos: ADV	head id: 37	head: probable	deprel: advmod
+id: 37	word: probable	upos: ADJ	head id: 42	head: Q=	deprel: amod
+id: 38	word: state	upos: NOUN	head id: 40	head: tag	deprel: nmod
+id: 39	word: /	upos: SYM	head id: 40	head: tag	deprel: punct
+id: 40	word: tag	upos: NOUN	head id: 41	head: sequence	deprel: compound
+id: 41	word: sequence	upos: NOUN	head id: 42	head: Q=	deprel: compound
+id: 42	word: Q=	upos: PROPN	head id: 34	head: returns	deprel: dobj
+id: 43	word: (	upos: PUNCT	head id: 42	head: Q=	deprel: punct
+id: 44	word: q1	upos: PROPN	head id: 42	head: Q=	deprel: appos
+id: 45	word: ,	upos: PUNCT	head id: 44	head: q1	deprel: punct
+id: 46	word: q2	upos: PROPN	head id: 44	head: q1	deprel: npadvmod
+id: 47	word: ,	upos: PUNCT	head id: 46	head: q2	deprel: punct
+id: 48	word: qT	upos: PROPN	head id: 46	head: q2	deprel: appos
+id: 49	word: )	upos: PUNCT	head id: 34	head: returns	deprel: punct
+id: 50	word: together	upos: ADV	head id: 51	head: with	deprel: advmod
+id: 51	word: with	upos: ADP	head id: 34	head: returns	deprel: prep
+id: 52	word: its	upos: DET	head id: 53	head: probability	deprel: poss
+id: 53	word: probability	upos: NOUN	head id: 51	head: with	deprel: pobj
+id: 54	word: .	upos: PUNCT	head id: 26	head: o1	deprel: punct
 
 End of sentence 20 
 
-21: Skill without imagination is craftsmanship and gives us many useful objects such as wickerwork picnic baskets. Imagination without skill gives us modern art.
+21: Thus the EM-trained “pure HMM” tagger is probably best suited to cases where no training data is available, for example, when tagging languages for which no data was previously hand-tagged.
 stanza:
-word: Skill	upos: NOUN	head: craftsmanship	deprel: nsubj
-word: without	upos: ADP	head: imagination	deprel: case
-word: imagination	upos: NOUN	head: Skill	deprel: nmod
-word: is	upos: AUX	head: craftsmanship	deprel: cop
-word: craftsmanship	upos: NOUN	head: root	deprel: root
-word: and	upos: CCONJ	head: gives	deprel: cc
-word: gives	upos: VERB	head: craftsmanship	deprel: conj
-word: us	upos: PRON	head: gives	deprel: iobj
-word: many	upos: ADJ	head: objects	deprel: amod
-word: useful	upos: ADJ	head: objects	deprel: amod
-word: objects	upos: NOUN	head: gives	deprel: obj
-word: such	upos: ADJ	head: baskets	deprel: case
-word: as	upos: ADP	head: such	deprel: fixed
-word: wickerwork	upos: ADJ	head: baskets	deprel: amod
-word: picnic	upos: NOUN	head: baskets	deprel: compound
-word: baskets	upos: NOUN	head: objects	deprel: nmod
-word: .	upos: PUNCT	head: craftsmanship	deprel: punct
-word: Imagination	upos: NOUN	head: gives	deprel: nsubj
-word: without	upos: ADP	head: skill	deprel: case
-word: skill	upos: NOUN	head: Imagination	deprel: nmod
-word: gives	upos: VERB	head: root	deprel: root
-word: us	upos: PRON	head: gives	deprel: iobj
-word: modern	upos: ADJ	head: art	deprel: amod
-word: art	upos: NOUN	head: gives	deprel: obj
-word: .	upos: PUNCT	head: gives	deprel: punct
+id: 1	word: Thus	upos: ADV	head id: 14	head: suited	deprel: advmod
+id: 2	word: the	upos: DET	head id: 10	head: tagger	deprel: det
+id: 3	word: EM	upos: PROPN	head id: 5	head: trained	deprel: npmod
+id: 4	word: -	upos: PUNCT	head id: 5	head: trained	deprel: punct
+id: 5	word: trained	upos: VERB	head id: 10	head: tagger	deprel: amod
+id: 6	word: “	upos: PUNCT	head id: 8	head: HMM	deprel: punct
+id: 7	word: pure	upos: ADJ	head id: 10	head: tagger	deprel: amod
+id: 8	word: HMM	upos: INTJ	head id: 10	head: tagger	deprel: appos
+id: 9	word: ”	upos: PUNCT	head id: 8	head: HMM	deprel: punct
+id: 10	word: tagger	upos: NOUN	head id: 14	head: suited	deprel: nsubjpass
+id: 11	word: is	upos: AUX	head id: 14	head: suited	deprel: auxpass
+id: 12	word: probably	upos: ADV	head id: 14	head: suited	deprel: advmod
+id: 13	word: best	upos: ADV	head id: 14	head: suited	deprel: advmod
+id: 14	word: suited	upos: VERB	head id: 0	head: root	deprel: root
+id: 15	word: to	upos: ADP	head id: 16	head: cases	deprel: case
+id: 16	word: cases	upos: NOUN	head id: 14	head: suited	deprel: pobj
+id: 17	word: where	upos: ADV	head id: 22	head: available	deprel: advmod
+id: 18	word: no	upos: DET	head id: 20	head: data	deprel: det
+id: 19	word: training	upos: NOUN	head id: 20	head: data	deprel: compound
+id: 20	word: data	upos: NOUN	head id: 22	head: available	deprel: nsubj
+id: 21	word: is	upos: AUX	head id: 22	head: available	deprel: cop
+id: 22	word: available	upos: ADJ	head id: 16	head: cases	deprel: relcl
+id: 23	word: ,	upos: PUNCT	head id: 22	head: available	deprel: punct
+id: 24	word: for	upos: ADP	head id: 25	head: example	deprel: case
+id: 25	word: example	upos: NOUN	head id: 22	head: available	deprel: pobj
+id: 26	word: ,	upos: PUNCT	head id: 22	head: available	deprel: punct
+id: 27	word: when	upos: ADV	head id: 28	head: tagging	deprel: mark
+id: 28	word: tagging	upos: VERB	head id: 22	head: available	deprel: advcl
+id: 29	word: languages	upos: NOUN	head id: 28	head: tagging	deprel: obj
+id: 30	word: for	upos: ADP	head id: 31	head: which	deprel: case
+id: 31	word: which	upos: PRON	head id: 38	head: tagged	deprel: pobj
+id: 32	word: no	upos: DET	head id: 33	head: data	deprel: det
+id: 33	word: data	upos: NOUN	head id: 38	head: tagged	deprel: nsubjpass
+id: 34	word: was	upos: AUX	head id: 38	head: tagged	deprel: auxpass
+id: 35	word: previously	upos: ADV	head id: 38	head: tagged	deprel: advmod
+id: 36	word: hand	upos: NOUN	head id: 38	head: tagged	deprel: npmod
+id: 37	word: -	upos: PUNCT	head id: 38	head: tagged	deprel: punct
+id: 38	word: tagged	upos: VERB	head id: 29	head: languages	deprel: relcl
+id: 39	word: .	upos: PUNCT	head id: 14	head: suited	deprel: punct
 
 spacy:
-word: Skill	upos: NOUN	head: is	deprel: nsubj
-word: without	upos: ADP	head: Skill	deprel: prep
-word: imagination	upos: NOUN	head: without	deprel: pobj
-word: is	upos: AUX	head: is	deprel: ROOT
-word: craftsmanship	upos: NOUN	head: is	deprel: acomp
-word: and	upos: CCONJ	head: is	deprel: cc
-word: gives	upos: VERB	head: is	deprel: conj
-word: us	upos: PRON	head: gives	deprel: dative
-word: many	upos: ADJ	head: objects	deprel: amod
-word: useful	upos: ADJ	head: objects	deprel: amod
-word: objects	upos: NOUN	head: gives	deprel: dobj
-word: such	upos: ADJ	head: as	deprel: amod
-word: as	upos: SCONJ	head: objects	deprel: prep
-word: wickerwork	upos: NOUN	head: picnic	deprel: compound
-word: picnic	upos: NOUN	head: baskets	deprel: compound
-word: baskets	upos: NOUN	head: as	deprel: pobj
-word: .	upos: PUNCT	head: is	deprel: punct
-word: Imagination	upos: NOUN	head: gives	deprel: nsubj
-word: without	upos: ADP	head: Imagination	deprel: prep
-word: skill	upos: NOUN	head: without	deprel: pobj
-word: gives	upos: VERB	head: gives	deprel: ROOT
-word: us	upos: PRON	head: gives	deprel: dative
-word: modern	upos: ADJ	head: art	deprel: amod
-word: art	upos: NOUN	head: gives	deprel: dobj
-word: .	upos: PUNCT	head: gives	deprel: punct
+id: 1	word: Thus	upos: ADV	head id: 14	head: suited	deprel: advmod
+id: 2	word: the	upos: DET	head id: 10	head: tagger	deprel: det
+id: 3	word: EM	upos: NOUN	head id: 5	head: trained	deprel: npadvmod
+id: 4	word: -	upos: PUNCT	head id: 5	head: trained	deprel: punct
+id: 5	word: trained	upos: VERB	head id: 10	head: tagger	deprel: amod
+id: 6	word: “	upos: PUNCT	head id: 10	head: tagger	deprel: punct
+id: 7	word: pure	upos: ADJ	head id: 8	head: HMM	deprel: amod
+id: 8	word: HMM	upos: PROPN	head id: 10	head: tagger	deprel: nmod
+id: 9	word: ”	upos: PUNCT	head id: 10	head: tagger	deprel: punct
+id: 10	word: tagger	upos: NOUN	head id: 14	head: suited	deprel: nsubjpass
+id: 11	word: is	upos: AUX	head id: 14	head: suited	deprel: auxpass
+id: 12	word: probably	upos: ADV	head id: 14	head: suited	deprel: advmod
+id: 13	word: best	upos: ADV	head id: 14	head: suited	deprel: advmod
+id: 14	word: suited	upos: ADJ	head id: 0	head: suited	deprel: root
+id: 15	word: to	upos: ADP	head id: 14	head: suited	deprel: prep
+id: 16	word: cases	upos: NOUN	head id: 15	head: to	deprel: pobj
+id: 17	word: where	upos: ADV	head id: 21	head: is	deprel: advmod
+id: 18	word: no	upos: DET	head id: 20	head: data	deprel: det
+id: 19	word: training	upos: NOUN	head id: 20	head: data	deprel: compound
+id: 20	word: data	upos: NOUN	head id: 21	head: is	deprel: nsubj
+id: 21	word: is	upos: AUX	head id: 16	head: cases	deprel: relcl
+id: 22	word: available	upos: ADJ	head id: 21	head: is	deprel: acomp
+id: 23	word: ,	upos: PUNCT	head id: 14	head: suited	deprel: punct
+id: 24	word: for	upos: ADP	head id: 14	head: suited	deprel: prep
+id: 25	word: example	upos: NOUN	head id: 24	head: for	deprel: pobj
+id: 26	word: ,	upos: PUNCT	head id: 14	head: suited	deprel: punct
+id: 27	word: when	upos: ADV	head id: 28	head: tagging	deprel: advmod
+id: 28	word: tagging	upos: VERB	head id: 14	head: suited	deprel: advcl
+id: 29	word: languages	upos: NOUN	head id: 28	head: tagging	deprel: dobj
+id: 30	word: for	upos: ADP	head id: 34	head: was	deprel: prep
+id: 31	word: which	upos: DET	head id: 30	head: for	deprel: pobj
+id: 32	word: no	upos: DET	head id: 33	head: data	deprel: det
+id: 33	word: data	upos: NOUN	head id: 34	head: was	deprel: nsubj
+id: 34	word: was	upos: AUX	head id: 38	head: tagged	deprel: auxpass
+id: 35	word: previously	upos: ADV	head id: 38	head: tagged	deprel: advmod
+id: 36	word: hand	upos: NOUN	head id: 38	head: tagged	deprel: npadvmod
+id: 37	word: -	upos: PUNCT	head id: 38	head: tagged	deprel: punct
+id: 38	word: tagged	upos: VERB	head id: 29	head: languages	deprel: amod
+id: 39	word: .	upos: PUNCT	head id: 14	head: suited	deprel: punct
 
 End of sentence 21 
 
-22: An MoD spokesman said: “Surveys of Astute have now been completed and she will proceed to Faslane under her own power. She is being escorted by tugs and HMS Shoreham.”
+22: Coming home from very lonely places, all of us go a little mad: whether fromgreat personal success, or just an all-night drive, we are the sole survivors of a world no one else has ever seen.
 stanza:
-word: An	upos: DET	head: spokesman	deprel: det
-word: MoD	upos: PROPN	head: spokesman	deprel: compound
-word: spokesman	upos: NOUN	head: said	deprel: nsubj
-word: said	upos: VERB	head: root	deprel: root
-word: :	upos: PUNCT	head: said	deprel: punct
-word: “	upos: PUNCT	head: said	deprel: punct
-word: Surveys	upos: NOUN	head: completed	deprel: nsubj:pass
-word: of	upos: ADP	head: Astute	deprel: case
-word: Astute	upos: PROPN	head: Surveys	deprel: nmod
-word: have	upos: AUX	head: completed	deprel: aux
-word: now	upos: ADV	head: completed	deprel: advmod
-word: been	upos: AUX	head: completed	deprel: aux:pass
-word: completed	upos: VERB	head: said	deprel: ccomp
-word: and	upos: CCONJ	head: proceed	deprel: cc
-word: she	upos: PRON	head: proceed	deprel: nsubj
-word: will	upos: AUX	head: proceed	deprel: aux
-word: proceed	upos: VERB	head: completed	deprel: conj
-word: to	upos: ADP	head: Faslane	deprel: case
-word: Faslane	upos: PROPN	head: proceed	deprel: obl
-word: under	upos: ADP	head: power	deprel: case
-word: her	upos: PRON	head: power	deprel: nmod:poss
-word: own	upos: ADJ	head: power	deprel: amod
-word: power	upos: NOUN	head: proceed	deprel: obl
-word: .	upos: PUNCT	head: said	deprel: punct
-word: She	upos: PRON	head: escorted	deprel: nsubj:pass
-word: is	upos: AUX	head: escorted	deprel: aux
-word: being	upos: AUX	head: escorted	deprel: aux:pass
-word: escorted	upos: VERB	head: root	deprel: root
-word: by	upos: ADP	head: tugs	deprel: case
-word: tugs	upos: NOUN	head: escorted	deprel: obl
-word: and	upos: CCONJ	head: Shoreham	deprel: cc
-word: HMS	upos: PROPN	head: Shoreham	deprel: compound
-word: Shoreham	upos: PROPN	head: tugs	deprel: conj
-word: .	upos: PUNCT	head: escorted	deprel: punct
-word: ”	upos: PUNCT	head: root	deprel: root
+id: 1	word: Coming	upos: VERB	head id: 11	head: go	deprel: advcl
+id: 2	word: home	upos: ADV	head id: 1	head: Coming	deprel: advmod
+id: 3	word: from	upos: ADP	head id: 6	head: places	deprel: case
+id: 4	word: very	upos: ADV	head id: 5	head: lonely	deprel: advmod
+id: 5	word: lonely	upos: ADJ	head id: 6	head: places	deprel: amod
+id: 6	word: places	upos: NOUN	head id: 1	head: Coming	deprel: pobj
+id: 7	word: ,	upos: PUNCT	head id: 11	head: go	deprel: punct
+id: 8	word: all	upos: DET	head id: 11	head: go	deprel: nsubj
+id: 9	word: of	upos: ADP	head id: 10	head: us	deprel: case
+id: 10	word: us	upos: PRON	head id: 8	head: all	deprel: nmod
+id: 11	word: go	upos: VERB	head id: 0	head: root	deprel: root
+id: 12	word: a	upos: DET	head id: 13	head: little	deprel: det
+id: 13	word: little	upos: ADJ	head id: 14	head: mad	deprel: npmod
+id: 14	word: mad	upos: ADJ	head id: 11	head: go	deprel: xcomp
+id: 15	word: :	upos: PUNCT	head id: 14	head: mad	deprel: punct
+id: 16	word: whether	upos: SCONJ	head id: 19	head: success	deprel: mark
+id: 17	word: fromgreat	upos: ADJ	head id: 19	head: success	deprel: amod
+id: 18	word: personal	upos: ADJ	head id: 19	head: success	deprel: amod
+id: 19	word: success	upos: NOUN	head id: 14	head: mad	deprel: nsubj
+id: 20	word: ,	upos: PUNCT	head id: 27	head: drive	deprel: punct
+id: 21	word: or	upos: CCONJ	head id: 27	head: drive	deprel: cc
+id: 22	word: just	upos: ADV	head id: 27	head: drive	deprel: advmod
+id: 23	word: an	upos: DET	head id: 27	head: drive	deprel: det
+id: 24	word: all	upos: DET	head id: 26	head: night	deprel: det
+id: 25	word: -	upos: PUNCT	head id: 26	head: night	deprel: punct
+id: 26	word: night	upos: NOUN	head id: 27	head: drive	deprel: compound
+id: 27	word: drive	upos: NOUN	head id: 19	head: success	deprel: conj
+id: 28	word: ,	upos: PUNCT	head id: 33	head: survivors	deprel: punct
+id: 29	word: we	upos: PRON	head id: 33	head: survivors	deprel: nsubj
+id: 30	word: are	upos: AUX	head id: 33	head: survivors	deprel: cop
+id: 31	word: the	upos: DET	head id: 33	head: survivors	deprel: det
+id: 32	word: sole	upos: ADJ	head id: 33	head: survivors	deprel: amod
+id: 33	word: survivors	upos: NOUN	head id: 11	head: go	deprel: conj
+id: 34	word: of	upos: ADP	head id: 36	head: world	deprel: case
+id: 35	word: a	upos: DET	head id: 36	head: world	deprel: det
+id: 36	word: world	upos: NOUN	head id: 33	head: survivors	deprel: nmod
+id: 37	word: no	upos: DET	head id: 38	head: one	deprel: det
+id: 38	word: one	upos: NOUN	head id: 42	head: seen	deprel: nsubj
+id: 39	word: else	upos: ADJ	head id: 38	head: one	deprel: amod
+id: 40	word: has	upos: AUX	head id: 42	head: seen	deprel: aux
+id: 41	word: ever	upos: ADV	head id: 42	head: seen	deprel: advmod
+id: 42	word: seen	upos: VERB	head id: 36	head: world	deprel: relcl
+id: 43	word: .	upos: PUNCT	head id: 11	head: go	deprel: punct
 
 spacy:
-word: An	upos: DET	head: spokesman	deprel: det
-word: MoD	upos: PROPN	head: spokesman	deprel: compound
-word: spokesman	upos: NOUN	head: said	deprel: nsubj
-word: said	upos: VERB	head: said	deprel: ROOT
-word: :	upos: PUNCT	head: said	deprel: punct
-word: “	upos: PUNCT	head: said	deprel: punct
-word: Surveys	upos: PROPN	head: completed	deprel: nsubjpass
-word: of	upos: ADP	head: Surveys	deprel: prep
-word: Astute	upos: PROPN	head: of	deprel: pobj
-word: have	upos: AUX	head: completed	deprel: aux
-word: now	upos: ADV	head: completed	deprel: advmod
-word: been	upos: AUX	head: completed	deprel: auxpass
-word: completed	upos: VERB	head: said	deprel: ccomp
-word: and	upos: CCONJ	head: completed	deprel: cc
-word: she	upos: PRON	head: proceed	deprel: nsubj
-word: will	upos: VERB	head: proceed	deprel: aux
-word: proceed	upos: VERB	head: completed	deprel: conj
-word: to	upos: ADP	head: proceed	deprel: prep
-word: Faslane	upos: PROPN	head: to	deprel: pobj
-word: under	upos: ADP	head: proceed	deprel: prep
-word: her	upos: DET	head: power	deprel: poss
-word: own	upos: ADJ	head: power	deprel: amod
-word: power	upos: NOUN	head: under	deprel: pobj
-word: .	upos: PUNCT	head: said	deprel: punct
-word: She	upos: PRON	head: escorted	deprel: nsubjpass
-word: is	upos: AUX	head: escorted	deprel: aux
-word: being	upos: AUX	head: escorted	deprel: auxpass
-word: escorted	upos: VERB	head: escorted	deprel: ROOT
-word: by	upos: ADP	head: escorted	deprel: agent
-word: tugs	upos: NOUN	head: by	deprel: pobj
-word: and	upos: CCONJ	head: tugs	deprel: cc
-word: HMS	upos: PROPN	head: Shoreham	deprel: compound
-word: Shoreham	upos: PROPN	head: tugs	deprel: conj
-word: .	upos: PUNCT	head: escorted	deprel: punct
-word: ”	upos: PUNCT	head: escorted	deprel: punct
+id: 1	word: Coming	upos: VERB	head id: 11	head: go	deprel: advcl
+id: 2	word: home	upos: ADV	head id: 1	head: Coming	deprel: advmod
+id: 3	word: from	upos: ADP	head id: 1	head: Coming	deprel: prep
+id: 4	word: very	upos: ADV	head id: 5	head: lonely	deprel: advmod
+id: 5	word: lonely	upos: ADJ	head id: 6	head: places	deprel: amod
+id: 6	word: places	upos: NOUN	head id: 3	head: from	deprel: pobj
+id: 7	word: ,	upos: PUNCT	head id: 11	head: go	deprel: punct
+id: 8	word: all	upos: DET	head id: 11	head: go	deprel: nsubj
+id: 9	word: of	upos: ADP	head id: 8	head: all	deprel: prep
+id: 10	word: us	upos: PRON	head id: 9	head: of	deprel: pobj
+id: 11	word: go	upos: VERB	head id: 0	head: go	deprel: root
+id: 12	word: a	upos: DET	head id: 13	head: little	deprel: det
+id: 13	word: little	upos: ADJ	head id: 14	head: mad	deprel: npadvmod
+id: 14	word: mad	upos: ADJ	head id: 11	head: go	deprel: acomp
+id: 15	word: :	upos: PUNCT	head id: 11	head: go	deprel: punct
+id: 16	word: whether	upos: SCONJ	head id: 17	head: fromgreat	deprel: mark
+id: 17	word: fromgreat	upos: VERB	head id: 30	head: are	deprel: advcl
+id: 18	word: personal	upos: ADJ	head id: 19	head: success	deprel: amod
+id: 19	word: success	upos: NOUN	head id: 17	head: fromgreat	deprel: dobj
+id: 20	word: ,	upos: PUNCT	head id: 19	head: success	deprel: punct
+id: 21	word: or	upos: CCONJ	head id: 19	head: success	deprel: cc
+id: 22	word: just	upos: ADV	head id: 27	head: drive	deprel: advmod
+id: 23	word: an	upos: DET	head id: 27	head: drive	deprel: det
+id: 24	word: all	upos: DET	head id: 26	head: night	deprel: det
+id: 25	word: -	upos: PUNCT	head id: 26	head: night	deprel: punct
+id: 26	word: night	upos: NOUN	head id: 27	head: drive	deprel: compound
+id: 27	word: drive	upos: NOUN	head id: 19	head: success	deprel: conj
+id: 28	word: ,	upos: PUNCT	head id: 30	head: are	deprel: punct
+id: 29	word: we	upos: PRON	head id: 30	head: are	deprel: nsubj
+id: 30	word: are	upos: AUX	head id: 0	head: are	deprel: root
+id: 31	word: the	upos: DET	head id: 33	head: survivors	deprel: det
+id: 32	word: sole	upos: ADJ	head id: 33	head: survivors	deprel: amod
+id: 33	word: survivors	upos: NOUN	head id: 30	head: are	deprel: attr
+id: 34	word: of	upos: ADP	head id: 33	head: survivors	deprel: prep
+id: 35	word: a	upos: DET	head id: 36	head: world	deprel: det
+id: 36	word: world	upos: NOUN	head id: 34	head: of	deprel: pobj
+id: 37	word: no	upos: DET	head id: 38	head: one	deprel: det
+id: 38	word: one	upos: NOUN	head id: 42	head: seen	deprel: nsubj
+id: 39	word: else	upos: ADV	head id: 38	head: one	deprel: advmod
+id: 40	word: has	upos: AUX	head id: 42	head: seen	deprel: aux
+id: 41	word: ever	upos: ADV	head id: 42	head: seen	deprel: advmod
+id: 42	word: seen	upos: VERB	head id: 0	head: seen	deprel: root
+id: 43	word: .	upos: PUNCT	head id: 42	head: seen	deprel: punct
 
 End of sentence 22 
 
-23: But far fewer people fully understand how the Media Lab operates, fitsinto MIT, and encourages such a creative environment; about half of the anniversary celebration’s program focused on simply defining what the Media Lab is.
+23: Skill without imagination is craftsmanship and gives us many useful objects such as wickerwork picnic baskets. Imagination without skill gives us modern art.
 stanza:
-word: But	upos: CCONJ	head: encourages	deprel: cc
-word: far	upos: ADV	head: fewer	deprel: advmod
-word: fewer	upos: ADJ	head: people	deprel: amod
-word: people	upos: NOUN	head: understand	deprel: nsubj
-word: fully	upos: ADV	head: understand	deprel: advmod
-word: understand	upos: VERB	head: root	deprel: root
-word: how	upos: ADV	head: operates	deprel: advmod
-word: the	upos: DET	head: Lab	deprel: det
-word: Media	upos: NOUN	head: Lab	deprel: compound
-word: Lab	upos: PROPN	head: operates	deprel: nsubj
-word: operates	upos: VERB	head: understand	deprel: ccomp
-word: ,	upos: PUNCT	head: MIT	deprel: punct
-word: fitsinto	upos: ADJ	head: MIT	deprel: amod
-word: MIT	upos: PROPN	head: operates	deprel: obj
-word: ,	upos: PUNCT	head: encourages	deprel: punct
-word: and	upos: CCONJ	head: encourages	deprel: cc
-word: encourages	upos: VERB	head: operates	deprel: conj
-word: such	upos: DET	head: environment	deprel: det:predet
-word: a	upos: DET	head: environment	deprel: det
-word: creative	upos: ADJ	head: environment	deprel: amod
-word: environment	upos: NOUN	head: encourages	deprel: obj
-word: ;	upos: PUNCT	head: encourages	deprel: punct
-word: about	upos: ADV	head: half	deprel: advmod
-word: half	upos: NOUN	head: encourages	deprel: obj
-word: of	upos: ADP	head: program	deprel: case
-word: the	upos: DET	head: celebration	deprel: det
-word: anniversary	upos: ADJ	head: celebration	deprel: amod
-word: celebration	upos: NOUN	head: program	deprel: nmod:poss
-word: ’s	upos: PART	head: celebration	deprel: case
-word: program	upos: NOUN	head: half	deprel: nmod
-word: focused	upos: VERB	head: program	deprel: acl
-word: on	upos: SCONJ	head: defining	deprel: mark
-word: simply	upos: ADV	head: defining	deprel: advmod
-word: defining	upos: VERB	head: focused	deprel: advcl
-word: what	upos: PRON	head: defining	deprel: ccomp
-word: the	upos: DET	head: Lab	deprel: det
-word: Media	upos: NOUN	head: Lab	deprel: compound
-word: Lab	upos: NOUN	head: what	deprel: nsubj
-word: is	upos: AUX	head: what	deprel: cop
-word: .	upos: PUNCT	head: understand	deprel: punct
+id: 1	word: Skill	upos: NOUN	head id: 5	head: craftsmanship	deprel: nsubj
+id: 2	word: without	upos: ADP	head id: 3	head: imagination	deprel: case
+id: 3	word: imagination	upos: NOUN	head id: 1	head: Skill	deprel: nmod
+id: 4	word: is	upos: AUX	head id: 5	head: craftsmanship	deprel: cop
+id: 5	word: craftsmanship	upos: NOUN	head id: 0	head: root	deprel: root
+id: 6	word: and	upos: CCONJ	head id: 7	head: gives	deprel: cc
+id: 7	word: gives	upos: VERB	head id: 5	head: craftsmanship	deprel: conj
+id: 8	word: us	upos: PRON	head id: 7	head: gives	deprel: iobj
+id: 9	word: many	upos: ADJ	head id: 11	head: objects	deprel: amod
+id: 10	word: useful	upos: ADJ	head id: 11	head: objects	deprel: amod
+id: 11	word: objects	upos: NOUN	head id: 7	head: gives	deprel: obj
+id: 12	word: such	upos: ADJ	head id: 16	head: baskets	deprel: case
+id: 13	word: as	upos: ADP	head id: 12	head: such	deprel: fixed
+id: 14	word: wickerwork	upos: ADJ	head id: 16	head: baskets	deprel: amod
+id: 15	word: picnic	upos: NOUN	head id: 16	head: baskets	deprel: compound
+id: 16	word: baskets	upos: NOUN	head id: 11	head: objects	deprel: nmod
+id: 17	word: .	upos: PUNCT	head id: 5	head: craftsmanship	deprel: punct
+id: 1	word: Imagination	upos: NOUN	head id: 4	head: gives	deprel: nsubj
+id: 2	word: without	upos: ADP	head id: 3	head: skill	deprel: case
+id: 3	word: skill	upos: NOUN	head id: 1	head: Imagination	deprel: nmod
+id: 4	word: gives	upos: VERB	head id: 0	head: root	deprel: root
+id: 5	word: us	upos: PRON	head id: 4	head: gives	deprel: iobj
+id: 6	word: modern	upos: ADJ	head id: 7	head: art	deprel: amod
+id: 7	word: art	upos: NOUN	head id: 4	head: gives	deprel: obj
+id: 8	word: .	upos: PUNCT	head id: 4	head: gives	deprel: punct
 
 spacy:
-word: But	upos: CCONJ	head: understand	deprel: cc
-word: far	upos: ADV	head: fewer	deprel: advmod
-word: fewer	upos: ADJ	head: people	deprel: amod
-word: people	upos: NOUN	head: understand	deprel: nsubj
-word: fully	upos: ADV	head: understand	deprel: advmod
-word: understand	upos: VERB	head: focused	deprel: ccomp
-word: how	upos: ADV	head: operates	deprel: advmod
-word: the	upos: DET	head: Lab	deprel: det
-word: Media	upos: PROPN	head: Lab	deprel: compound
-word: Lab	upos: PROPN	head: operates	deprel: nsubj
-word: operates	upos: VERB	head: understand	deprel: ccomp
-word: ,	upos: PUNCT	head: operates	deprel: punct
-word: fitsinto	upos: ADP	head: operates	deprel: conj
-word: MIT	upos: PROPN	head: fitsinto	deprel: dobj
-word: ,	upos: PUNCT	head: fitsinto	deprel: punct
-word: and	upos: CCONJ	head: fitsinto	deprel: cc
-word: encourages	upos: VERB	head: fitsinto	deprel: conj
-word: such	upos: DET	head: environment	deprel: predet
-word: a	upos: DET	head: environment	deprel: det
-word: creative	upos: ADJ	head: environment	deprel: amod
-word: environment	upos: NOUN	head: encourages	deprel: dobj
-word: ;	upos: PUNCT	head: focused	deprel: punct
-word: about	upos: ADP	head: half	deprel: quantmod
-word: half	upos: NOUN	head: focused	deprel: nsubj
-word: of	upos: ADP	head: half	deprel: prep
-word: the	upos: DET	head: celebration	deprel: det
-word: anniversary	upos: NOUN	head: celebration	deprel: compound
-word: celebration	upos: NOUN	head: of	deprel: pobj
-word: ’s	upos: PART	head: half	deprel: punct
-word: program	upos: NOUN	head: half	deprel: appos
-word: focused	upos: VERB	head: focused	deprel: ROOT
-word: on	upos: ADP	head: focused	deprel: prep
-word: simply	upos: ADV	head: defining	deprel: advmod
-word: defining	upos: VERB	head: on	deprel: pcomp
-word: what	upos: PRON	head: is	deprel: attr
-word: the	upos: DET	head: Lab	deprel: det
-word: Media	upos: PROPN	head: Lab	deprel: compound
-word: Lab	upos: PROPN	head: is	deprel: nsubj
-word: is	upos: AUX	head: defining	deprel: ccomp
-word: .	upos: PUNCT	head: focused	deprel: punct
+id: 1	word: Skill	upos: NOUN	head id: 4	head: is	deprel: nsubj
+id: 2	word: without	upos: ADP	head id: 1	head: Skill	deprel: prep
+id: 3	word: imagination	upos: NOUN	head id: 2	head: without	deprel: pobj
+id: 4	word: is	upos: AUX	head id: 0	head: is	deprel: root
+id: 5	word: craftsmanship	upos: NOUN	head id: 4	head: is	deprel: acomp
+id: 6	word: and	upos: CCONJ	head id: 4	head: is	deprel: cc
+id: 7	word: gives	upos: VERB	head id: 4	head: is	deprel: conj
+id: 8	word: us	upos: PRON	head id: 7	head: gives	deprel: dative
+id: 9	word: many	upos: ADJ	head id: 11	head: objects	deprel: amod
+id: 10	word: useful	upos: ADJ	head id: 11	head: objects	deprel: amod
+id: 11	word: objects	upos: NOUN	head id: 7	head: gives	deprel: dobj
+id: 12	word: such	upos: ADJ	head id: 13	head: as	deprel: amod
+id: 13	word: as	upos: SCONJ	head id: 11	head: objects	deprel: prep
+id: 14	word: wickerwork	upos: NOUN	head id: 15	head: picnic	deprel: compound
+id: 15	word: picnic	upos: NOUN	head id: 16	head: baskets	deprel: compound
+id: 16	word: baskets	upos: NOUN	head id: 13	head: as	deprel: pobj
+id: 17	word: .	upos: PUNCT	head id: 4	head: is	deprel: punct
+id: 18	word: Imagination	upos: NOUN	head id: 21	head: gives	deprel: nsubj
+id: 19	word: without	upos: ADP	head id: 18	head: Imagination	deprel: prep
+id: 20	word: skill	upos: NOUN	head id: 19	head: without	deprel: pobj
+id: 21	word: gives	upos: VERB	head id: 0	head: gives	deprel: root
+id: 22	word: us	upos: PRON	head id: 21	head: gives	deprel: dative
+id: 23	word: modern	upos: ADJ	head id: 24	head: art	deprel: amod
+id: 24	word: art	upos: NOUN	head id: 21	head: gives	deprel: dobj
+id: 25	word: .	upos: PUNCT	head id: 21	head: gives	deprel: punct
 
 End of sentence 23 
 
-24: Instead of constantly worrying about funding, the faculty and students can focus on their project, with the exception of sponsors’ weeks, when they have to convince companies to start or continue their support.
+24: An MoD spokesman said: “Surveys of Astute have now been completed and she will proceed to Faslane under her own power.
 stanza:
-word: Instead	upos: ADV	head: worrying	deprel: advmod
-word: of	upos: SCONJ	head: worrying	deprel: mark
-word: constantly	upos: ADV	head: worrying	deprel: advmod
-word: worrying	upos: VERB	head: focus	deprel: advcl
-word: about	upos: ADP	head: funding	deprel: case
-word: funding	upos: NOUN	head: worrying	deprel: obl
-word: ,	upos: PUNCT	head: focus	deprel: punct
-word: the	upos: DET	head: faculty	deprel: det
-word: faculty	upos: NOUN	head: focus	deprel: nsubj
-word: and	upos: CCONJ	head: students	deprel: cc
-word: students	upos: NOUN	head: faculty	deprel: conj
-word: can	upos: AUX	head: focus	deprel: aux
-word: focus	upos: VERB	head: root	deprel: root
-word: on	upos: ADP	head: project	deprel: case
-word: their	upos: PRON	head: project	deprel: nmod:poss
-word: project	upos: NOUN	head: focus	deprel: obl
-word: ,	upos: PUNCT	head: focus	deprel: punct
-word: with	upos: ADP	head: exception	deprel: case
-word: the	upos: DET	head: exception	deprel: det
-word: exception	upos: NOUN	head: focus	deprel: obl
-word: of	upos: ADP	head: weeks	deprel: case
-word: sponsors	upos: NOUN	head: weeks	deprel: nmod:poss
-word: ’	upos: PART	head: sponsors	deprel: case
-word: weeks	upos: NOUN	head: exception	deprel: nmod
-word: ,	upos: PUNCT	head: focus	deprel: punct
-word: when	upos: ADV	head: have	deprel: mark
-word: they	upos: PRON	head: have	deprel: nsubj
-word: have	upos: VERB	head: focus	deprel: advcl
-word: to	upos: PART	head: convince	deprel: mark
-word: convince	upos: VERB	head: have	deprel: xcomp
-word: companies	upos: NOUN	head: convince	deprel: obj
-word: to	upos: PART	head: start	deprel: mark
-word: start	upos: VERB	head: convince	deprel: xcomp
-word: or	upos: CCONJ	head: continue	deprel: cc
-word: continue	upos: VERB	head: start	deprel: conj
-word: their	upos: PRON	head: support	deprel: nmod:poss
-word: support	upos: NOUN	head: continue	deprel: obj
-word: .	upos: PUNCT	head: focus	deprel: punct
+id: 1	word: An	upos: DET	head id: 3	head: spokesman	deprel: det
+id: 2	word: MoD	upos: PROPN	head id: 3	head: spokesman	deprel: compound
+id: 3	word: spokesman	upos: NOUN	head id: 4	head: said	deprel: nsubj
+id: 4	word: said	upos: VERB	head id: 0	head: root	deprel: root
+id: 5	word: :	upos: PUNCT	head id: 4	head: said	deprel: punct
+id: 6	word: “	upos: PUNCT	head id: 4	head: said	deprel: punct
+id: 7	word: Surveys	upos: NOUN	head id: 13	head: completed	deprel: nsubjpass
+id: 8	word: of	upos: ADP	head id: 9	head: Astute	deprel: case
+id: 9	word: Astute	upos: PROPN	head id: 7	head: Surveys	deprel: nmod
+id: 10	word: have	upos: AUX	head id: 13	head: completed	deprel: aux
+id: 11	word: now	upos: ADV	head id: 13	head: completed	deprel: advmod
+id: 12	word: been	upos: AUX	head id: 13	head: completed	deprel: auxpass
+id: 13	word: completed	upos: VERB	head id: 4	head: said	deprel: ccomp
+id: 14	word: and	upos: CCONJ	head id: 17	head: proceed	deprel: cc
+id: 15	word: she	upos: PRON	head id: 17	head: proceed	deprel: nsubj
+id: 16	word: will	upos: AUX	head id: 17	head: proceed	deprel: aux
+id: 17	word: proceed	upos: VERB	head id: 13	head: completed	deprel: conj
+id: 18	word: to	upos: ADP	head id: 19	head: Faslane	deprel: case
+id: 19	word: Faslane	upos: PROPN	head id: 17	head: proceed	deprel: pobj
+id: 20	word: under	upos: ADP	head id: 23	head: power	deprel: case
+id: 21	word: her	upos: PRON	head id: 23	head: power	deprel: poss
+id: 22	word: own	upos: ADJ	head id: 23	head: power	deprel: amod
+id: 23	word: power	upos: NOUN	head id: 17	head: proceed	deprel: pobj
+id: 24	word: .	upos: PUNCT	head id: 4	head: said	deprel: punct
 
 spacy:
-word: Instead	upos: ADV	head: of	deprel: advmod
-word: of	upos: ADP	head: focus	deprel: prep
-word: constantly	upos: ADV	head: worrying	deprel: advmod
-word: worrying	upos: VERB	head: focus	deprel: advcl
-word: about	upos: ADP	head: worrying	deprel: prep
-word: funding	upos: NOUN	head: about	deprel: pobj
-word: ,	upos: PUNCT	head: focus	deprel: punct
-word: the	upos: DET	head: faculty	deprel: det
-word: faculty	upos: NOUN	head: focus	deprel: nsubj
-word: and	upos: CCONJ	head: faculty	deprel: cc
-word: students	upos: NOUN	head: faculty	deprel: conj
-word: can	upos: VERB	head: focus	deprel: aux
-word: focus	upos: VERB	head: focus	deprel: ROOT
-word: on	upos: ADP	head: focus	deprel: prep
-word: their	upos: DET	head: project	deprel: poss
-word: project	upos: NOUN	head: on	deprel: pobj
-word: ,	upos: PUNCT	head: focus	deprel: punct
-word: with	upos: ADP	head: focus	deprel: prep
-word: the	upos: DET	head: exception	deprel: det
-word: exception	upos: NOUN	head: with	deprel: pobj
-word: of	upos: ADP	head: exception	deprel: prep
-word: sponsors	upos: NOUN	head: weeks	deprel: poss
-word: ’	upos: PART	head: sponsors	deprel: case
-word: weeks	upos: NOUN	head: of	deprel: pobj
-word: ,	upos: PUNCT	head: exception	deprel: punct
-word: when	upos: ADV	head: have	deprel: advmod
-word: they	upos: PRON	head: have	deprel: nsubj
-word: have	upos: AUX	head: exception	deprel: relcl
-word: to	upos: PART	head: convince	deprel: aux
-word: convince	upos: VERB	head: have	deprel: xcomp
-word: companies	upos: NOUN	head: convince	deprel: dobj
-word: to	upos: PART	head: start	deprel: aux
-word: start	upos: VERB	head: convince	deprel: xcomp
-word: or	upos: CCONJ	head: start	deprel: cc
-word: continue	upos: VERB	head: start	deprel: conj
-word: their	upos: DET	head: support	deprel: poss
-word: support	upos: NOUN	head: continue	deprel: dobj
-word: .	upos: PUNCT	head: focus	deprel: punct
+id: 1	word: An	upos: DET	head id: 3	head: spokesman	deprel: det
+id: 2	word: MoD	upos: PROPN	head id: 3	head: spokesman	deprel: compound
+id: 3	word: spokesman	upos: NOUN	head id: 4	head: said	deprel: nsubj
+id: 4	word: said	upos: VERB	head id: 0	head: said	deprel: root
+id: 5	word: :	upos: PUNCT	head id: 4	head: said	deprel: punct
+id: 6	word: “	upos: PUNCT	head id: 4	head: said	deprel: punct
+id: 7	word: Surveys	upos: PROPN	head id: 13	head: completed	deprel: nsubjpass
+id: 8	word: of	upos: ADP	head id: 7	head: Surveys	deprel: prep
+id: 9	word: Astute	upos: PROPN	head id: 8	head: of	deprel: pobj
+id: 10	word: have	upos: AUX	head id: 13	head: completed	deprel: aux
+id: 11	word: now	upos: ADV	head id: 13	head: completed	deprel: advmod
+id: 12	word: been	upos: AUX	head id: 13	head: completed	deprel: auxpass
+id: 13	word: completed	upos: VERB	head id: 4	head: said	deprel: ccomp
+id: 14	word: and	upos: CCONJ	head id: 13	head: completed	deprel: cc
+id: 15	word: she	upos: PRON	head id: 17	head: proceed	deprel: nsubj
+id: 16	word: will	upos: VERB	head id: 17	head: proceed	deprel: aux
+id: 17	word: proceed	upos: VERB	head id: 13	head: completed	deprel: conj
+id: 18	word: to	upos: ADP	head id: 17	head: proceed	deprel: prep
+id: 19	word: Faslane	upos: PROPN	head id: 18	head: to	deprel: pobj
+id: 20	word: under	upos: ADP	head id: 17	head: proceed	deprel: prep
+id: 21	word: her	upos: DET	head id: 23	head: power	deprel: poss
+id: 22	word: own	upos: ADJ	head id: 23	head: power	deprel: amod
+id: 23	word: power	upos: NOUN	head id: 20	head: under	deprel: pobj
+id: 24	word: .	upos: PUNCT	head id: 4	head: said	deprel: punct
 
 End of sentence 24 
 
-25: The doctors are warning that the NHS cannot make the £20bn of savings by 2014 that ministers expect, while simultaneously undertaking a huge reorganisation that will see England’s 152 primary care trusts (PCTs) abolished and consortiums of GPs assume responsibility for the commissioning of services for patients.
+25: She is being escorted by tugs and HMS Shoreham.”
 stanza:
-word: The	upos: DET	head: doctors	deprel: det
-word: doctors	upos: NOUN	head: warning	deprel: nsubj
-word: are	upos: AUX	head: warning	deprel: aux
-word: warning	upos: VERB	head: root	deprel: root
-word: that	upos: SCONJ	head: make	deprel: mark
-word: the	upos: DET	head: NHS	deprel: det
-word: NHS	upos: PROPN	head: make	deprel: nsubj
-word: can	upos: AUX	head: make	deprel: aux
-word: not	upos: PART	head: make	deprel: advmod
-word: make	upos: VERB	head: warning	deprel: ccomp
-word: the	upos: DET	head: £	deprel: det
-word: £	upos: SYM	head: make	deprel: obj
-word: 20	upos: NUM	head: bn	deprel: compound
-word: bn	upos: NUM	head: £	deprel: nummod
-word: of	upos: ADP	head: savings	deprel: case
-word: savings	upos: NOUN	head: £	deprel: nmod
-word: by	upos: ADP	head: 2014	deprel: case
-word: 2014	upos: NUM	head: make	deprel: obl
-word: that	upos: SCONJ	head: expect	deprel: mark
-word: ministers	upos: NOUN	head: expect	deprel: nsubj
-word: expect	upos: VERB	head: make	deprel: advcl
-word: ,	upos: PUNCT	head: make	deprel: punct
-word: while	upos: SCONJ	head: undertaking	deprel: mark
-word: simultaneously	upos: ADV	head: undertaking	deprel: advmod
-word: undertaking	upos: VERB	head: make	deprel: advcl
-word: a	upos: DET	head: reorganisation	deprel: det
-word: huge	upos: ADJ	head: reorganisation	deprel: amod
-word: reorganisation	upos: NOUN	head: undertaking	deprel: obj
-word: that	upos: PRON	head: see	deprel: nsubj
-word: will	upos: AUX	head: see	deprel: aux
-word: see	upos: VERB	head: reorganisation	deprel: acl:relcl
-word: England	upos: PROPN	head: trusts	deprel: nmod:poss
-word: ’s	upos: PART	head: England	deprel: case
-word: 152	upos: NUM	head: trusts	deprel: nummod
-word: primary	upos: ADJ	head: care	deprel: amod
-word: care	upos: NOUN	head: trusts	deprel: compound
-word: trusts	upos: NOUN	head: see	deprel: obj
-word: (	upos: PUNCT	head: PCTs	deprel: punct
-word: PCTs	upos: NOUN	head: trusts	deprel: appos
-word: )	upos: PUNCT	head: PCTs	deprel: punct
-word: abolished	upos: VERB	head: trusts	deprel: acl
-word: and	upos: CCONJ	head: consortiums	deprel: cc
-word: consortiums	upos: NOUN	head: assume	deprel: nsubj
-word: of	upos: ADP	head: GPs	deprel: case
-word: GPs	upos: PROPN	head: consortiums	deprel: nmod
-word: assume	upos: VERB	head: warning	deprel: conj
-word: responsibility	upos: NOUN	head: assume	deprel: obj
-word: for	upos: ADP	head: commissioning	deprel: case
-word: the	upos: DET	head: commissioning	deprel: det
-word: commissioning	upos: NOUN	head: responsibility	deprel: nmod
-word: of	upos: ADP	head: services	deprel: case
-word: services	upos: NOUN	head: commissioning	deprel: nmod
-word: for	upos: ADP	head: patients	deprel: case
-word: patients	upos: NOUN	head: services	deprel: nmod
-word: .	upos: PUNCT	head: warning	deprel: punct
+id: 1	word: She	upos: PRON	head id: 4	head: escorted	deprel: nsubjpass
+id: 2	word: is	upos: AUX	head id: 4	head: escorted	deprel: aux
+id: 3	word: being	upos: AUX	head id: 4	head: escorted	deprel: auxpass
+id: 4	word: escorted	upos: VERB	head id: 0	head: root	deprel: root
+id: 5	word: by	upos: ADP	head id: 6	head: tugs	deprel: case
+id: 6	word: tugs	upos: NOUN	head id: 4	head: escorted	deprel: pobj
+id: 7	word: and	upos: CCONJ	head id: 9	head: Shoreham	deprel: cc
+id: 8	word: HMS	upos: PROPN	head id: 9	head: Shoreham	deprel: compound
+id: 9	word: Shoreham	upos: PROPN	head id: 6	head: tugs	deprel: conj
+id: 10	word: .	upos: PUNCT	head id: 4	head: escorted	deprel: punct
+id: 1	word: ”	upos: PUNCT	head id: 0	head: root	deprel: root
 
 spacy:
-word: The	upos: DET	head: doctors	deprel: det
-word: doctors	upos: NOUN	head: warning	deprel: nsubj
-word: are	upos: AUX	head: warning	deprel: aux
-word: warning	upos: VERB	head: warning	deprel: ROOT
-word: that	upos: SCONJ	head: make	deprel: mark
-word: the	upos: DET	head: NHS	deprel: det
-word: NHS	upos: PROPN	head: make	deprel: nsubj
-word: can	upos: VERB	head: make	deprel: aux
-word: not	upos: PART	head: make	deprel: neg
-word: make	upos: VERB	head: warning	deprel: ccomp
-word: the	upos: DET	head: 20bn	deprel: det
-word: £	upos: SYM	head: 20bn	deprel: nmod
-word: 20bn	upos: NOUN	head: make	deprel: dobj
-word: of	upos: ADP	head: 20bn	deprel: prep
-word: savings	upos: NOUN	head: of	deprel: pobj
-word: by	upos: ADP	head: make	deprel: prep
-word: 2014	upos: NUM	head: by	deprel: pobj
-word: that	upos: SCONJ	head: expect	deprel: dobj
-word: ministers	upos: NOUN	head: expect	deprel: nsubj
-word: expect	upos: VERB	head: make	deprel: ccomp
-word: ,	upos: PUNCT	head: expect	deprel: punct
-word: while	upos: SCONJ	head: undertaking	deprel: mark
-word: simultaneously	upos: ADV	head: undertaking	deprel: advmod
-word: undertaking	upos: VERB	head: expect	deprel: advcl
-word: a	upos: DET	head: reorganisation	deprel: det
-word: huge	upos: ADJ	head: reorganisation	deprel: amod
-word: reorganisation	upos: NOUN	head: undertaking	deprel: dobj
-word: that	upos: DET	head: see	deprel: nsubj
-word: will	upos: VERB	head: see	deprel: aux
-word: see	upos: VERB	head: reorganisation	deprel: relcl
-word: England	upos: PROPN	head: see	deprel: dobj
-word: ’s	upos: PART	head: warning	deprel: punct
-word: 152	upos: NUM	head: trusts	deprel: nummod
-word: primary	upos: ADJ	head: care	deprel: amod
-word: care	upos: NOUN	head: trusts	deprel: compound
-word: trusts	upos: NOUN	head: abolished	deprel: nsubj
-word: (	upos: PUNCT	head: trusts	deprel: punct
-word: PCTs	upos: PROPN	head: trusts	deprel: appos
-word: )	upos: PUNCT	head: trusts	deprel: punct
-word: abolished	upos: VERB	head: abolished	deprel: ROOT
-word: and	upos: CCONJ	head: abolished	deprel: cc
-word: consortiums	upos: NOUN	head: abolished	deprel: conj
-word: of	upos: ADP	head: consortiums	deprel: prep
-word: GPs	upos: NOUN	head: of	deprel: pobj
-word: assume	upos: VERB	head: abolished	deprel: conj
-word: responsibility	upos: NOUN	head: assume	deprel: dobj
-word: for	upos: ADP	head: responsibility	deprel: prep
-word: the	upos: DET	head: commissioning	deprel: det
-word: commissioning	upos: NOUN	head: for	deprel: pobj
-word: of	upos: ADP	head: commissioning	deprel: prep
-word: services	upos: NOUN	head: of	deprel: pobj
-word: for	upos: ADP	head: commissioning	deprel: prep
-word: patients	upos: NOUN	head: for	deprel: pobj
-word: .	upos: PUNCT	head: assume	deprel: punct
+id: 1	word: She	upos: PRON	head id: 4	head: escorted	deprel: nsubjpass
+id: 2	word: is	upos: AUX	head id: 4	head: escorted	deprel: aux
+id: 3	word: being	upos: AUX	head id: 4	head: escorted	deprel: auxpass
+id: 4	word: escorted	upos: VERB	head id: 0	head: escorted	deprel: root
+id: 5	word: by	upos: ADP	head id: 4	head: escorted	deprel: agent
+id: 6	word: tugs	upos: NOUN	head id: 5	head: by	deprel: pobj
+id: 7	word: and	upos: CCONJ	head id: 6	head: tugs	deprel: cc
+id: 8	word: HMS	upos: PROPN	head id: 9	head: Shoreham	deprel: compound
+id: 9	word: Shoreham	upos: PROPN	head id: 6	head: tugs	deprel: conj
+id: 10	word: .	upos: PUNCT	head id: 4	head: escorted	deprel: punct
+id: 11	word: ”	upos: PUNCT	head id: 4	head: escorted	deprel: punct
 
 End of sentence 25 
+
+26: But far fewer people fully understand how the Media Lab operates, fitsinto MIT, and encourages such a creative environment;
+stanza:
+id: 1	word: But	upos: CCONJ	head id: 17	head: encourages	deprel: cc
+id: 2	word: far	upos: ADV	head id: 3	head: fewer	deprel: advmod
+id: 3	word: fewer	upos: ADJ	head id: 4	head: people	deprel: amod
+id: 4	word: people	upos: NOUN	head id: 6	head: understand	deprel: nsubj
+id: 5	word: fully	upos: ADV	head id: 6	head: understand	deprel: advmod
+id: 6	word: understand	upos: VERB	head id: 0	head: root	deprel: root
+id: 7	word: how	upos: ADV	head id: 11	head: operates	deprel: advmod
+id: 8	word: the	upos: DET	head id: 10	head: Lab	deprel: det
+id: 9	word: Media	upos: NOUN	head id: 10	head: Lab	deprel: compound
+id: 10	word: Lab	upos: PROPN	head id: 11	head: operates	deprel: nsubj
+id: 11	word: operates	upos: VERB	head id: 6	head: understand	deprel: ccomp
+id: 12	word: ,	upos: PUNCT	head id: 14	head: MIT	deprel: punct
+id: 13	word: fitsinto	upos: NOUN	head id: 14	head: MIT	deprel: compound
+id: 14	word: MIT	upos: PROPN	head id: 11	head: operates	deprel: obj
+id: 15	word: ,	upos: PUNCT	head id: 17	head: encourages	deprel: punct
+id: 16	word: and	upos: CCONJ	head id: 17	head: encourages	deprel: cc
+id: 17	word: encourages	upos: VERB	head id: 11	head: operates	deprel: conj
+id: 18	word: such	upos: DET	head id: 21	head: environment	deprel: det:predet
+id: 19	word: a	upos: DET	head id: 21	head: environment	deprel: det
+id: 20	word: creative	upos: ADJ	head id: 21	head: environment	deprel: amod
+id: 21	word: environment	upos: NOUN	head id: 17	head: encourages	deprel: obj
+id: 22	word: ;	upos: PUNCT	head id: 6	head: understand	deprel: punct
+
+spacy:
+id: 1	word: But	upos: CCONJ	head id: 6	head: understand	deprel: cc
+id: 2	word: far	upos: ADV	head id: 3	head: fewer	deprel: advmod
+id: 3	word: fewer	upos: ADJ	head id: 4	head: people	deprel: amod
+id: 4	word: people	upos: NOUN	head id: 6	head: understand	deprel: nsubj
+id: 5	word: fully	upos: ADV	head id: 6	head: understand	deprel: advmod
+id: 6	word: understand	upos: VERB	head id: 0	head: understand	deprel: root
+id: 7	word: how	upos: ADV	head id: 11	head: operates	deprel: advmod
+id: 8	word: the	upos: DET	head id: 10	head: Lab	deprel: det
+id: 9	word: Media	upos: PROPN	head id: 10	head: Lab	deprel: compound
+id: 10	word: Lab	upos: PROPN	head id: 11	head: operates	deprel: nsubj
+id: 11	word: operates	upos: VERB	head id: 6	head: understand	deprel: ccomp
+id: 12	word: ,	upos: PUNCT	head id: 11	head: operates	deprel: punct
+id: 13	word: fitsinto	upos: ADP	head id: 11	head: operates	deprel: conj
+id: 14	word: MIT	upos: PROPN	head id: 13	head: fitsinto	deprel: dobj
+id: 15	word: ,	upos: PUNCT	head id: 13	head: fitsinto	deprel: punct
+id: 16	word: and	upos: CCONJ	head id: 13	head: fitsinto	deprel: cc
+id: 17	word: encourages	upos: VERB	head id: 13	head: fitsinto	deprel: conj
+id: 18	word: such	upos: DET	head id: 21	head: environment	deprel: predet
+id: 19	word: a	upos: DET	head id: 21	head: environment	deprel: det
+id: 20	word: creative	upos: ADJ	head id: 21	head: environment	deprel: amod
+id: 21	word: environment	upos: NOUN	head id: 17	head: encourages	deprel: dobj
+id: 22	word: ;	upos: PUNCT	head id: 6	head: understand	deprel: punct
+
+End of sentence 26 
+
+27: about half of the anniversary celebration’s program focused on simply defining what the Media Lab is.
+stanza:
+id: 1	word: about	upos: ADV	head id: 2	head: half	deprel: advmod
+id: 2	word: half	upos: NOUN	head id: 0	head: root	deprel: root
+id: 3	word: of	upos: ADP	head id: 8	head: program	deprel: case
+id: 4	word: the	upos: DET	head id: 6	head: celebration	deprel: det
+id: 5	word: anniversary	upos: ADJ	head id: 6	head: celebration	deprel: amod
+id: 6	word: celebration	upos: NOUN	head id: 8	head: program	deprel: poss
+id: 7	word: ’s	upos: PART	head id: 6	head: celebration	deprel: case
+id: 8	word: program	upos: NOUN	head id: 2	head: half	deprel: nmod
+id: 9	word: focused	upos: VERB	head id: 8	head: program	deprel: acl
+id: 10	word: on	upos: SCONJ	head id: 12	head: defining	deprel: mark
+id: 11	word: simply	upos: ADV	head id: 12	head: defining	deprel: advmod
+id: 12	word: defining	upos: VERB	head id: 9	head: focused	deprel: advcl
+id: 13	word: what	upos: PRON	head id: 12	head: defining	deprel: ccomp
+id: 14	word: the	upos: DET	head id: 16	head: Lab	deprel: det
+id: 15	word: Media	upos: NOUN	head id: 16	head: Lab	deprel: compound
+id: 16	word: Lab	upos: NOUN	head id: 13	head: what	deprel: nsubj
+id: 17	word: is	upos: AUX	head id: 13	head: what	deprel: cop
+id: 18	word: .	upos: PUNCT	head id: 2	head: half	deprel: punct
+
+spacy:
+id: 1	word: about	upos: ADP	head id: 2	head: half	deprel: quantmod
+id: 2	word: half	upos: NOUN	head id: 9	head: focused	deprel: nsubj
+id: 3	word: of	upos: ADP	head id: 2	head: half	deprel: prep
+id: 4	word: the	upos: DET	head id: 6	head: celebration	deprel: det
+id: 5	word: anniversary	upos: NOUN	head id: 6	head: celebration	deprel: compound
+id: 6	word: celebration	upos: NOUN	head id: 3	head: of	deprel: pobj
+id: 7	word: ’s	upos: PART	head id: 2	head: half	deprel: punct
+id: 8	word: program	upos: NOUN	head id: 2	head: half	deprel: appos
+id: 9	word: focused	upos: VERB	head id: 0	head: focused	deprel: root
+id: 10	word: on	upos: ADP	head id: 9	head: focused	deprel: prep
+id: 11	word: simply	upos: ADV	head id: 12	head: defining	deprel: advmod
+id: 12	word: defining	upos: VERB	head id: 10	head: on	deprel: pcomp
+id: 13	word: what	upos: PRON	head id: 17	head: is	deprel: attr
+id: 14	word: the	upos: DET	head id: 16	head: Lab	deprel: det
+id: 15	word: Media	upos: PROPN	head id: 16	head: Lab	deprel: compound
+id: 16	word: Lab	upos: PROPN	head id: 17	head: is	deprel: nsubj
+id: 17	word: is	upos: AUX	head id: 12	head: defining	deprel: ccomp
+id: 18	word: .	upos: PUNCT	head id: 9	head: focused	deprel: punct
+
+End of sentence 27 
+
+28: Instead of constantly worrying about funding, the faculty and students can focus on their project, with the exception of sponsors’ weeks, when they have to convince companies to start or continue their support.
+stanza:
+id: 1	word: Instead	upos: ADV	head id: 4	head: worrying	deprel: advmod
+id: 2	word: of	upos: SCONJ	head id: 4	head: worrying	deprel: mark
+id: 3	word: constantly	upos: ADV	head id: 4	head: worrying	deprel: advmod
+id: 4	word: worrying	upos: VERB	head id: 13	head: focus	deprel: advcl
+id: 5	word: about	upos: ADP	head id: 6	head: funding	deprel: case
+id: 6	word: funding	upos: NOUN	head id: 4	head: worrying	deprel: pobj
+id: 7	word: ,	upos: PUNCT	head id: 13	head: focus	deprel: punct
+id: 8	word: the	upos: DET	head id: 9	head: faculty	deprel: det
+id: 9	word: faculty	upos: NOUN	head id: 13	head: focus	deprel: nsubj
+id: 10	word: and	upos: CCONJ	head id: 11	head: students	deprel: cc
+id: 11	word: students	upos: NOUN	head id: 9	head: faculty	deprel: conj
+id: 12	word: can	upos: AUX	head id: 13	head: focus	deprel: aux
+id: 13	word: focus	upos: VERB	head id: 0	head: root	deprel: root
+id: 14	word: on	upos: ADP	head id: 16	head: project	deprel: case
+id: 15	word: their	upos: PRON	head id: 16	head: project	deprel: poss
+id: 16	word: project	upos: NOUN	head id: 13	head: focus	deprel: pobj
+id: 17	word: ,	upos: PUNCT	head id: 13	head: focus	deprel: punct
+id: 18	word: with	upos: ADP	head id: 20	head: exception	deprel: case
+id: 19	word: the	upos: DET	head id: 20	head: exception	deprel: det
+id: 20	word: exception	upos: NOUN	head id: 13	head: focus	deprel: pobj
+id: 21	word: of	upos: ADP	head id: 24	head: weeks	deprel: case
+id: 22	word: sponsors	upos: NOUN	head id: 24	head: weeks	deprel: poss
+id: 23	word: ’	upos: PART	head id: 22	head: sponsors	deprel: case
+id: 24	word: weeks	upos: NOUN	head id: 20	head: exception	deprel: nmod
+id: 25	word: ,	upos: PUNCT	head id: 13	head: focus	deprel: punct
+id: 26	word: when	upos: ADV	head id: 28	head: have	deprel: mark
+id: 27	word: they	upos: PRON	head id: 28	head: have	deprel: nsubj
+id: 28	word: have	upos: VERB	head id: 13	head: focus	deprel: advcl
+id: 29	word: to	upos: PART	head id: 30	head: convince	deprel: mark
+id: 30	word: convince	upos: VERB	head id: 28	head: have	deprel: xcomp
+id: 31	word: companies	upos: NOUN	head id: 30	head: convince	deprel: obj
+id: 32	word: to	upos: PART	head id: 33	head: start	deprel: mark
+id: 33	word: start	upos: VERB	head id: 30	head: convince	deprel: xcomp
+id: 34	word: or	upos: CCONJ	head id: 35	head: continue	deprel: cc
+id: 35	word: continue	upos: VERB	head id: 33	head: start	deprel: conj
+id: 36	word: their	upos: PRON	head id: 37	head: support	deprel: poss
+id: 37	word: support	upos: NOUN	head id: 35	head: continue	deprel: obj
+id: 38	word: .	upos: PUNCT	head id: 13	head: focus	deprel: punct
+
+spacy:
+id: 1	word: Instead	upos: ADV	head id: 2	head: of	deprel: advmod
+id: 2	word: of	upos: ADP	head id: 13	head: focus	deprel: prep
+id: 3	word: constantly	upos: ADV	head id: 4	head: worrying	deprel: advmod
+id: 4	word: worrying	upos: VERB	head id: 13	head: focus	deprel: advcl
+id: 5	word: about	upos: ADP	head id: 4	head: worrying	deprel: prep
+id: 6	word: funding	upos: NOUN	head id: 5	head: about	deprel: pobj
+id: 7	word: ,	upos: PUNCT	head id: 13	head: focus	deprel: punct
+id: 8	word: the	upos: DET	head id: 9	head: faculty	deprel: det
+id: 9	word: faculty	upos: NOUN	head id: 13	head: focus	deprel: nsubj
+id: 10	word: and	upos: CCONJ	head id: 9	head: faculty	deprel: cc
+id: 11	word: students	upos: NOUN	head id: 9	head: faculty	deprel: conj
+id: 12	word: can	upos: VERB	head id: 13	head: focus	deprel: aux
+id: 13	word: focus	upos: VERB	head id: 0	head: focus	deprel: root
+id: 14	word: on	upos: ADP	head id: 13	head: focus	deprel: prep
+id: 15	word: their	upos: DET	head id: 16	head: project	deprel: poss
+id: 16	word: project	upos: NOUN	head id: 14	head: on	deprel: pobj
+id: 17	word: ,	upos: PUNCT	head id: 13	head: focus	deprel: punct
+id: 18	word: with	upos: ADP	head id: 13	head: focus	deprel: prep
+id: 19	word: the	upos: DET	head id: 20	head: exception	deprel: det
+id: 20	word: exception	upos: NOUN	head id: 18	head: with	deprel: pobj
+id: 21	word: of	upos: ADP	head id: 20	head: exception	deprel: prep
+id: 22	word: sponsors	upos: NOUN	head id: 24	head: weeks	deprel: poss
+id: 23	word: ’	upos: PART	head id: 22	head: sponsors	deprel: case
+id: 24	word: weeks	upos: NOUN	head id: 21	head: of	deprel: pobj
+id: 25	word: ,	upos: PUNCT	head id: 20	head: exception	deprel: punct
+id: 26	word: when	upos: ADV	head id: 28	head: have	deprel: advmod
+id: 27	word: they	upos: PRON	head id: 28	head: have	deprel: nsubj
+id: 28	word: have	upos: AUX	head id: 20	head: exception	deprel: relcl
+id: 29	word: to	upos: PART	head id: 30	head: convince	deprel: aux
+id: 30	word: convince	upos: VERB	head id: 28	head: have	deprel: xcomp
+id: 31	word: companies	upos: NOUN	head id: 30	head: convince	deprel: dobj
+id: 32	word: to	upos: PART	head id: 33	head: start	deprel: aux
+id: 33	word: start	upos: VERB	head id: 30	head: convince	deprel: xcomp
+id: 34	word: or	upos: CCONJ	head id: 33	head: start	deprel: cc
+id: 35	word: continue	upos: VERB	head id: 33	head: start	deprel: conj
+id: 36	word: their	upos: DET	head id: 37	head: support	deprel: poss
+id: 37	word: support	upos: NOUN	head id: 35	head: continue	deprel: dobj
+id: 38	word: .	upos: PUNCT	head id: 13	head: focus	deprel: punct
+
+End of sentence 28 
+
+29: The doctors are warning that the NHS cannot make the £20bn of savings by 2014 that ministers expect, while simultaneously undertaking a huge reorganisation that will see England’s 152 primary care trusts (PCTs) abolished and consortiums of GPs assume responsibility for the commissioning of services for patients.
+stanza:
+id: 1	word: The	upos: DET	head id: 2	head: doctors	deprel: det
+id: 2	word: doctors	upos: NOUN	head id: 4	head: warning	deprel: nsubj
+id: 3	word: are	upos: AUX	head id: 4	head: warning	deprel: aux
+id: 4	word: warning	upos: VERB	head id: 0	head: root	deprel: root
+id: 5	word: that	upos: SCONJ	head id: 10	head: make	deprel: mark
+id: 6	word: the	upos: DET	head id: 7	head: NHS	deprel: det
+id: 7	word: NHS	upos: PROPN	head id: 10	head: make	deprel: nsubj
+id: 8	word: can	upos: AUX	head id: 10	head: make	deprel: aux
+id: 9	word: not	upos: PART	head id: 10	head: make	deprel: advmod
+id: 10	word: make	upos: VERB	head id: 4	head: warning	deprel: ccomp
+id: 11	word: the	upos: DET	head id: 12	head: £	deprel: det
+id: 12	word: £	upos: SYM	head id: 10	head: make	deprel: obj
+id: 13	word: 20	upos: NUM	head id: 14	head: bn	deprel: compound
+id: 14	word: bn	upos: NUM	head id: 12	head: £	deprel: nummod
+id: 15	word: of	upos: ADP	head id: 16	head: savings	deprel: case
+id: 16	word: savings	upos: NOUN	head id: 12	head: £	deprel: nmod
+id: 17	word: by	upos: ADP	head id: 18	head: 2014	deprel: case
+id: 18	word: 2014	upos: NUM	head id: 10	head: make	deprel: pobj
+id: 19	word: that	upos: SCONJ	head id: 21	head: expect	deprel: mark
+id: 20	word: ministers	upos: NOUN	head id: 21	head: expect	deprel: nsubj
+id: 21	word: expect	upos: VERB	head id: 10	head: make	deprel: advcl
+id: 22	word: ,	upos: PUNCT	head id: 10	head: make	deprel: punct
+id: 23	word: while	upos: SCONJ	head id: 25	head: undertaking	deprel: mark
+id: 24	word: simultaneously	upos: ADV	head id: 25	head: undertaking	deprel: advmod
+id: 25	word: undertaking	upos: VERB	head id: 10	head: make	deprel: advcl
+id: 26	word: a	upos: DET	head id: 28	head: reorganisation	deprel: det
+id: 27	word: huge	upos: ADJ	head id: 28	head: reorganisation	deprel: amod
+id: 28	word: reorganisation	upos: NOUN	head id: 25	head: undertaking	deprel: obj
+id: 29	word: that	upos: PRON	head id: 31	head: see	deprel: nsubj
+id: 30	word: will	upos: AUX	head id: 31	head: see	deprel: aux
+id: 31	word: see	upos: VERB	head id: 28	head: reorganisation	deprel: relcl
+id: 32	word: England	upos: PROPN	head id: 37	head: trusts	deprel: poss
+id: 33	word: ’s	upos: PART	head id: 32	head: England	deprel: case
+id: 34	word: 152	upos: NUM	head id: 37	head: trusts	deprel: nummod
+id: 35	word: primary	upos: ADJ	head id: 36	head: care	deprel: amod
+id: 36	word: care	upos: NOUN	head id: 37	head: trusts	deprel: compound
+id: 37	word: trusts	upos: NOUN	head id: 31	head: see	deprel: obj
+id: 38	word: (	upos: PUNCT	head id: 39	head: PCTs	deprel: punct
+id: 39	word: PCTs	upos: NOUN	head id: 37	head: trusts	deprel: appos
+id: 40	word: )	upos: PUNCT	head id: 39	head: PCTs	deprel: punct
+id: 41	word: abolished	upos: VERB	head id: 37	head: trusts	deprel: acl
+id: 42	word: and	upos: CCONJ	head id: 43	head: consortiums	deprel: cc
+id: 43	word: consortiums	upos: NOUN	head id: 46	head: assume	deprel: nsubj
+id: 44	word: of	upos: ADP	head id: 45	head: GPs	deprel: case
+id: 45	word: GPs	upos: PROPN	head id: 43	head: consortiums	deprel: nmod
+id: 46	word: assume	upos: VERB	head id: 4	head: warning	deprel: conj
+id: 47	word: responsibility	upos: NOUN	head id: 46	head: assume	deprel: obj
+id: 48	word: for	upos: ADP	head id: 50	head: commissioning	deprel: case
+id: 49	word: the	upos: DET	head id: 50	head: commissioning	deprel: det
+id: 50	word: commissioning	upos: NOUN	head id: 47	head: responsibility	deprel: nmod
+id: 51	word: of	upos: ADP	head id: 52	head: services	deprel: case
+id: 52	word: services	upos: NOUN	head id: 50	head: commissioning	deprel: nmod
+id: 53	word: for	upos: ADP	head id: 54	head: patients	deprel: case
+id: 54	word: patients	upos: NOUN	head id: 52	head: services	deprel: nmod
+id: 55	word: .	upos: PUNCT	head id: 4	head: warning	deprel: punct
+
+spacy:
+id: 1	word: The	upos: DET	head id: 2	head: doctors	deprel: det
+id: 2	word: doctors	upos: NOUN	head id: 4	head: warning	deprel: nsubj
+id: 3	word: are	upos: AUX	head id: 4	head: warning	deprel: aux
+id: 4	word: warning	upos: VERB	head id: 0	head: warning	deprel: root
+id: 5	word: that	upos: SCONJ	head id: 10	head: make	deprel: mark
+id: 6	word: the	upos: DET	head id: 7	head: NHS	deprel: det
+id: 7	word: NHS	upos: PROPN	head id: 10	head: make	deprel: nsubj
+id: 8	word: can	upos: VERB	head id: 10	head: make	deprel: aux
+id: 9	word: not	upos: PART	head id: 10	head: make	deprel: neg
+id: 10	word: make	upos: VERB	head id: 4	head: warning	deprel: ccomp
+id: 11	word: the	upos: DET	head id: 13	head: 20bn	deprel: det
+id: 12	word: £	upos: SYM	head id: 13	head: 20bn	deprel: nmod
+id: 13	word: 20bn	upos: NOUN	head id: 10	head: make	deprel: dobj
+id: 14	word: of	upos: ADP	head id: 13	head: 20bn	deprel: prep
+id: 15	word: savings	upos: NOUN	head id: 14	head: of	deprel: pobj
+id: 16	word: by	upos: ADP	head id: 10	head: make	deprel: prep
+id: 17	word: 2014	upos: NUM	head id: 16	head: by	deprel: pobj
+id: 18	word: that	upos: SCONJ	head id: 20	head: expect	deprel: dobj
+id: 19	word: ministers	upos: NOUN	head id: 20	head: expect	deprel: nsubj
+id: 20	word: expect	upos: VERB	head id: 10	head: make	deprel: ccomp
+id: 21	word: ,	upos: PUNCT	head id: 20	head: expect	deprel: punct
+id: 22	word: while	upos: SCONJ	head id: 24	head: undertaking	deprel: mark
+id: 23	word: simultaneously	upos: ADV	head id: 24	head: undertaking	deprel: advmod
+id: 24	word: undertaking	upos: VERB	head id: 20	head: expect	deprel: advcl
+id: 25	word: a	upos: DET	head id: 27	head: reorganisation	deprel: det
+id: 26	word: huge	upos: ADJ	head id: 27	head: reorganisation	deprel: amod
+id: 27	word: reorganisation	upos: NOUN	head id: 24	head: undertaking	deprel: dobj
+id: 28	word: that	upos: DET	head id: 30	head: see	deprel: nsubj
+id: 29	word: will	upos: VERB	head id: 30	head: see	deprel: aux
+id: 30	word: see	upos: VERB	head id: 27	head: reorganisation	deprel: relcl
+id: 31	word: England	upos: PROPN	head id: 30	head: see	deprel: dobj
+id: 32	word: ’s	upos: PART	head id: 4	head: warning	deprel: punct
+id: 33	word: 152	upos: NUM	head id: 36	head: trusts	deprel: nummod
+id: 34	word: primary	upos: ADJ	head id: 35	head: care	deprel: amod
+id: 35	word: care	upos: NOUN	head id: 36	head: trusts	deprel: compound
+id: 36	word: trusts	upos: NOUN	head id: 40	head: abolished	deprel: nsubj
+id: 37	word: (	upos: PUNCT	head id: 36	head: trusts	deprel: punct
+id: 38	word: PCTs	upos: PROPN	head id: 36	head: trusts	deprel: appos
+id: 39	word: )	upos: PUNCT	head id: 36	head: trusts	deprel: punct
+id: 40	word: abolished	upos: VERB	head id: 0	head: abolished	deprel: root
+id: 41	word: and	upos: CCONJ	head id: 40	head: abolished	deprel: cc
+id: 42	word: consortiums	upos: NOUN	head id: 40	head: abolished	deprel: conj
+id: 43	word: of	upos: ADP	head id: 42	head: consortiums	deprel: prep
+id: 44	word: GPs	upos: NOUN	head id: 43	head: of	deprel: pobj
+id: 45	word: assume	upos: VERB	head id: 40	head: abolished	deprel: conj
+id: 46	word: responsibility	upos: NOUN	head id: 45	head: assume	deprel: dobj
+id: 47	word: for	upos: ADP	head id: 46	head: responsibility	deprel: prep
+id: 48	word: the	upos: DET	head id: 49	head: commissioning	deprel: det
+id: 49	word: commissioning	upos: NOUN	head id: 47	head: for	deprel: pobj
+id: 50	word: of	upos: ADP	head id: 49	head: commissioning	deprel: prep
+id: 51	word: services	upos: NOUN	head id: 50	head: of	deprel: pobj
+id: 52	word: for	upos: ADP	head id: 49	head: commissioning	deprel: prep
+id: 53	word: patients	upos: NOUN	head id: 52	head: for	deprel: pobj
+id: 54	word: .	upos: PUNCT	head id: 45	head: assume	deprel: punct
+
+End of sentence 29 
 
 
 End of all test data.
