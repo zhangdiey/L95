@@ -265,10 +265,10 @@
 5 pure _ _ _ _ 6 amod _ _
 6 HMM _ _ _ _ 8 compound _ _
 7 “ _ _ _ _ 6 punct _ _
-8 tagger _ _ _ _ 12 nsubj _ _
-9 is _ _ _ _ 12 aux _ _
+8 tagger _ _ _ _ 12 nsubjpass _ _
+9 is _ _ _ _ 12 auxpass _ _
 10 probably _ _ _ _ 12 advmod _ _
-11 best _ _ _ _ 12 amod _ _
+11 best _ _ _ _ 12 advmod _ _
 12 suited _ _ _ _ 0 root _ _
 13 to _ _ _ _ 12 prep _ _
 14 cases _ _ _ _ 13 pobj _ _
