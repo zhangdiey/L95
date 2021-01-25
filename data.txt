@@ -14,7 +14,7 @@ The long and lonely road to redemption begins with self-reflection: theneed to d
 My wildest dream is to build a POS tagger which processes 10K words persecond and uses only 1MB of RAM, but it may prove too hard.
 English also has many words of more or less unique function, including interjections (oh, ah), negatives (no, not), politeness markers (please, thankyou), and the existential ‘there’ (there are horses but not unicorns) amongothers.
 Making these decisions requires sophisticated knowledge of syntax; 
-tag-ging manuals (Santorini, 1990) give various heuristics that can help humancoders make these decisions and that can also provide useful features forautomatic taggers.
+tagging manuals (Santorini, 1990) give various heuristics that can help humancoders make these decisions and that can also provide useful features forautomatic taggers.
 The Penn Treebank tagset was culled from the original 87-tag tagset forthe Brown Corpus.
 For example the original Brown and C5 tagsets include a separate tag for each of the different forms of the verbs do (e.g. C5 tagVDD fordidand VDG tag fordoing), be and have.
 The slightly simplified version of the Viterbi algorithm that we present takesas input a single HMM and a sequence of observed words O = (o1, o2, ... oT) and returns the most probable state/tag sequence Q= (q1, q2, qT) together with its probability.
