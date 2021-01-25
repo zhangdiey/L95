@@ -16,7 +16,7 @@ English also has many words of more or less unique function, including interject
 Making these decisions requires sophisticated knowledge of syntax; 
 tagging manuals (Santorini, 1990) give various heuristics that can help human coders make these decisions and that can also provide useful features for automatic taggers.
 The Penn Treebank tagset was culled from the original 87-tag tagset for the Brown Corpus.
-For example the original Brown and C5 tagsets include a separate tag for each of the different forms of the verbs do (e.g. C5 tagVDD fordidand VDG tag fordoing), be and have.
+For example the original Brown and C5 tagsets include a separate tag for each of the different forms of the verbs do (e.g. C5 tag VDD for did and VDG tag for doing), be and have.
 The slightly simplified version of the Viterbi algorithm that we present takesas input a single HMM and a sequence of observed words O = (o1, o2, ... oT) and returns the most probable state/tag sequence Q= (q1, q2, qT) together with its probability.
 Thus the EM-trained “pure HMM” tagger is probably best suited to cases where no training data is available, for example, when tagging languages for which no data was previously hand-tagged.
 Coming home from very lonely places, all of us go a little mad: whether fromgreat personal success, or just an all-night drive, we are the sole survivors of a world no one else has ever seen.
